@@ -41,13 +41,11 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col max-w-32">
-            <p>
-              <h4 className="text-bold text-2xl my-2">Contact</h4>
-              <ul>
-                <li>(+62) 812-0000-0000</li>
-                <li>contact@bloomcollective.com</li>
-              </ul>
-            </p>
+            <h4 className="text-bold text-2xl my-2">Contact</h4>
+            <ul>
+              <li>(+62) 812-0000-0000</li>
+              <li>contact@bloomcollective.com</li>
+            </ul>
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Stay up to date</h4>

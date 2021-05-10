@@ -1,8 +1,13 @@
+import React, { useEffect } from 'react';
 import _wrapper from "./layout/_wrapper";
 import _paragraph from "./layout/_paragraph";
 import _pageTitle from "./layout/_pageTitle";
 
 export default function HeroB(props) {
+  // useEffect(() => {
+  //   var rellax = new Rellax('.rellax');
+  // });
+
   return (
     <section className="block hero-b overflow-x-hidden">
       <_wrapper>
@@ -18,7 +23,7 @@ export default function HeroB(props) {
           </div>
         </div>
         <div className="row">
-          <div className="col full-width">
+          <div className="col full-width rellax">
             <img
               className="object-cover object-center w-full h-half"
               src={props.photo}

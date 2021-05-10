@@ -1,3 +1,5 @@
+import Nav from "../components/Nav";
+import Footer from "../components/Footer";
 import HeroB from "../components/HeroB";
 import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
@@ -9,7 +11,8 @@ import AwardItem from "../components/AwardItem";
 
 export default function about() {
   return (
-    <Layout>
+    <>
+      <Nav textColor="text-black" logoColor="/bloom_logo_black.svg" />
       <HeroB
         headlineUnderline="Go Big,"
         headlineNoUnderline="or Go Home."
@@ -63,6 +66,7 @@ export default function about() {
         enim ad minim veniam, quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex ea commodo consequat."
       />
-    </Layout>
+      <Footer />
+    </>
   );
 }

@@ -27,13 +27,15 @@ function Nav({ textColor, logoColor }) {
         <div className="row flex justify-between items-center">
           <div className="col">
             <Link href="/">
-              <Image
-                width="160px"
-                height="100%"
-                src={logoColor}
-                alt="Bloom Co"
-                className="logo cursor-pointer"
-              />
+              <a>
+                <Image
+                  width="160px"
+                  height="100%"
+                  src={logoColor}
+                  alt="Bloom Co"
+                  className="logo cursor-pointer"
+                />
+              </a>
             </Link>
           </div>
           <nav className={textColor}>
