@@ -5,24 +5,11 @@ import _paragraph from "./layout/_paragraph";
 import _field from "./layout/_field";
 import _dropdown from "./layout/_dropdown";
 
-<<<<<<< HEAD
-export default function Form({ mainPage }) {
-=======
 export default function Form(props) {
->>>>>>> sam-bloom/dev
   return (
     <section className="block form">
       <_wrapper>
         <div className="row max-w-lg mx-auto flex flex-col">
-<<<<<<< HEAD
-          {mainPage ? (
-            <div className="col py-10">
-              <h3 className="text-2xl sm:text-4xl font-bold text-center">
-                Tell us everything and
-                <br />
-                <span className="inline-block text-yellow-300 line-yellow">
-                  let's get to work
-=======
           {props.mainPage ? (
             <div className="col py-10">
               <h3 className="text-2xl sm:text-4xl font-bold text-center">
@@ -30,28 +17,16 @@ export default function Form(props) {
                 <br />
                 <span className="inline-block text-yellow-300 line-yellow">
                   {props.headlineUnderline}
->>>>>>> sam-bloom/dev
                 </span>
               </h3>
             </div>
           ) : (
             <div className="col">
-<<<<<<< HEAD
-              <_pageTitle>Drop a line</_pageTitle>
-            </div>
-          )}
-          <div className="col">
-            <_paragraph>
-              Please share your thoughts in the form below and we’ll be in
-              touch. We’d love to hear from you.
-            </_paragraph>
-=======
               <_pageTitle>{props.headlineNoUnderline}</_pageTitle>
             </div>
           )}
           <div className="col">
             <_paragraph>{props.text}</_paragraph>
->>>>>>> sam-bloom/dev
             <form name="contact" method="POST">
               <label htmlFor="name" className="invisible">
                 Name
@@ -94,13 +69,9 @@ export default function Form(props) {
                 value3="More than 75k"
               />
               <_subheadline>How can we be of assistance?</_subheadline>
-<<<<<<< HEAD
-              <label htmlFor="message" className="invisible">Message</label>
-=======
               <label htmlFor="message" className="absolute invisible">
                 Message
               </label>
->>>>>>> sam-bloom/dev
               <_field
                 type="text"
                 name="message"
@@ -113,10 +84,7 @@ export default function Form(props) {
               bg-yellow-300
               text-black
               border-2 border-yellow-300
-<<<<<<< HEAD
-=======
               hover:bg-yellow-400
->>>>>>> sam-bloom/dev
               transition duration-300 ease-in-out"
               >
                 Submit

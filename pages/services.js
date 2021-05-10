@@ -1,21 +1,11 @@
-<<<<<<< HEAD
-import Services from "../components/Services";
-=======
 import HeroC from "../components/HeroC";
 import ContentD from "../components/ContentD";
 import ContentE from "../components/ContentE";
->>>>>>> sam-bloom/dev
 import Layout from "../components/layout/Layout";
 
 export default function services() {
   return (
     <Layout>
-<<<<<<< HEAD
-      <Services />
-    </Layout>
-  );
-}
-=======
       <HeroC headline="Our Services" subheader="What we do" image="https://source.unsplash.com/random" />
       <ContentD
         title="Lorem ipsum dolor"
@@ -68,4 +58,3 @@ export default function services() {
     </Layout>
   );
 }
->>>>>>> sam-bloom/dev

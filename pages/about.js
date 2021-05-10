@@ -1,10 +1,3 @@
-<<<<<<< HEAD
-import GoBig from "../components/GoBig";
-import Empower from "../components/Empower";
-import Awards from "../components/Awards";
-import Layout from "../components/layout/Layout";
-import Location from "../components/Location";
-=======
 import HeroB from "../components/HeroB";
 import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
@@ -13,20 +6,10 @@ import Location from "../components/Location";
 import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AwardItem from "../components/AwardItem";
->>>>>>> sam-bloom/dev
 
 export default function about() {
   return (
     <Layout>
-<<<<<<< HEAD
-      <GoBig />
-      <Empower />
-      <Awards />
-      <Location />
-    </Layout>
-  );
-}
-=======
       <HeroB
         headlineUnderline="Go Big,"
         headlineNoUnderline="or Go Home."
@@ -83,4 +66,3 @@ export default function about() {
     </Layout>
   );
 }
->>>>>>> sam-bloom/dev

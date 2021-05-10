@@ -1,11 +1,3 @@
-<<<<<<< HEAD
-import Clients from "../components/Clients";
-import Crisis from "../components/Crisis";
-import Science from "../components/Science";
-import Form from "../components/Form";
-import Hero from "../components/Hero";
-import Testimonials from "../components/Testimonials";
-=======
 import HeroA from "../components/HeroA";
 import Clients from "../components/Clients";
 import ContentA from "../components/ContentA";
@@ -16,20 +8,11 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonialItem from "../components/TestimonialItem";
 
->>>>>>> sam-bloom/dev
 import Layout from "../components/layout/Layout";
 
 export default function index() {
   return (
     <Layout lightNav>
-<<<<<<< HEAD
-      <Hero />
-      <Clients />
-      <Crisis />
-      <Science />
-      <Testimonials />
-      <Form mainPage />
-=======
       <HeroA
         headlineUnderline="Business-driven"
         headlineNoUnderline="content workflows"
@@ -90,7 +73,6 @@ export default function index() {
         headlineUnderline="let's get to work"
         text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you."
       />
->>>>>>> sam-bloom/dev
     </Layout>
   );
 }

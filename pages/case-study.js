@@ -1,28 +1,14 @@
-<<<<<<< HEAD
-import CaseStudy from "../components/CaseStudy";
-import Crisis from "../components/Crisis";
-import Science from "../components/Science";
-=======
 import HeroD from "../components/HeroD";
 import ContentF from "../components/ContentF";
 import CardBox from "../components/CardBox";
 import ContentG from "../components/ContentG";
 import ImageGrid from "../components/ImageGrid";
 import FeaturedImage from "../components/FeaturedImage";
->>>>>>> sam-bloom/dev
 import Layout from "../components/layout/Layout";
 
 export default function caseStudy() {
   return (
     <Layout lightNav>
-<<<<<<< HEAD
-      <CaseStudy />
-      <Crisis />
-      <Science />
-    </Layout>
-  );
-}
-=======
       <HeroD
         headline="Majid Al Futtaim Advanced Analytics"
         background="https://source.unsplash.com/random"
@@ -105,4 +91,3 @@ export default function caseStudy() {
     </Layout>
   );
 }
->>>>>>> sam-bloom/dev
