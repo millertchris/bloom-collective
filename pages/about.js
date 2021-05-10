@@ -11,8 +11,7 @@ import AwardItem from "../components/AwardItem";
 
 export default function about() {
   return (
-    <>
-      <Nav textColor="text-black" logoColor="/bloom_logo_black.svg" />
+    <Layout>
       <HeroB
         headlineUnderline="Go Big,"
         headlineNoUnderline="or Go Home."
@@ -42,7 +41,8 @@ export default function about() {
         personAvatar="https://source.unsplash.com/random"
       />
       <Awards headline="We are an award-winning agency.">
-        <Carousel className="row
+        <Carousel
+          className="row
         flex flex-col place-items-center gap-4
         sm:flex-row sm:justify-between"
           showThumbs={false}
@@ -50,12 +50,30 @@ export default function about() {
           showStatus={false}
           showIndicators={false}
         >
-          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
-          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
-          <AwardItem awardLogo="logo-summit.svg" awardName="2020 Summit Creative Award" />
-          <AwardItem awardLogo="logo-summit.svg" awardName="2020 Summit Creative Award" />
-          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
-          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
+          <AwardItem
+            awardLogo="logo-marcom.svg"
+            awardName="2020 MarCom Award"
+          />
+          <AwardItem
+            awardLogo="logo-marcom.svg"
+            awardName="2020 MarCom Award"
+          />
+          <AwardItem
+            awardLogo="logo-summit.svg"
+            awardName="2020 Summit Creative Award"
+          />
+          <AwardItem
+            awardLogo="logo-summit.svg"
+            awardName="2020 Summit Creative Award"
+          />
+          <AwardItem
+            awardLogo="logo-marcom.svg"
+            awardName="2020 MarCom Award"
+          />
+          <AwardItem
+            awardLogo="logo-marcom.svg"
+            awardName="2020 MarCom Award"
+          />
         </Carousel>
       </Awards>
       <Location
@@ -67,6 +85,6 @@ export default function about() {
         nisi ut aliquip ex ea commodo consequat."
       />
       <Footer />
-    </>
+    </Layout>
   );
 }
