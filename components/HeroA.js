@@ -46,11 +46,15 @@ export default function HeroA(props) {
             </div>
           </div>
           <div className="col absolute top-0 left-0 w-full h-full">
-            <img
-              className="object-cover object-center w-full h-full"
-              src="https://source.unsplash.com/random"
-              alt=""
-            />
+            <div className="videoWrapper">
+              <iframe
+                width="560"
+                height="349"
+                src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=n_dZNLr2cME"
+                frameBorder="0"
+                allowFullScreen
+              ></iframe>
+            </div>
           </div>
         </div>
       </_wrapper>
