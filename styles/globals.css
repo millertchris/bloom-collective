@@ -7,7 +7,11 @@
 
 :root {
   --yellow: #f7d04e;
+<<<<<<< HEAD
   --gold: #AF9247;
+=======
+  --gold: #af9247;
+>>>>>>> sam-bloom/dev
 }
 
 html,
@@ -17,7 +21,15 @@ body {
 }
 
 .h-calc {
+<<<<<<< HEAD
   height: calc(100vh - 220px);
+=======
+  height: calc(100vh - 150px);
+}
+
+.h-half {
+  height: 50vh;
+>>>>>>> sam-bloom/dev
 }
 
 .max-w-xxs {
@@ -33,7 +45,11 @@ a {
   position: relative;
 }
 a:hover::after {
+<<<<<<< HEAD
   content: '';
+=======
+  content: "";
+>>>>>>> sam-bloom/dev
   position: absolute;
   left: 0;
   display: inline-block;
@@ -43,7 +59,10 @@ a:hover::after {
   margin-top: 5px;
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> sam-bloom/dev
 .text-gold {
   color: var(--gold);
 }
@@ -56,7 +75,10 @@ a:hover::after {
   border-color: var(--gold);
 }
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> sam-bloom/dev
 .text-yellow {
   color: var(--yellow);
 }
@@ -73,7 +95,11 @@ a:hover::after {
   border-color: var(--yellow);
 }
 
+<<<<<<< HEAD
 .block.hero::after {
+=======
+.hero::after {
+>>>>>>> sam-bloom/dev
   content: "";
   position: absolute;
   top: 0;
@@ -100,6 +126,7 @@ a:hover::after {
   margin-bottom: -15px;
 }
 
+<<<<<<< HEAD
 .block.content_one {
   background: linear-gradient(
     249.95deg,
@@ -111,3 +138,30 @@ a:hover::after {
 .block.content_two {
   background: linear-gradient(250.33deg, #ffffff 0%, #c2d2ea 100%);
 }
+=======
+.content-a {
+  background: linear-gradient(
+    249.95deg,
+    #eddaa0 0%,
+    rgba(255, 253, 247, 0) 100%
+  );
+}
+
+.content-b {
+  background: linear-gradient(250.33deg, #ffffff 0%, #c2d2ea 100%);
+}
+
+.card-box {
+  background: linear-gradient(269.82deg, #f4c66b 0.17%, #f0b65d 91.72%);
+}
+
+.full-width {
+	left: 50%;
+	margin-left: -50vw;
+	margin-right: -50vw;
+	max-width: 100vw;
+	position: relative;
+	right: 50%;
+	width: 100vw;
+}
+>>>>>>> sam-bloom/dev

@@ -1,13 +1,20 @@
 import _wrapper from "./layout/_wrapper";
 import _headline from "./layout/_headline";
+<<<<<<< HEAD
 
 import _paragraph from "./layout/_paragraph";
 
 export default function Testimonials() {
+=======
+import _paragraph from "./layout/_paragraph";
+
+export default function Testimonials(props) {
+>>>>>>> sam-bloom/dev
   return (
     <section className="block testimonials">
       <_wrapper>
         <div className="row flex place-items-center gap-2 mx-auto max-w-4xl">
+<<<<<<< HEAD
           <div className="col w-16">
             <svg
               className="fill-current text-gray-400 cursor-pointer
@@ -54,6 +61,11 @@ export default function Testimonials() {
                 fill=""
               />
             </svg>
+=======
+          <div className="col py-10 flex flex-col items-center justify-center">
+            <_headline>{props.headline}</_headline>
+            {props.children}
+>>>>>>> sam-bloom/dev
           </div>
         </div>
       </_wrapper>

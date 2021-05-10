@@ -5,10 +5,19 @@ export default function Footer() {
   return (
     <footer className="bg-black text-white">
       <_wrapper>
+<<<<<<< HEAD
         <div className="row my-10
         grid gap-6 
         sm:grid-cols-2
         lg:grid-cols-4">
+=======
+        <div
+          className="row my-10
+        grid gap-6 
+        sm:grid-cols-2
+        lg:grid-cols-4"
+        >
+>>>>>>> sam-bloom/dev
           <div className="col">
             <Image
               height="60px"
@@ -18,6 +27,19 @@ export default function Footer() {
               className="my-2"
             />
             <p>Business-driven content workflows</p>
+<<<<<<< HEAD
+=======
+            <div className="socials flex gap-4 py-4 text-white">
+
+                <img src="social-fb.svg" className="w-8 h-8" />
+
+                <img src="social-ig.svg" className="w-8 h-8" />
+
+                <img src="social-li.svg" className="w-8 h-8" />
+
+                <img src="social-tw.svg" className="w-8 h-8" />
+            </div>
+>>>>>>> sam-bloom/dev
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Office</h4>
@@ -38,15 +60,27 @@ export default function Footer() {
             </p>
           </div>
           <div className="col max-w-32">
+<<<<<<< HEAD
           <h4 className="text-bold text-2xl my-2">Stay up to date</h4>
             <p>Subscribe to our newsletter.</p>
             <input type="text" name="email" className="w-full bg-black border border-gray-300 px-4 py-2 my-2" placeholder="Your email..." />
+=======
+            <h4 className="text-bold text-2xl my-2">Stay up to date</h4>
+            <p>Subscribe to our newsletter.</p>
+            <input
+              type="text"
+              name="email"
+              className="w-full bg-black border border-gray-300 px-4 py-2 my-2"
+              placeholder="Your email..."
+            />
+>>>>>>> sam-bloom/dev
           </div>
         </div>
         <div className="row">
           <div className="col py-10 mt-10">
             <p>
               © Bloom Collective Studio 2021. All rights reserved.{" "}
+<<<<<<< HEAD
               <a
                 href="#"
                 className="text-yellow-300 hover:text-white"
@@ -58,6 +92,13 @@ export default function Footer() {
                 href="#"
                 className="text-yellow-300 hover:text-white"
               >
+=======
+              <a href="#" className="text-yellow-300 hover:text-white">
+                Privacy policy
+              </a>{" "}
+              -{" "}
+              <a href="#" className="text-yellow-300 hover:text-white">
+>>>>>>> sam-bloom/dev
                 Terms & conditions
               </a>
             </p>

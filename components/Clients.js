@@ -1,7 +1,11 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
+<<<<<<< HEAD
 export default function Clients() {
+=======
+export default function Clients(props) {
+>>>>>>> sam-bloom/dev
   return (
     <section className="block clients">
       <_wrapper>
@@ -12,6 +16,7 @@ export default function Clients() {
         "
         >
           <div className="col">
+<<<<<<< HEAD
             <_subheadline>Clients who trust us.</_subheadline>
           </div>
           <div className="col">
@@ -22,6 +27,18 @@ export default function Clients() {
           </div>
           <div className="col">
             <img src="logo-majid.svg" />
+=======
+            <_subheadline>{props.headline}</_subheadline>
+          </div>
+          <div className="col">
+            <img src={props.logoOne} />
+          </div>
+          <div className="col">
+            <img src={props.logoTwo} />
+          </div>
+          <div className="col">
+            <img src={props.logoThree} />
+>>>>>>> sam-bloom/dev
           </div>
         </div>
       </_wrapper>

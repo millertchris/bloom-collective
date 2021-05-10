@@ -1,6 +1,7 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
+<<<<<<< HEAD
 export default function Clients() {
   return (
     <section className="block clients">
@@ -40,6 +41,18 @@ export default function Clients() {
             <span className="font-bold text-center">2020 MarCom Award </span>
           </div>
         </div>
+=======
+export default function Awards(props) {
+  return (
+    <section className="block awards">
+      <_wrapper>
+        <div className="row text-center py-10">
+          <div className="col">
+            <_subheadline>{props.headline}</_subheadline>
+          </div>
+        </div>
+        <div>{props.children}</div>
+>>>>>>> sam-bloom/dev
       </_wrapper>
     </section>
   );
