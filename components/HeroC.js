@@ -4,6 +4,8 @@ import _subheadline from "./layout/_subheadline";
 import _pageTitle from "./layout/_pageTitle";
 import _paragraph from "./layout/_paragraph";
 
+
+
 export default function HeroC(props) {
   return (
     <section className="block hero-c">
@@ -14,10 +16,10 @@ export default function HeroC(props) {
           </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col h-500">
             <img
               src={props.image}
-              className="w-full h-96 object-center object-cover"
+              className="w-full h-full object-center object-cover"
             />
           </div>
         </div>

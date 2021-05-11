@@ -18,10 +18,10 @@ export default function Location(props) {
             </_headline>
             <_paragraph>{props.text}</_paragraph>
           </div>
-          <div className="col">
+          <div className="col h-500">
             <img
-              src="https://source.unsplash.com/random"
-              className="w-full object-cover object-center"
+              src={props.photo}
+              className="w-full h-full object-cover object-center"
             />
           </div>
         </div>

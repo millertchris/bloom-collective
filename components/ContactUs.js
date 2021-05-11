@@ -10,7 +10,7 @@ export default function ContactUs(props) {
     <section className="block contact-us">
       <_wrapper>
         <div className="row pt-32 flex flex-col md:flex-row gap-6">
-          <div className="col h-96 w-full md:max-w-xl">
+          <div className="col h-500 w-full md:max-w-xl">
             <img
               src={props.image}
               className="object-cover object-center h-full w-full"
