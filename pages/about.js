@@ -1,5 +1,3 @@
-import Nav from "../components/Nav";
-import Footer from "../components/Footer";
 import HeroB from "../components/HeroB";
 import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
@@ -41,40 +39,12 @@ export default function about() {
         personAvatar="https://source.unsplash.com/random"
       />
       <Awards headline="We are an award-winning agency.">
-        <Carousel
-          className="row
-        flex flex-col place-items-center gap-4
-        sm:flex-row sm:justify-between"
-          showThumbs={false}
-          infiniteLoop={true}
-          showStatus={false}
-          showIndicators={false}
-        >
-          <AwardItem
-            awardLogo="logo-marcom.svg"
-            awardName="2020 MarCom Award"
-          />
-          <AwardItem
-            awardLogo="logo-marcom.svg"
-            awardName="2020 MarCom Award"
-          />
-          <AwardItem
-            awardLogo="logo-summit.svg"
-            awardName="2020 Summit Creative Award"
-          />
-          <AwardItem
-            awardLogo="logo-summit.svg"
-            awardName="2020 Summit Creative Award"
-          />
-          <AwardItem
-            awardLogo="logo-marcom.svg"
-            awardName="2020 MarCom Award"
-          />
-          <AwardItem
-            awardLogo="logo-marcom.svg"
-            awardName="2020 MarCom Award"
-          />
-        </Carousel>
+          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
+          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
+          <AwardItem awardLogo="logo-summit.svg" awardName="2020 Summit Creative Award" />
+          <AwardItem awardLogo="logo-summit.svg" awardName="2020 Summit Creative Award" />
+          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
+          <AwardItem awardLogo="logo-marcom.svg" awardName="2020 MarCom Award" />
       </Awards>
       <Location
         headlineNoUnderline="We are located in"
@@ -85,7 +55,6 @@ export default function about() {
         nisi ut aliquip ex ea commodo consequat."
         photo="https://source.unsplash.com/random"
       />
-      <Footer />
     </Layout>
   );
 }

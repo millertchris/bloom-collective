@@ -24,6 +24,10 @@ body {
   height: 50vh;
 }
 
+.h-500 {
+  height: 500px;
+}
+
 .max-w-xxs {
   max-width: 220px;
 }
@@ -32,20 +36,29 @@ body {
   max-width: 1200px;
 }
 
-a {
+nav a {
   display: inline-block;
   position: relative;
+  text-decoration: none;
 }
-a:hover::after {
+nav a::before {
   content: "";
   position: absolute;
-  left: 0;
-  display: inline-block;
-  height: 1em;
   width: 100%;
-  border-bottom: 2px solid;
-  margin-top: 5px;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: rgb(252, 211, 77);
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.3s ease-in-out 0s;
 }
+
+nav a:hover::before {
+  visibility: visible;
+  transform: scaleX(1);
+}
+
 
 .text-gold {
   color: var(--gold);
@@ -126,21 +139,4 @@ a:hover::after {
 	position: relative;
 	right: 50%;
 	width: 100vw;
-}
-
-.videoWrapper {
-  position: relative;
-  height: 0;
-
-}
-.videoWrapper video {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: calc(100vh - 110px);
-}
-
-.h-500 {
-  height: 500px;
 }

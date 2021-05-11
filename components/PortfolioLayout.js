@@ -12,7 +12,7 @@ export default function PortfolioLayout(props) {
             <_pageTitle>{props.headline}</_pageTitle>
           </div>
         </div>
-        <div className="grid sm:grid-cols-2 gap-6">{props.children}</div>
+        <div className="portfolio-wrapper grid sm:grid-cols-2 gap-6">{props.children}</div>
       </_wrapper>
     </section>
   );
