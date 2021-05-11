@@ -47,13 +47,7 @@ export default function HeroA(props) {
           </div>
           <div className="col absolute top-0 left-0 w-full h-full">
             <div className="videoWrapper">
-              <iframe
-                width="560"
-                height="349"
-                src="http://www.youtube.com/embed/n_dZNLr2cME?rel=0&amp;autoplay=1&mute=1&loop=1&playlist=n_dZNLr2cME"
-                frameBorder="0"
-                allowFullScreen
-              ></iframe>
+            <video src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" muted autoPlay />
             </div>
           </div>
         </div>

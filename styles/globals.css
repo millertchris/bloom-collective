@@ -131,9 +131,9 @@ a:hover::after {
 .videoWrapper {
   position: relative;
   height: 0;
-  padding-bottom: calc(var(--aspect-ratio, .5625) * 100%); 
+
 }
-.videoWrapper iframe {
+.videoWrapper video {
   position: absolute;
   top: 0;
   left: 0;
