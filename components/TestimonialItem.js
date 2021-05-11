@@ -1,6 +1,6 @@
 export default function TestimonialItem(props) {
   return (
-    <div className="col flex flex-col place-items-center gap-2">
+    <div className="col">
       <p className="serif py-5 text-center sm:text-xl">{props.text}</p>
       <div className="w-16">
         <img src={props.personPhoto} className="rounded-full w-16 h-16" />

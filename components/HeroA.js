@@ -6,9 +6,9 @@ import React, { useEffect } from 'react';
 
 export default function HeroA(props) {
   useEffect(() => {
-    const rellax = new Rellax('.rellax', {
-      center:true,
-    }); 
+    // const rellax = new Rellax('.rellax', {
+    //   center:true,
+    // }); 
    });
   return (
     <section className="block hero relative">
@@ -53,8 +53,10 @@ export default function HeroA(props) {
               </button>
             </div>
           </div>
-          <div className="col absolute top-0 left-0 w-full h-full overflow-hidden">
-            <video className="w-full h-auto absolute -top-20 rellax overflow-hidden" src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" muted autoPlay />
+          <div className="col video-wrap">
+            <video className="" muted autoPlay>
+              <source src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" type="video/mp4" />
+            </video>
           </div>
         </div>
       </_wrapper>

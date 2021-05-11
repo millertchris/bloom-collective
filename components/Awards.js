@@ -10,7 +10,7 @@ export default function Awards(props) {
             <_subheadline>{props.headline}</_subheadline>
           </div>
         </div>
-        <div className="grid grid-cols-2 place-items-center gap-4 sm:grid-cols-3 md:grid-cols-6">
+        <div className="items">
           {props.children}
         </div>
       </_wrapper>
