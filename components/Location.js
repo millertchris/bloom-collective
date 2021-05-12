@@ -6,7 +6,7 @@ import _paragraph from "./layout/_paragraph";
 
 export default function Location(props) {
   return (
-    <section className="block location">
+    <section className="block location mb-16">
       <_wrapper>
         <div className="row grid gap-10 md:grid-cols-2 items-center">
           <div className="col max-w-md">

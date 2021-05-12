@@ -26,17 +26,6 @@ body {
   width: 100%;
 }
 
-.block.awards .col {
-  width: 25%;
-}
-
-@media screen and (max-width: 800px) {
-  .block.awards .col {
-    width: 50%;
-  }
-}
-
-
 .hero {
   overflow: hidden;
 }

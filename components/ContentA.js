@@ -1,6 +1,7 @@
 import _wrapper from "./layout/_wrapper";
 import _headline from "./layout/_headline";
 import _paragraph from "./layout/_paragraph";
+import Link from "next/link";
 
 export default function ContentA(props) {
   return (
@@ -18,7 +19,9 @@ export default function ContentA(props) {
                 hover:bg-yellow-400 hover:border-yellow-300 hover:text-black
                 transition duration-300 ease-in-out"
             >
-              {props.buttonText}
+              <Link href="/case-study-alt">
+                <a>{props.buttonText}</a>
+              </Link>
             </button>
           </div>
           <div className="col">

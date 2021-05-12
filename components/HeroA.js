@@ -1,5 +1,6 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
+import Link from "next/link";
 
 export default function HeroA(props) {
   return (
@@ -32,7 +33,11 @@ export default function HeroA(props) {
               hover:bg-yellow-400
               transition duration-300 ease-in-out"
               >
-                {props.buttonOne}
+                <Link href="/case-study-alt">
+                  <a>
+                    {props.buttonOne}
+                  </a>
+                </Link>
               </button>
               <button
                 className="px-5 py-3 w-full max-w-xxs

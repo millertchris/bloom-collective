@@ -7,7 +7,7 @@ import _wrapper from "./layout/_wrapper";
 function NavItem({ location, label }) {
   return (
     <li
-      className="inline-block nav-item px-2 py-1 hover:text-yellow-300"
+      className="inline-block nav-item px-2 py-1 hover:text-yellow-300 transition duration-700 ease-in-out"
     >
       <Link href={location}>{label}</Link>
     </li>

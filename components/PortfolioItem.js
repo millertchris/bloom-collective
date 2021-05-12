@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function PortfolioItem(props) {
   return (
-    <Link className="block" href="/">
+    <Link className="block" href="/case-study">
       <a>
         <div className="portfolio-item cursor-pointer">
           <div className="image">
