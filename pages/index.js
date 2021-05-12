@@ -8,6 +8,8 @@ import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonialItem from "../components/TestimonialItem";
 
+// Giving the deploy the good 'ol college try
+
 import Flickity from 'react-flickity-component';
 
 import Layout from "../components/layout/Layout";
