@@ -1,15 +1,7 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
-import Rellax from "rellax";
-import React, { useEffect } from 'react';
-
 
 export default function HeroA(props) {
-  useEffect(() => {
-    // const rellax = new Rellax('.rellax', {
-    //   center:true,
-    // }); 
-   });
   return (
     <section className="block hero relative">
       <_wrapper>
@@ -55,7 +47,7 @@ export default function HeroA(props) {
           </div>
           <div className="col video-wrap">
             <video className="" muted autoPlay>
-              <source src="https://archive.org/download/Popeye_forPresident/Popeye_forPresident_512kb.mp4" type="video/mp4" />
+              <source src="../vid-1.mp4" type="video/mp4" />
             </video>
           </div>
         </div>
