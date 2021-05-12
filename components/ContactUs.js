@@ -6,7 +6,7 @@ import _paragraph from "./layout/_paragraph";
 import Form from "./Form";
 
 import Lottie from "react-lottie";
-import animationData from "./lottieAnimation.json";
+import animationData from "../public/lottieAnimation.json";
 
 const defaultOptions = {
   loop: true,
@@ -21,7 +21,7 @@ export default function ContactUs(props) {
   return (
     <section className="block contact-us">
       <_wrapper>
-        <div className="row pt-32 flex flex-col md:flex-row gap-6">
+        <div className="row pt-32 flex flex-col md:flex-row md:gap-6">
           <div className="col h-500 w-full md:max-w-xl">
             {/* <img
               src={props.image}
