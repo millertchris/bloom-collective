@@ -22,15 +22,6 @@ const flickityOptions = {
 export default function index() {
   return (
     <Layout lightNav>
-<<<<<<< HEAD
-      {/* Testing deploy again — and again */}
-      <Hero />
-      <Clients />
-      <Crisis />
-      <Science />
-      <Testimonials />
-      <Form mainPage />
-=======
       <HeroA
         headlineUnderline="Business-driven"
         headlineNoUnderline="content workflows"
@@ -95,7 +86,6 @@ export default function index() {
         headlineUnderline="let's get to work"
         text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you."
       />
->>>>>>> dev
     </Layout>
   );
 }
