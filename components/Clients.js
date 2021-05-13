@@ -1,7 +1,7 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
-export default function Clients() {
+export default function Clients(props) {
   return (
     <section className="block clients">
       <_wrapper>
@@ -12,16 +12,16 @@ export default function Clients() {
         "
         >
           <div className="col">
-            <_subheadline>Clients who trust us.</_subheadline>
+            <_subheadline>{props.headline}</_subheadline>
           </div>
           <div className="col">
-          <img src="logo-breakthrough.svg" />
+            <img src={props.logoOne} />
           </div>
           <div className="col">
-          <img src="logo-dbs.svg" />
+            <img src={props.logoTwo} />
           </div>
           <div className="col">
-            <img src="logo-majid.svg" />
+            <img src={props.logoThree} />
           </div>
         </div>
       </_wrapper>

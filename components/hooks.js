@@ -1,4 +1,5 @@
-import { useEffect } from "react";
+import { useEffect, useRef } from "react";
+import Rellax from "rellax";
 
 export const useOnClickOutside = (ref, handler) => {
   useEffect(() => {
@@ -14,3 +15,9 @@ export const useOnClickOutside = (ref, handler) => {
     };
   }, [ref, handler]);
 };
+
+
+export const RellaxIt = () => {
+ useEffect(() => {
+   var rellax = new Rellax('.rellax');
+ })};
