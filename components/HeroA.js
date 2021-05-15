@@ -51,7 +51,7 @@ export default function HeroA(props) {
             </div>
           </div>
           <div className="col video-wrap">
-            <video className="" muted autoPlay>
+            <video className="" muted autoPlay loop>
               <source src="../vid-2.mp4" type="video/mp4" />
             </video>
           </div>

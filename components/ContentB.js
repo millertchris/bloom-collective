@@ -16,15 +16,14 @@ export default function ContentB(props) {
             <_headline>{props.headline}</_headline>
             <_paragraph>{props.text}</_paragraph>
             <button
-              className="px-5 py-3 w-full max-w-xxs
-                text-gray-400
-                border-2 border-gray-400
-                hover:bg-yellow-400 hover:border-yellow-300 hover:text-black
-                transition duration-300 ease-in-out"
+              className="my-6 px-5 py-3 w-full max-w-xxs
+              bg-yellow-300
+              text-black
+              border-2 border-yellow-300
+              hover:bg-yellow-400
+              transition duration-300 ease-in-out"
             >
-              <Link href="/case-study-alt">
-                <a>{props.buttonText}</a>
-              </Link>
+              {props.buttonText}
             </button>
           </div>
         </div>

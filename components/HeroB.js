@@ -28,7 +28,7 @@ export default function HeroB(props) {
         <div className="row">
           <div className="col full-width h-500 overflow-hidden">
             <img
-              className="object-cover object-center w-full h-full rellax overflow-hidden"
+              className="object-cover object-center w-full h-screen rellax overflow-hidden" data-rellax-percentage="2"
               src={props.photo}
             />
           </div>

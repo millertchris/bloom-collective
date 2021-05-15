@@ -9,6 +9,7 @@
   },
   "dependencies": {
     "@lottiefiles/lottie-player": "^1.0.3",
+    "aos": "^2.3.4",
     "autoprefixer": "^10.2.5",
     "flickity": "^2.2.2",
     "next": "10.1.3",
