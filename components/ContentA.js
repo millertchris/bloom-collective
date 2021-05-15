@@ -7,13 +7,13 @@ export default function ContentA(props) {
   return (
     <section className="block content-a">
       <_wrapper>
-        <div className="row flex flex-wrap justify-center items-center lg:h-screen">
+        <div className="row flex flex-col-reverse lg:flex-row flex-wrap justify-center items-center lg:h-screen">
           <div className="col max-w-xl py-10">
             <img src={props.logo} className="py-5" />
             <_headline>{props.headline}</_headline>
             <_paragraph>{props.text}</_paragraph>
             <button
-              className="my-6 px-5 py-3 w-full max-w-xxs
+              className="my-3 px-5 py-3 w-full max-w-xxs
               bg-yellow-300
               text-black
               border-2 border-yellow-300

@@ -16,7 +16,7 @@ export default function ContentB(props) {
             <_headline>{props.headline}</_headline>
             <_paragraph>{props.text}</_paragraph>
             <button
-              className="my-6 px-5 py-3 w-full max-w-xxs
+              className="my-3 px-5 py-3 w-full max-w-xxs
               bg-yellow-300
               text-black
               border-2 border-yellow-300

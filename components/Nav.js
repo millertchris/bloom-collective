@@ -29,7 +29,7 @@ function Nav({ textColor, logoColor }) {
             <Link href="/">
               <a>
                 <Image
-                  width="160px"
+                  width="120px"
                   height="100%"
                   src={logoColor}
                   alt="Bloom Co"

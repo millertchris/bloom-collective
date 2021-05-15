@@ -22,6 +22,12 @@ body {
   margin-top: 60px;
 }
 
+@media screen and (max-width: 640px) {
+  .portfolio-layout a:nth-child(even) {
+    margin-top: 0;
+  }
+}
+
 .block.testimonials .col {
   width: 100%;
 }
