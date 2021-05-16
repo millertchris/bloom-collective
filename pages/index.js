@@ -4,9 +4,10 @@ import ContentA from "../components/ContentA";
 import ContentB from "../components/ContentB";
 import Testimonials from "../components/Testimonials";
 import Form from "../components/Form";
-import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonialItem from "../components/TestimonialItem";
+
+
 
 // Giving the deploy the good 'ol college try
 
