@@ -28,7 +28,7 @@ export default function ContactUs(props) {
               className="object-cover object-center h-full w-full"
             /> */}
 
-            <Lottie options={defaultOptions} height={400} width={400} />
+            <Lottie options={defaultOptions} className="w-full h-full" />
 
           </div>
           <div className="col">

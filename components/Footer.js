@@ -1,5 +1,6 @@
 import Image from "next/image";
 import _wrapper from "./layout/_wrapper";
+import CustomForm from "./MailChimp";
 
 export default function Footer() {
   return (
@@ -50,12 +51,7 @@ export default function Footer() {
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Stay up to date</h4>
             <p>Subscribe to our newsletter.</p>
-            <input
-              type="text"
-              name="email"
-              className="w-full bg-black border border-gray-300 px-4 py-2 my-2"
-              placeholder="Your email..."
-            />
+            <CustomForm />
           </div>
         </div>
         <div className="row">
