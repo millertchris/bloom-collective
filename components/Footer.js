@@ -22,14 +22,13 @@ export default function Footer() {
             />
             <p>Business-driven content workflows</p>
             <div className="socials flex gap-4 py-4 text-white">
+              <img src="social-fb.svg" className="w-8 h-8" />
 
-                <img src="social-fb.svg" className="w-8 h-8" />
+              <img src="social-ig.svg" className="w-8 h-8" />
 
-                <img src="social-ig.svg" className="w-8 h-8" />
+              <img src="social-li.svg" className="w-8 h-8" />
 
-                <img src="social-li.svg" className="w-8 h-8" />
-
-                <img src="social-tw.svg" className="w-8 h-8" />
+              <img src="social-tw.svg" className="w-8 h-8" />
             </div>
           </div>
           <div className="col max-w-32">
@@ -44,8 +43,22 @@ export default function Footer() {
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Contact</h4>
             <ul>
-              <li>(+62) 812-0000-0000</li>
-              <li>contact@bloomcollective.com</li>
+              <li>
+                <a
+                  href="tel:(+62) 812-0000-0000"
+                  className="hover:text-yellow-300 text-white"
+                >
+                  (+62) 812-0000-0000
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:contact@bloomcollective.com"
+                  className="hover:text-yellow-300 text-white"
+                >
+                  contact@bloomcollective.com
+                </a>
+              </li>
             </ul>
           </div>
           <div className="col max-w-32">

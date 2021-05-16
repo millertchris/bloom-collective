@@ -8,7 +8,7 @@ export default function ContentD(props) {
   return (
     <section className="block content-d">
       <_wrapper>
-        <div className="row gap-16 grid md:grid-cols-2 py-2">
+        <div className="row gap-16 flex flex-col-reverse md:grid md:grid-cols-2 py-2">
           <div className="col content self-center">
             <h4 className="font-bold text-xl">{props.title}</h4>
             <_paragraph>{props.paragraphOne}</_paragraph>

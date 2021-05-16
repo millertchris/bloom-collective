@@ -200,3 +200,8 @@ footer button:hover {
   margin: auto;
   transition: 500 ease-in-out;
 }
+
+.rellax {
+  height: 120%;
+  width: 120%;
+}
