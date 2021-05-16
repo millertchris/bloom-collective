@@ -5,7 +5,7 @@ export default function PortfolioItem(props) {
   return (
     <Link className="block" href="/case-study">
       <a>
-        <div className="portfolio-item cursor-pointer">
+        <div className="portfolio-item cursor-pointer" data-aos="fade-up" data-aos-offset="100">
           <div className="image">
             <img
               src={props.image}

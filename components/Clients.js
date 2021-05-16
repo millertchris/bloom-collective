@@ -9,7 +9,7 @@ export default function Clients(props) {
           className="row
         flex flex-col place-items-center gap-4
         sm:flex-row sm:justify-between
-        "
+        " data-aos="slide-up" data-aos-delay="1200" data-aos-offset="-500"
         >
           <div className="col">
             <_subheadline>{props.headline}</_subheadline>

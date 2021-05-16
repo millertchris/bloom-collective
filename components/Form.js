@@ -9,7 +9,7 @@ export default function Form(props) {
   return (
     <section className="block form">
       <_wrapper>
-        <div className="row max-w-lg mx-auto flex flex-col">
+        <div className="row max-w-lg mx-auto flex flex-col" data-aos="fade-up">
           {props.mainPage ? (
             <div className="col py-10">
               <h3 className="text-2xl sm:text-4xl font-bold text-center">

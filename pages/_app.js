@@ -1,6 +1,7 @@
 import "../styles/globals.css";
 import "../styles/hamburgers.css";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import { useEffect } from "react";
 import { useRouter } from "next/router";
 
@@ -10,6 +11,11 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
+    AOS.init({
+      easing: "linear",
+      once: false,
+      duration: 800,
+    });
     const handleRouteChange = (url) => {
       ga.pageview(url);
     };

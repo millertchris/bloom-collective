@@ -198,7 +198,7 @@ footer button:hover {
   background: white;
   padding: 0.5rem 1rem;
   margin: auto;
-  transition: 500 ease-in-out;
+  transition: 500ms ease-in-out;
 }
 
 .rellax {

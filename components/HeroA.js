@@ -7,7 +7,7 @@ export default function HeroA(props) {
     <section className="block hero relative">
       <_wrapper>
         <div className="row flex items-center h-calc pt-32 pb-10">
-          <div className="col content relative z-10 w-full max-w-md text-white">
+          <div className="col content relative z-10 w-full max-w-md text-white" data-aos="fade-in">
             <div className="title">
               <h1
                 className="text-4xl font-semibold

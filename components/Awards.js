@@ -3,7 +3,7 @@ import _subheadline from "./layout/_subheadline";
 
 export default function Awards(props) {
   return (
-    <section className="block awards py-16">
+    <section className="block awards py-16" data-aos="fade-up" data-aos-delay="500">
       <_wrapper>
         <div className="row text-center py-10 w-full">
           <div className="col w-full mx-auto">

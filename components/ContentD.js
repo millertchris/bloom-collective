@@ -6,7 +6,7 @@ import _paragraph from "./layout/_paragraph";
 
 export default function ContentD(props) {
   return (
-    <section className="block content-d">
+    <section className="block content-d" data-aos="fade-up">
       <_wrapper>
         <div className="row gap-16 flex flex-col-reverse md:grid md:grid-cols-2 py-2">
           <div className="col content self-center">

@@ -8,7 +8,7 @@ export default function ContentA(props) {
     <section className="block content-a">
       <_wrapper>
         <div className="row flex flex-col-reverse lg:flex-row flex-wrap justify-center items-center lg:h-screen">
-          <div className="col max-w-xl py-10">
+          <div className="col max-w-xl py-10" data-aos="fade-up">
             <img src={props.logo} className="py-5" />
             <_headline>{props.headline}</_headline>
             <_paragraph>{props.text}</_paragraph>
@@ -23,7 +23,7 @@ export default function ContentA(props) {
               {props.buttonText}
             </button>
           </div>
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-delay="500">
             <img className="w-96" src="../phone.svg" />
           </div>
         </div>

@@ -14,7 +14,7 @@ export default function HeroB(props) {
   return (
     <section className="block hero-b overflow-x-hidden">
       <_wrapper>
-        <div className="row max-w-xl mx-auto pt-40 pb-10">
+        <div className="row max-w-xl mx-auto pt-40 pb-10" data-aos="fade-up">
           <div className="col flex flex-col justify-end items-center">
             <_pageTitle>
               <span className="line-yellow text-yellow-300 inline-block">
@@ -25,10 +25,10 @@ export default function HeroB(props) {
             <p className="py-5 text-center">{props.text}</p>
           </div>
         </div>
-        <div className="row">
+        <div className="row" data-aos="fade-up" data-aos-delay="500">
           <div className="col full-width h-500 overflow-hidden">
             <img
-              className="object-cover object-center w-full h-screen rellax overflow-hidden" data-rellax-percentage="2"
+              className="object-cover object-center w-full h-screen rellax overflow-hidden"
               src={props.photo}
             />
           </div>

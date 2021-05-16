@@ -21,7 +21,7 @@ function Nav({ textColor, logoColor }) {
   return (
     <header
       className="absolute top-0 left-0 w-full z-50      
-      text-inherit"
+      text-inherit" data-aos="slide-down" data-aos-delay="500"
     >
       <_wrapper>
         <div className="row flex justify-between items-center">
