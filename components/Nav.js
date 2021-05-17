@@ -50,15 +50,14 @@ function Nav({ textColor, logoColor }) {
             </div>
 
             {/* mobile nav - column */}
-            <div className="md:hidden">
+            <div className="text-white text-3xl md:hidden transition ">
               {isOpen ? (
                 <ul
                   ref={mobileRef}
-                  className="absolute top-40 left-0 z-50 w-full
+                  className="absolute top-0 right-0 h-screen z-40 w-72
+                  bg-black
                   flex flex-col gap-6
-                  px-5 py-10
-                  bg-black 
-                  text-white text-center text-3xl"
+                  px-5 py-10"
                   onClick={() => setOpen(false)}
                 >
                   <NavItem location="/about" label="About us" />
@@ -69,7 +68,7 @@ function Nav({ textColor, logoColor }) {
               ) : (
                 <button
                   onClick={() => setOpen(true)}
-                  className="transition duration-400 ease-in
+                  className="z-50 transition duration-400 ease-in
               transform hover:text-yellow-300"
                 >
                   <svg

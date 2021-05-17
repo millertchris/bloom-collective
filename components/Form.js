@@ -9,7 +9,19 @@ import { useForm, ValidationError } from "@formspree/react";
 export default function Form(props) {
   const [state, handleSubmit] = useForm("xoqyewjd");
   if (state.succeeded) {
-    return <p>Thanks for contacting us! We will be in touch soon.</p>;
+    return (
+      <section className="block form">
+        <_wrapper>
+          <div className="row max-w-lg mx-auto">
+            <div className="col py-16">
+              <_subheadline>
+                Thank you for contacting us! We will be in touch soon.
+              </_subheadline>
+            </div>
+          </div>
+        </_wrapper>
+      </section>
+    );
   }
   return (
     <section className="block form">
