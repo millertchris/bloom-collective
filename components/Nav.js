@@ -50,12 +50,13 @@ function Nav({ textColor, logoColor }) {
             </div>
 
             {/* mobile nav - column */}
-            <div className="text-white text-3xl md:hidden transition ">
+            <div className="text-3xl md:hidden">
               {isOpen ? (
                 <ul
                   ref={mobileRef}
                   className="absolute top-0 right-0 h-screen z-40 w-72
                   bg-black
+                  text-white
                   flex flex-col gap-6
                   px-5 py-10"
                   onClick={() => setOpen(false)}
@@ -68,8 +69,7 @@ function Nav({ textColor, logoColor }) {
               ) : (
                 <button
                   onClick={() => setOpen(true)}
-                  className="z-50 transition duration-400 ease-in
-              transform hover:text-yellow-300"
+                  className="z-30 transition duration-400 ease-in transform hover:text-yellow-300"
                 >
                   <svg
                     aria-hidden="true"

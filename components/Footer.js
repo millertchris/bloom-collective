@@ -35,9 +35,11 @@ export default function Footer() {
             <h4 className="text-bold text-2xl my-2">Office</h4>
             <ul>
               <li className="font-bold">Bloom Collective Studio</li>
-              <li>Sahid Office Boutique Unit A, 4th Floor, Jend.</li>
-              <li>Sudirman Road 86, RT.10/RW.11, Karet Tengsin,</li>
-              <li>Tanah Abang, Central Jakarta, Indonesia</li>
+              <li>Sahid Office Boutique Unit A,</li>
+              <li>4th Floor, Jl. Jend Sudirman 86,</li>
+              <li> RT.10/RW.11, Karet Tengsin,</li>
+              <li>Tanah Abang, Central Jakarta,</li>
+              <li>Indonesia</li>
             </ul>
           </div>
           <div className="col max-w-32">
@@ -45,18 +47,18 @@ export default function Footer() {
             <ul>
               <li>
                 <a
-                  href="tel:(+62) 812-0000-0000"
+                  href="tel:+62-21-5785-2198"
                   className="hover:text-yellow-300 text-white"
                 >
-                  (+62) 812-0000-0000
+                  +62-21-5785-2198
                 </a>
               </li>
               <li>
                 <a
-                  href="mailto:contact@bloomcollective.com"
+                  href="mailto:admin@bloomcollective.com"
                   className="hover:text-yellow-300 text-white"
                 >
-                  contact@bloomcollective.com
+                  admin@bloomcollective.com
                 </a>
               </li>
             </ul>

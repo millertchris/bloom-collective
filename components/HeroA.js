@@ -41,7 +41,7 @@ export default function HeroA(props) {
               hover:bg-yellow-400
               transition duration-300 ease-in-out"
               >
-                <Link href="/case-study-alt">
+                <Link href="/services">
                   <a>{props.buttonOne}</a>
                 </Link>
               </button>
