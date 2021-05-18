@@ -6,9 +6,7 @@ import _wrapper from "./layout/_wrapper";
 
 function NavItem({ location, label }) {
   return (
-    <li
-      className="inline-block nav-item px-2 py-1 hover:text-yellow-300 transition duration-700 ease-in-out"
-    >
+    <li className="inline-block nav-item px-2 py-1 hover:text-yellow-300 transition duration-700 ease-in-out">
       <Link href={location}>{label}</Link>
     </li>
   );
@@ -21,7 +19,11 @@ function Nav({ textColor, logoColor }) {
   return (
     <header
       className="absolute top-0 left-0 w-full z-50      
-      text-inherit" data-aos="slide-down" data-aos-delay="500"
+      text-inherit"
+      data-aos="fade-down"
+      data-aos-duration="1200"
+      data-aos-delay="1800"
+      data-aos-easing="ease-in-out"
     >
       <_wrapper>
         <div className="row flex justify-between items-center">

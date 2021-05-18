@@ -6,7 +6,11 @@ export default function Testimonials(props) {
   return (
     <section className="block testimonials py-10">
       <_wrapper>
-        <div className="row max-w-5xl mx-auto" data-aos="fade-up">
+        <div
+          className="row max-w-5xl mx-auto"
+          data-aos="fade-up"
+          data-aos-offset="400"
+        >
           <div className="col text-center mx-auto">
             <_headline>{props.headline}</_headline>
             {props.children}

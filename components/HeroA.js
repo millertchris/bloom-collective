@@ -15,6 +15,7 @@ export default function HeroA(props) {
           <div
             className="col content relative z-10 w-full max-w-md text-white"
             data-aos="fade-in"
+            data-aos-delay="900"
           >
             <div className="title">
               <h1
@@ -62,10 +63,7 @@ export default function HeroA(props) {
               <source src="../vid-2.mp4" type="video/mp4" />
             </video>
           </div>
-          <FsLightbox
-            toggler={toggler}
-            sources={["../vid-2.mp4"]}
-          />
+          <FsLightbox toggler={toggler} sources={["../vid-2.mp4"]} />
         </div>
       </_wrapper>
     </section>

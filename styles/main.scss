@@ -1,0 +1,76 @@
+.component-wrapper {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
+}
+
+header {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 20;
+  &.black {
+    a {
+      color: #000;
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  a {
+    color: #fff;
+    @media screen and (max-width: 680px) {
+      font-size: 1.25em;
+      color: #fff;
+    }
+  }
+  .hamburger {
+    display: none;
+    @media screen and (max-width: 680px) {
+      position: relative;
+      display: flex;
+      padding: 10px 5px;
+      z-index: 10;
+    }
+    &.is-active {
+      .hamburger-inner,
+      .hamburger-inner::before,
+      .hamburger-inner::after {
+        background-color: #fff;
+      }
+    }
+    .hamburger-inner,
+    .hamburger-inner::before,
+    .hamburger-inner::after {
+      background-color: #fff;
+    }
+  }
+  nav {
+    @media screen and (max-width: 680px) {
+      position: fixed;
+      top: 0;
+      right: 0;
+      width: 100%;
+      max-width: 320px;
+      height: 100vh;
+      padding: 20px;
+      padding-top: 90px;
+      background: #000;
+      transform: translateX(100%);
+      transition: 300ms all ease-in-out;
+    }
+    &.is-active {
+      transform: translateX(0);
+    }
+    ul {
+      display: flex;
+      gap: 40px;
+      @media screen and (max-width: 680px) {
+        flex-direction: column;
+      }
+    }
+  }
+}

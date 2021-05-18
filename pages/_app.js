@@ -1,5 +1,6 @@
 import "../styles/globals.css";
-import "../styles/hamburgers.css";
+import "../node_modules/hamburgers/_sass/hamburgers/hamburgers.scss";
+import "../styles/main.scss";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import { useEffect } from "react";
@@ -11,11 +12,8 @@ function MyApp({ Component, pageProps }) {
   const router = useRouter();
 
   useEffect(() => {
-    AOS.init({
-      easing: "linear",
-      once: false,
-      duration: 800,
-    });
+    AOS.init({});
+
     const handleRouteChange = (url) => {
       ga.pageview(url);
     };
