@@ -9,16 +9,7 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonialItem from "../components/TestimonialItem";
 import Header from "../components/Header";
 
-// Giving the deploy the good 'ol college try
-
-import Flickity from "react-flickity-component";
-
 import Layout from "../components/layout/Layout";
-
-const flickityOptions = {
-  initialIndex: 2,
-  wrapAround: true,
-};
 
 export default function index() {
   return (
@@ -69,33 +60,24 @@ export default function index() {
         />
 
         <Testimonials headline="Some of our partners and clients.">
-          <Flickity
-            className={"carousel"} // default ''
-            elementType={"div"} // default 'div'
-            options={flickityOptions} // takes flickity options {}
-            disableImagesLoaded={false} // default false
-            reloadOnUpdate // default false
-            static // default false
-          >
-            <TestimonialItem
-              text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
-              personPhoto="https://source.unsplash.com/random"
-              personName="Chris Young"
-              personTitle="Creative Director at YouTube"
-            />
-            <TestimonialItem
-              text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
-              personPhoto="https://source.unsplash.com/random"
-              personName="Chris Young"
-              personTitle="Creative Director at YouTube"
-            />
-            <TestimonialItem
-              text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
-              personPhoto="https://source.unsplash.com/random"
-              personName="Chris Young"
-              personTitle="Creative Director at YouTube"
-            />
-          </Flickity>
+          <TestimonialItem
+            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            personPhoto="https://source.unsplash.com/random"
+            personName="Chris Young"
+            personTitle="Creative Director at YouTube"
+          />
+          <TestimonialItem
+            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            personPhoto="https://source.unsplash.com/random"
+            personName="Chris Young"
+            personTitle="Creative Director at YouTube"
+          />
+          <TestimonialItem
+            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            personPhoto="https://source.unsplash.com/random"
+            personName="Chris Young"
+            personTitle="Creative Director at YouTube"
+          />
         </Testimonials>
         <Form
           mainPage
