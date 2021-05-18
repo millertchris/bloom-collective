@@ -1,3 +1,9 @@
+#__next {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+}
+
 .component-wrapper {
   max-width: 1200px;
   margin: auto;
@@ -72,5 +78,54 @@ header {
         flex-direction: column;
       }
     }
+  }
+}
+
+.block.hero {
+  &.style-1 {
+    @media screen and (max-width: 860px) {
+      height: 100vh;
+    }
+  }
+}
+
+.block.clients {
+  .wrapper {
+    @media screen and (max-width: 860px) {
+      padding: 40px 20px;
+    }
+  }
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 40px 0;
+    @media screen and (max-width: 640px) {
+      flex-direction: column;
+    }
+  }
+  .col {
+    &:nth-child(2) {
+      display: flex;
+      gap: 60px;
+      @media screen and (max-width: 640px) {
+        flex-direction: column;
+        align-items: center;
+      }
+    }
+  }
+  .title {
+    margin-top: 0;
+    @media screen and (max-width: 840px) {
+      margin-bottom: 0;
+    }
+    @media screen and (max-width: 640px) {
+      text-align: center;
+    }
+  }
+  img {
+    width: 100%;
+    max-width: 120px;
   }
 }

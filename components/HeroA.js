@@ -9,7 +9,7 @@ export default function HeroA(props) {
   // if toggler is updated when lightbox is opened it will close it
   const [toggler, setToggler] = useState(false);
   return (
-    <section className="block hero relative">
+    <section className="block hero style-1 relative">
       <_wrapper>
         <div className="row flex items-center h-calc pt-32 pb-10">
           <div
@@ -63,7 +63,10 @@ export default function HeroA(props) {
               <source src="../vid-2.mp4" type="video/mp4" />
             </video>
           </div>
-          <FsLightbox toggler={toggler} sources={["../vid-2.mp4"]} />
+          <FsLightbox
+            toggler={toggler}
+            sources={["https://www.youtube.com/watch?v=fJ9rUzIMcZQ"]}
+          />
         </div>
       </_wrapper>
     </section>
