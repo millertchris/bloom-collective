@@ -2,6 +2,14 @@ import Image from "next/image";
 import _wrapper from "./layout/_wrapper";
 import CustomForm from "./MailChimp";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
+
 export default function Footer() {
   return (
     <footer className="bg-black text-white">
@@ -13,23 +21,34 @@ export default function Footer() {
         lg:grid-cols-4"
         >
           <div className="col">
-            <Image
-              height="60px"
-              width="160px"
+            <img
               src="/bloom_logo_white.svg"
-              alt="Bloom Co"
-              className="my-2"
+              alt="Bloom Collective"
+              className="logo"
             />
-            <p>Business-driven content workflows</p>
-            <div className="socials flex gap-4 py-4 text-white">
-              <img src="social-fb.svg" className="w-8 h-8" />
-
-              <img src="social-ig.svg" className="w-8 h-8" />
-
-              <img src="social-li.svg" className="w-8 h-8" />
-
-              <img src="social-tw.svg" className="w-8 h-8" />
-            </div>
+            <p className="subtitle">Business-driven content workflows</p>
+            <ul className="social">
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </li>
+            </ul>
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Office</h4>

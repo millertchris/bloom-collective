@@ -243,3 +243,25 @@ header {
     }
   }
 }
+
+footer {
+  .logo {
+    display: block;
+    width: 140px;
+    margin-bottom: 10px;
+  }
+  h4.my-2 {
+    margin-top: 0;
+  }
+  .subtitle {
+    margin-bottom: 20px;
+  }
+  .social {
+    display: flex;
+    gap: 20px;
+    a {
+      display: block;
+      width: 25px;
+    }
+  }
+}
