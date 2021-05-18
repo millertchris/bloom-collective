@@ -20,10 +20,9 @@ export default function ContactUs() {
   return (
     <section className="block contact-us">
       <_wrapper>
-        <div className="row pt-32 flex flex-col md:flex-row md:gap-6">
+        <div className="row pt-32 flex flex-col lg:flex-row md:gap-6">
           <div className="col h-500 w-full md:max-w-xl">
             <Lottie options={defaultOptions} className="w-full h-full" />
-
           </div>
           <div className="col">
             <Form
