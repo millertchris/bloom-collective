@@ -42,8 +42,8 @@ export default function HeroA(props) {
               hover:bg-yellow-400
               transition duration-300 ease-in-out"
               >
-                <Link href="/services">
-                  <a>{props.buttonOne}</a>
+                <Link href={props.buttonOneLink}>
+                  <a>{props.buttonOneText}</a>
                 </Link>
               </button>
               <button
@@ -54,7 +54,7 @@ export default function HeroA(props) {
                 transition duration-300 ease-in-out"
                 onClick={() => setToggler(!toggler)}
               >
-                {props.buttonTwo}
+                {props.buttonTwoText}
               </button>
             </div>
           </div>

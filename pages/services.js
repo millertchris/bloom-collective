@@ -3,6 +3,7 @@ import ContentD from "../components/ContentD";
 import ContentE from "../components/ContentE";
 import Layout from "../components/layout/Layout";
 import Header from "../components/Header";
+import Intro from "../components/Intro";
 
 export default function services() {
   return (
@@ -11,9 +12,11 @@ export default function services() {
       <Layout>
         <HeroC
           headline="Our Services"
-          subheader="What we do"
           image="https://source.unsplash.com/random"
         />
+
+        <Intro title="What we do" />
+
         <ContentD
           title="Lorem ipsum dolor"
           paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do

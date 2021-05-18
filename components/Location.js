@@ -9,7 +9,7 @@ export default function Location(props) {
     <section className="block location mb-16">
       <_wrapper>
         <div className="row grid gap-10 md:grid-cols-2 items-center">
-          <div className="col max-w-md" data-aos="fade-up">
+          <div className="col max-w-md">
             <_headline>
               {props.headlineNoUnderline}{" "}
               <span className="inline-block text-yellow-300 line-yellow">
@@ -18,7 +18,7 @@ export default function Location(props) {
             </_headline>
             <_paragraph>{props.text}</_paragraph>
           </div>
-          <div className="col h-500" data-aos="fade-up" data-aos-delay="800">
+          <div className="col h-500">
             <img
               src={props.photo}
               className="w-full h-full object-cover object-center"

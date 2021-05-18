@@ -295,3 +295,34 @@ footer {
     }
   }
 }
+
+.block.content-c {
+  .position {
+    font-size: 1em;
+    font-weight: 200;
+  }
+  .gap-16 {
+    @media screen and (max-width: 768px) {
+      gap: 0;
+    }
+  }
+}
+
+.block.awards {
+  margin-bottom: 40px;
+  .py-10 {
+    padding: 0;
+  }
+}
+
+.block.hero-c {
+  margin-bottom: 100px;
+}
+
+.block.intro {
+  margin-bottom: 40px;
+  text-align: center;
+  .title {
+    font-size: 2.5em;
+  }
+}

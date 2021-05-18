@@ -20,11 +20,16 @@ export default function HeroN(props) {
             <h2 className="title">{props.headline}</h2>
             <p>{props.text}</p>
 
-            <Link href="/">
+            <Link href={props.buttonLink}>
               <a className="btn">{props.buttonText}</a>
             </Link>
           </div>
-          <div className="col image" data-aos="fade-up" data-aos-offset="500">
+          <div
+            className="col image"
+            data-aos="fade-up"
+            data-aos-offset="600"
+            data-aos-delay="200"
+          >
             <img src="../phone.svg" alt="Place Holder" />
           </div>
         </div>
