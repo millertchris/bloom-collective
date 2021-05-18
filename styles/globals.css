@@ -22,6 +22,12 @@ body {
   margin-top: 60px;
 }
 
+@media screen and (max-width: 640px) {
+  .portfolio-layout a:nth-child(even) {
+    margin-top: 0;
+  }
+}
+
 .block.testimonials .col {
   width: 100%;
 }
@@ -169,4 +175,33 @@ nav a:hover::before {
 	position: relative;
 	right: 50%;
 	width: 100vw;
+}
+
+footer input {
+  width: 100%;
+  background: black;
+  border: 1px solid #e5e5e5;
+  padding: 0.5rem 1rem;
+  margin: 1rem auto;
+}
+
+footer button {
+  width: 100px;
+  background: black;
+  border: 1px solid #e5e5e5;
+  padding: 0.5rem 1rem;
+  margin: auto;
+}
+
+footer button:hover {
+  color: black;
+  background: white;
+  padding: 0.5rem 1rem;
+  margin: auto;
+  transition: 500ms ease-in-out;
+}
+
+.rellax {
+  height: 180%;
+  width: 180%;
 }

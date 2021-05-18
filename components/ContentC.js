@@ -26,7 +26,7 @@ export default function ContentC(props) {
               />
               <div className="person-info">
                 <h4 className="font-bold text-xl">{props.personName}</h4>
-                <h5>{props.personTitle}</h5>
+                <h5 className="position">{props.personTitle}</h5>
               </div>
             </div>
           </div>

@@ -6,7 +6,7 @@ import _paragraph from "./layout/_paragraph";
 
 export default function ContentF(props) {
   return (
-    <section className="block content-f">
+    <section className="block content-f" data-aos="fade-up" data-aos-delay="500">
       <_wrapper>
         <div className="row py-5 grid gap-16 md:grid-cols-7">
           <div className="col md:col-span-4">

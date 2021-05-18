@@ -4,8 +4,25 @@ import _subheadline from "./layout/_subheadline";
 import _paragraph from "./layout/_paragraph";
 import _field from "./layout/_field";
 import _dropdown from "./layout/_dropdown";
+import { useForm, ValidationError } from "@formspree/react";
 
 export default function Form(props) {
+  const [state, handleSubmit] = useForm("xoqyewjd");
+  if (state.succeeded) {
+    return (
+      <section className="block form">
+        <_wrapper>
+          <div className="row max-w-lg mx-auto">
+            <div className="col py-16">
+              <_subheadline>
+                Thank you for contacting us! We will be in touch soon.
+              </_subheadline>
+            </div>
+          </div>
+        </_wrapper>
+      </section>
+    );
+  }
   return (
     <section className="block form">
       <_wrapper>
@@ -27,7 +44,7 @@ export default function Form(props) {
           )}
           <div className="col">
             <_paragraph>{props.text}</_paragraph>
-            <form name="contact" method="POST">
+            <form onSubmit={handleSubmit} name="contact">
               <label htmlFor="name" className="invisible">
                 Name
               </label>
@@ -80,6 +97,7 @@ export default function Form(props) {
 
               <button
                 type="submit"
+                disabled={state.submitting}
                 className="my-6 px-5 py-3 w-full max-w-xxs
               bg-yellow-300
               text-black

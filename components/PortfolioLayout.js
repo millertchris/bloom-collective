@@ -5,10 +5,10 @@ import _paragraph from "./layout/_paragraph";
 
 export default function PortfolioLayout(props) {
   return (
-    <section className="block portfolio-layout pt-32 pb-10">
+    <section className="block portfolio-layout">
       <_wrapper>
-        <div className="row">
-          <div className="col content py-10">
+        <div className="row pt-32 pb-10">
+          <div className="col content pb-10">
             <_pageTitle>{props.headline}</_pageTitle>
           </div>
         </div>

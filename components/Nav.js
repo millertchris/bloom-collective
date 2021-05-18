@@ -6,9 +6,7 @@ import _wrapper from "./layout/_wrapper";
 
 function NavItem({ location, label }) {
   return (
-    <li
-      className="inline-block nav-item px-2 py-1 hover:text-yellow-300 transition duration-700 ease-in-out"
-    >
+    <li className="inline-block nav-item px-2 py-1 hover:text-yellow-300 transition duration-700 ease-in-out">
       <Link href={location}>{label}</Link>
     </li>
   );
@@ -22,6 +20,10 @@ function Nav({ textColor, logoColor }) {
     <header
       className="absolute top-0 left-0 w-full z-50      
       text-inherit"
+      data-aos="fade-down"
+      data-aos-duration="1200"
+      data-aos-delay="1800"
+      data-aos-easing="ease-in-out"
     >
       <_wrapper>
         <div className="row flex justify-between items-center">
@@ -29,7 +31,7 @@ function Nav({ textColor, logoColor }) {
             <Link href="/">
               <a>
                 <Image
-                  width="160px"
+                  width="120px"
                   height="100%"
                   src={logoColor}
                   alt="Bloom Co"
@@ -50,15 +52,15 @@ function Nav({ textColor, logoColor }) {
             </div>
 
             {/* mobile nav - column */}
-            <div className="md:hidden">
+            <div className="text-3xl md:hidden">
               {isOpen ? (
                 <ul
                   ref={mobileRef}
-                  className="absolute top-40 left-0 z-50 w-full
+                  className="absolute top-0 right-0 h-screen z-40 w-72
+                  bg-black
+                  text-white
                   flex flex-col gap-6
-                  px-5 py-10
-                  bg-black 
-                  text-white text-center text-3xl"
+                  px-5 py-10"
                   onClick={() => setOpen(false)}
                 >
                   <NavItem location="/about" label="About us" />
@@ -69,8 +71,7 @@ function Nav({ textColor, logoColor }) {
               ) : (
                 <button
                   onClick={() => setOpen(true)}
-                  className="transition duration-400 ease-in
-              transform hover:text-yellow-300"
+                  className="z-30 transition duration-400 ease-in transform hover:text-yellow-300"
                 >
                   <svg
                     aria-hidden="true"

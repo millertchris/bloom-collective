@@ -1,5 +1,14 @@
 import Image from "next/image";
 import _wrapper from "./layout/_wrapper";
+import CustomForm from "./MailChimp";
+
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {
+  faFacebook,
+  faInstagram,
+  faLinkedin,
+  faTwitter,
+} from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
   return (
@@ -12,50 +21,71 @@ export default function Footer() {
         lg:grid-cols-4"
         >
           <div className="col">
-            <Image
-              height="60px"
-              width="160px"
+            <img
               src="/bloom_logo_white.svg"
-              alt="Bloom Co"
-              className="my-2"
+              alt="Bloom Collective"
+              className="logo"
             />
-            <p>Business-driven content workflows</p>
-            <div className="socials flex gap-4 py-4 text-white">
-
-                <img src="social-fb.svg" className="w-8 h-8" />
-
-                <img src="social-ig.svg" className="w-8 h-8" />
-
-                <img src="social-li.svg" className="w-8 h-8" />
-
-                <img src="social-tw.svg" className="w-8 h-8" />
-            </div>
+            <p className="subtitle">Business-driven content workflows</p>
+            <ul className="social">
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faFacebook} />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faInstagram} />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faLinkedin} />
+                </a>
+              </li>
+              <li>
+                <a href="/">
+                  <FontAwesomeIcon icon={faTwitter} />
+                </a>
+              </li>
+            </ul>
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Office</h4>
             <ul>
               <li className="font-bold">Bloom Collective Studio</li>
-              <li>Sahid Office Boutique Unit A, 4th Floor, Jend.</li>
-              <li>Sudirman Road 86, RT.10/RW.11, Karet Tengsin,</li>
-              <li>Tanah Abang, Central Jakarta, Indonesia</li>
+              <li>Sahid Office Boutique Unit A,</li>
+              <li>4th Floor, Jl. Jend Sudirman 86,</li>
+              <li> RT.10/RW.11, Karet Tengsin,</li>
+              <li>Tanah Abang, Central Jakarta,</li>
+              <li>Indonesia</li>
             </ul>
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Contact</h4>
             <ul>
-              <li>(+62) 812-0000-0000</li>
-              <li>contact@bloomcollective.com</li>
+              <li>
+                <a
+                  href="tel:+62-21-5785-2198"
+                  className="hover:text-yellow-300 text-white"
+                >
+                  +62-21-5785-2198
+                </a>
+              </li>
+              <li>
+                <a
+                  href="mailto:admin@bloomcollective.com"
+                  className="hover:text-yellow-300 text-white"
+                >
+                  admin@bloomcollective.com
+                </a>
+              </li>
             </ul>
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Stay up to date</h4>
             <p>Subscribe to our newsletter.</p>
-            <input
-              type="text"
-              name="email"
-              className="w-full bg-black border border-gray-300 px-4 py-2 my-2"
-              placeholder="Your email..."
-            />
+            <CustomForm />
           </div>
         </div>
         <div className="row">

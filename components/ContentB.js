@@ -8,23 +8,26 @@ export default function ContentB(props) {
     <section className="block content-b">
       <_wrapper>
         <div className="row flex flex-wrap justify-center items-center lg:h-screen">
-          <div className="col">
+          <div className="col" data-aos="fade-up" data-aos-offset="500">
             <img className="w-96" src={props.image} />
           </div>
-          <div className="col max-w-xl py-10">
+          <div
+            className="col max-w-xl py-10"
+            data-aos="fade-up"
+            data-aos-offset="200"
+          >
             <img src={props.logo} className="py-5" />
             <_headline>{props.headline}</_headline>
             <_paragraph>{props.text}</_paragraph>
             <button
-              className="px-5 py-3 w-full max-w-xxs
-                text-gray-400
-                border-2 border-gray-400
-                hover:bg-yellow-400 hover:border-yellow-300 hover:text-black
-                transition duration-300 ease-in-out"
+              className="my-3 px-5 py-3 w-full max-w-xxs
+              bg-yellow-300
+              text-black
+              border-2 border-yellow-300
+              hover:bg-yellow-400
+              transition duration-300 ease-in-out"
             >
-              <Link href="/case-study-alt">
-                <a>{props.buttonText}</a>
-              </Link>
+              {props.buttonText}
             </button>
           </div>
         </div>

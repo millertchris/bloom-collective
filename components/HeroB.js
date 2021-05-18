@@ -1,15 +1,15 @@
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 import _wrapper from "./layout/_wrapper";
 import _paragraph from "./layout/_paragraph";
 import _pageTitle from "./layout/_pageTitle";
 import Rellax from "rellax";
 
 export default function HeroB(props) {
- useEffect(() => {
-  const rellax = new Rellax('.rellax', {
-    center:true,
-  }); 
- });
+  useEffect(() => {
+    const rellax = new Rellax(".rellax", {
+      center: true,
+    });
+  });
 
   return (
     <section className="block hero-b overflow-x-hidden">
@@ -28,7 +28,7 @@ export default function HeroB(props) {
         <div className="row">
           <div className="col full-width h-500 overflow-hidden">
             <img
-              className="object-cover object-center w-full h-full rellax overflow-hidden"
+              className="object-cover object-center w-full h-screen rellax overflow-hidden"
               src={props.photo}
             />
           </div>
