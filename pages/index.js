@@ -1,6 +1,7 @@
 import HeroA from "../components/HeroA";
 import Clients from "../components/Clients";
 import ContentA from "../components/ContentA";
+import HeroN from "../components/HeroN";
 import ContentB from "../components/ContentB";
 import Testimonials from "../components/Testimonials";
 import Form from "../components/Form";
@@ -44,19 +45,29 @@ export default function index() {
           logoTwo="logo-dbs.svg"
           logoThree="logo-majid.svg"
         />
-        <ContentA
+
+        <HeroN
+          image="phone.svg"
           logo="logo-majid.svg"
           headline="Content During Crisis"
           text="Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia. Find out how Bloom Collective mobilised to help them communicate during a time of crisis"
           buttonText="Learn more"
+          buttonLink="/"
+          positionContent="left"
+          theme="yellow"
         />
-        <ContentB
+
+        <HeroN
           image="phone.svg"
           logo="logo-breakthrough.svg"
           headline="The Science of Social"
           text="The Breakthrough Prizes are awarded each year to groundbreaking ideas in the areas of Physics, Mathematics and Life Sciences. See how Bloom Collective designed a custom content workflow to achieve their communications goals."
           buttonText="Learn more"
+          buttonLink="/"
+          positionContent="right"
+          theme="purple"
         />
+
         <Testimonials headline="Some of our partners and clients.">
           <Flickity
             className={"carousel"} // default ''
