@@ -12,10 +12,10 @@ export default function Layout({ children, lightNav }) {
         <meta name="description" content="Business-driven content workflows." />
         <meta name="title" content={siteTitle} />
       </Head>
-      <div className="text-black text-base">
+      <main className="main-wrapper text-black text-base">
         {children}
         <Footer />
-      </div>
+      </main>
     </>
   );
 }

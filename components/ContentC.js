@@ -4,7 +4,7 @@ import _paragraph from "./layout/_paragraph";
 
 export default function ContentC(props) {
   return (
-    <section className="block content-c" data-aos="fade-up">
+    <section className="block content-c">
       <_wrapper>
         <div className="row grid gap-16 md:grid-cols-7">
           <div className="col md:col-span-3">
