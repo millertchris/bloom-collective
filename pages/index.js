@@ -30,6 +30,7 @@ export default function index() {
           buttonOneText="Learn more"
           buttonOneLink="/services"
           buttonTwoText="Watch video"
+          mainVideo="../bloom-collective-studio.mp4"
         />
         <Clients
           headline="Clients who trust us."

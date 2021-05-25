@@ -1,9 +1,9 @@
 import _subheadline from "./layout/_subheadline";
 import Link from "next/link";
 
-export default function PortfolioItem(props) {
+export default function PortfolioItem({ link, image, title, text }) {
   return (
-    <Link className="block" href="/case-study">
+    <Link className="block" href={link}>
       <a>
         <div
           className="portfolio-item cursor-pointer"
@@ -13,13 +13,13 @@ export default function PortfolioItem(props) {
         >
           <div className="image">
             <img
-              src={props.image}
+              src={image}
               className="object-cover object-center w-full h-72"
             />
           </div>
           <div className="my-6">
-            <_subheadline>{props.title}</_subheadline>
-            <p>{props.text}</p>
+            <_subheadline>{title}</_subheadline>
+            <p>{text}</p>
           </div>
         </div>
       </a>

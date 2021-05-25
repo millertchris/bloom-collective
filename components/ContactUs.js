@@ -10,7 +10,7 @@ import animationData from "../public/lottieAnimation.json";
 const defaultOptions = {
   loop: true,
   autoplay: true,
-  animationData: animationData,
+  animationData: "https://lottiefiles.com/share/ham6xpau",
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },

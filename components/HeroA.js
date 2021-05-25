@@ -60,12 +60,12 @@ export default function HeroA(props) {
           </div>
           <div className="col video-wrap">
             <video className="" muted autoPlay loop playsInline>
-              <source src="../vid-2.mp4" type="video/mp4" />
+              <source src={props.mainVideo} type="video/mp4" />
             </video>
           </div>
           <FsLightbox
             toggler={toggler}
-            sources={["https://www.youtube.com/watch?v=fJ9rUzIMcZQ"]}
+            sources={ ["../bloom-collective-studio.mp4"] }
           />
         </div>
       </_wrapper>

@@ -12,7 +12,7 @@ import {
 
 export default function Footer() {
   return (
-    <footer className="bg-black text-white">
+    <footer className="mt-10 bg-black text-white">
       <_wrapper>
         <div
           className="row my-10

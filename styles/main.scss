@@ -133,6 +133,14 @@ header {
   }
 }
 
+.block.hero {
+  &.style-1 {
+    @media screen and (max-width: 680px) {
+      height: 100vh;
+    }
+  }
+}
+
 .block.hero-n {
   &.style-1 {
     @media screen and (max-width: 860px) {
