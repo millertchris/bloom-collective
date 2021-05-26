@@ -1,4 +1,3 @@
-import Image from "next/image";
 import _wrapper from "./layout/_wrapper";
 import CustomForm from "./MailChimp";
 
@@ -7,7 +6,6 @@ import {
   faFacebook,
   faInstagram,
   faLinkedin,
-  faTwitter,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {

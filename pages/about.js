@@ -62,26 +62,32 @@ export default function about() {
             <AwardItem
               awardLogo="logo-marcom.svg"
               awardName="2020 MarCom Award"
-            />
-            <AwardItem
-              awardLogo="logo-marcom.svg"
-              awardName="2020 MarCom Award"
+              awardText="Social Media Content"
             />
             <AwardItem
               awardLogo="logo-summit.svg"
               awardName="2020 Summit Creative Award"
+              awardText="Covid-19 Content"
+            />
+            <AwardItem
+              awardLogo="logo-marcom.svg"
+              awardName="2020 MarCom Award"
+              awardText="Social Media Campaign"
             />
             <AwardItem
               awardLogo="logo-summit.svg"
               awardName="2020 Summit Creative Award"
+              awardText="Video Campaign"
             />
             <AwardItem
               awardLogo="logo-marcom.svg"
               awardName="2020 MarCom Award"
+              awardText="Covid-19 Crisis Communications"
             />
             <AwardItem
-              awardLogo="logo-marcom.svg"
-              awardName="2020 MarCom Award"
+              awardLogo="logo-summit.svg"
+              awardName="2020 Summit Creative Award"
+              awardText="Social Media Content"
             />
           </Flickity>
         </Awards>
