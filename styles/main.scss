@@ -71,6 +71,9 @@ header {
     background: #fff;
     a {
       color: #000;
+      @media screen and (max-width: 680px) {
+        color: #fff;
+      }
     }
   }
   .row {
@@ -97,13 +100,13 @@ header {
       .hamburger-inner,
       .hamburger-inner::before,
       .hamburger-inner::after {
-        background-color: #fff;
+        background-color: rgba(252, 211, 77);
       }
     }
     .hamburger-inner,
     .hamburger-inner::before,
     .hamburger-inner::after {
-      background-color: #fff;
+      background-color: rgba(252, 211, 77);
     }
   }
   nav {
@@ -125,9 +128,18 @@ header {
     }
     ul {
       display: flex;
-      gap: 40px;
       @media screen and (max-width: 680px) {
         flex-direction: column;
+      }
+      li {
+        margin-left: 40px;
+        @media screen and (max-width: 680px) {
+          margin-left: 0;
+          margin-bottom: 40px;
+          a {
+            color: white;
+          }
+        }
       }
     }
   }
@@ -163,7 +175,7 @@ header {
         flex-direction: row-reverse;
         @media screen and (max-width: 860px) {
           flex-direction: column;
-          gap: 60px;
+          margin-bottom: 60px;
         }
       }
     }
@@ -173,7 +185,7 @@ header {
       padding: 40px 0;
       @media screen and (max-width: 860px) {
         flex-direction: column;
-        gap: 60px;
+        margin-bottom: 60px;
       }
     }
     .col {
@@ -183,10 +195,13 @@ header {
         max-width: 500px;
       }
     }
-    .logo,
+    .logo {
+      margin-bottom: 20px;
+      width: 130px;
+    }
     .title,
     p {
-      margin-bottom: 10px;
+      margin-bottom: 15px;
     }
   }
 }
@@ -201,7 +216,6 @@ header {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    gap: 20px;
     padding: 40px 0;
     @media screen and (max-width: 640px) {
       flex-direction: column;
@@ -210,7 +224,6 @@ header {
   .col {
     &:nth-child(2) {
       display: flex;
-      gap: 60px;
       @media screen and (max-width: 640px) {
         flex-direction: column;
         align-items: center;
@@ -220,7 +233,7 @@ header {
   .title {
     margin-top: 0;
     @media screen and (max-width: 840px) {
-      margin-bottom: 0;
+      margin-bottom: 20px;
     }
     @media screen and (max-width: 640px) {
       text-align: center;
@@ -229,6 +242,11 @@ header {
   img {
     width: 100%;
     max-width: 120px;
+    margin-right: 20px;
+    @media screen and (max-width: 640px) {
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
   }
 }
 
@@ -283,6 +301,14 @@ header {
 }
 
 footer {
+  .row {
+    .col {
+      margin-right: 20px;
+      @media screen and (max-width: 1024px) {
+        margin-bottom: 20px;
+      }
+    }
+  }
   .logo {
     display: block;
     width: 140px;
@@ -296,10 +322,10 @@ footer {
   }
   .social {
     display: flex;
-    gap: 20px;
     a {
       display: block;
       width: 25px;
+      margin-right: 20px;
     }
   }
 }
@@ -308,11 +334,6 @@ footer {
   .position {
     font-size: 1em;
     font-weight: 200;
-  }
-  .gap-16 {
-    @media screen and (max-width: 768px) {
-      gap: 0;
-    }
   }
 }
 

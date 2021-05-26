@@ -151,17 +151,6 @@ nav a:hover::before {
   margin-bottom: -15px;
 }
 
-.content-a {
-  background: linear-gradient(
-    249.95deg,
-    #eddaa0 0%,
-    rgba(255, 253, 247, 0) 100%
-  );
-}
-
-.content-b {
-  background: linear-gradient(250.33deg, #ffffff 0%, #c2d2ea 100%);
-}
 
 .card-box {
   background: linear-gradient(269.82deg, #f4c66b 0.17%, #f0b65d 91.72%);

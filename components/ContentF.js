@@ -8,8 +8,8 @@ export default function ContentF(props) {
   return (
     <section className="block content-f" data-aos="fade-up" data-aos-delay="500">
       <_wrapper>
-        <div className="row py-5 grid gap-16 md:grid-cols-7">
-          <div className="col md:col-span-4">
+        <div className="row py-5 grid md:grid-cols-7">
+          <div className="col md:col-span-4 mb-16 md:mb-0 md:mr-20">
             <_headline>{props.headline}</_headline>
             <_paragraph>{props.paragraphOne}</_paragraph>
             <_paragraph>{props.paragraphTwo}</_paragraph>

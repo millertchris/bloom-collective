@@ -10,7 +10,7 @@ import animationData from "../public/lottieAnimation.json";
 const defaultOptions = {
   loop: true,
   autoplay: true,
-  animationData: "https://lottiefiles.com/share/ham6xpau",
+  animationData: animationData,
   rendererSettings: {
     preserveAspectRatio: "xMidYMid slice",
   },
@@ -20,8 +20,8 @@ export default function ContactUs() {
   return (
     <section className="block contact-us">
       <_wrapper>
-        <div className="row pt-32 flex flex-col lg:flex-row md:gap-6">
-          <div className="col h-500 w-full md:max-w-xl">
+        <div className="row pt-32 flex flex-col lg:flex-row justify-between">
+          <div className="col h-500 w-full md:max-w-xl md:mr-6">
             <Lottie options={defaultOptions} className="w-full h-full" />
           </div>
           <div className="col">

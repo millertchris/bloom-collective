@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -59,7 +59,7 @@ export default function Header(props) {
               </a>
             </Link>
           </div>
-          <div className="col">
+          <div className={props.menuButtonColor}>
             <button
               className="hamburger hamburger--squeeze"
               onClick={clickHandler}

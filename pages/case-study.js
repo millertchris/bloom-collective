@@ -10,8 +10,8 @@ import Header from "../components/Header";
 export default function caseStudy() {
   return (
     <>
-      <Header theme="black" logo="/bloom_logo_black.svg" />
-      <Layout lightNav>
+      <Header theme="white" logo="/bloom_logo_white.svg" />
+      <Layout>
         <HeroD
           headline="Majid Al Futtaim Advanced Analytics"
           background="https://source.unsplash.com/random"

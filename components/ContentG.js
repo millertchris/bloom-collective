@@ -6,8 +6,8 @@ export default function ContentG(props) {
   return (
     <section className="block content-g">
       <_wrapper>
-        <div className="row py-5 grid gap-4 md:grid-cols-7">
-          <div className="col max-w-96 md:col-span-3">
+        <div className="row py-5 grid md:grid-cols-7">
+          <div className="col max-w-96 md:col-span-3 mr-4">
             <_headline>
               <span className="inline-block text-yellow-300 line-yellow">
                 {props.headlineUnderline}{" "}

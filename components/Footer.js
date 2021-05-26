@@ -16,7 +16,7 @@ export default function Footer() {
       <_wrapper>
         <div
           className="row my-10
-        grid gap-6 
+        grid
         sm:grid-cols-2
         lg:grid-cols-4"
         >
@@ -43,21 +43,16 @@ export default function Footer() {
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>
-              <li>
-                <a href="/">
-                  <FontAwesomeIcon icon={faTwitter} />
-                </a>
-              </li>
             </ul>
           </div>
           <div className="col max-w-32">
             <h4 className="text-bold text-2xl my-2">Office</h4>
             <ul>
-              <li className="font-bold">Bloom Collective Studio</li>
-              <li>Sahid Office Boutique Unit A,</li>
-              <li>4th Floor, Jl. Jend Sudirman 86,</li>
-              <li> RT.10/RW.11, Karet Tengsin,</li>
-              <li>Tanah Abang, Central Jakarta,</li>
+              <li className="font-bold">Bloom Collective Studio </li>
+              <li>Sahid Office Boutique Unit A, </li>
+              <li>4th Floor, Jl. Jend Sudirman 86, </li>
+              <li>RT.10/RW.11, Karet Tengsin, </li>
+              <li>Tanah Abang, Central Jakarta, </li>
               <li>Indonesia</li>
             </ul>
           </div>
@@ -92,13 +87,13 @@ export default function Footer() {
           <div className="col py-10 mt-10">
             <p>
               © Bloom Collective Studio 2021. All rights reserved.{" "}
-              <a href="#" className="text-yellow-300 hover:text-white">
+              {/*<a href="#" className="text-yellow-300 hover:text-white">
                 Privacy policy
               </a>{" "}
               -{" "}
               <a href="#" className="text-yellow-300 hover:text-white">
                 Terms & conditions
-              </a>
+              </a>*/}
             </p>
           </div>
         </div>

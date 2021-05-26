@@ -3,7 +3,6 @@ import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
 import Layout from "../components/layout/Layout";
 import Location from "../components/Location";
-import { Carousel } from "react-responsive-carousel";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AwardItem from "../components/AwardItem";
 

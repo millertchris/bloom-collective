@@ -1,10 +1,9 @@
 import Footer from "../Footer";
-import Nav from "../Nav";
 import Head from "next/head";
 
 export const siteTitle = "Bloom Collective";
 
-export default function Layout({ children, lightNav }) {
+export default function Layout({ children }) {
   return (
     <>
       <Head>

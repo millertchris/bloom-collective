@@ -8,7 +8,7 @@ export default function ContentD(props) {
   return (
     <section className="block content-d">
       <_wrapper>
-        <div className="row gap-16 flex flex-col-reverse md:grid md:grid-cols-2 py-2">
+        <div className="row flex flex-col-reverse md:grid md:grid-cols-2 py-2">
           <div className="col content self-center">
             <h4 className="font-bold text-xl">{props.title}</h4>
             <_paragraph>{props.paragraphOne}</_paragraph>
@@ -20,7 +20,7 @@ export default function ContentD(props) {
               <li>{props.listItemFour}</li>
             </ul>
           </div>
-          <div className="col image h-500">
+          <div className="col image h-500  mb-16 md:ml-16">
             <img
               src={props.photo}
               className="w-full h-full object-center object-cover"
