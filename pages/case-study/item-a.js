@@ -1,4 +1,4 @@
-import HeroD from "../../components/HeroD";
+import Hero from "../../components/Hero";
 import ContentF from "../../components/ContentF";
 import CardBox from "../../components/CardBox";
 import ContentG from "../../components/ContentG";
@@ -12,12 +12,16 @@ export default function caseStudy() {
   return (
     <>
       <Header theme="white" logo="/bloom_logo_white.svg" />
+
       <Layout>
-        <HeroD
-          // Need to support a logo
-          headline="Majid Al Futtaim Advanced Analytics"
+        <Hero
+          logo="/logo-majid-white.svg"
+          logoAltText="Logo"
+          title="Majid Al Futtaim Advanced Analytics"
           background="https://source.unsplash.com/random"
+          backgroundAltText="Background Image"
         />
+
         <ContentF
           headline="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
           content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
