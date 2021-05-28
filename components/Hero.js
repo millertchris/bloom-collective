@@ -1,20 +1,35 @@
 import Rellax from "rellax";
 import React, { useEffect } from "react";
 
-export default function Hero(props) {
+export default function Hero({
+  style,
+  title,
+  logo,
+  logoAlt,
+  image,
+  imageAlt,
+  rellaxCentering,
+}) {
   useEffect(() => {
-    const rellax = new Rellax(".rellax", {});
+    var rellax = new Rellax(".rellax", {
+      // center: true,
+    });
   });
   return (
-    <section className="block hero">
+    <section className={"block hero " + style}>
       <div className="component-wrapper">
         <div className="row">
           <div className="col content">
-            <img className="logo" src={props.logo} alt={props.logoAltText} />
-            <h1 className="title">{props.title}</h1>
+            {logo && <img className="logo" src={logo} alt={logoAlt} />}
+            <h1 className="title">{title}</h1>
           </div>
-          <div className="col image rellax">
-            <img src={props.background} alt={props.backgroundAltText} />
+          <div className="col image">
+            <img
+              className="rellax"
+              src={image}
+              alt={imageAlt}
+              data-rellax-percentage={rellaxCentering}
+            />
           </div>
         </div>
       </div>

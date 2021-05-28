@@ -11,11 +11,13 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
+        style="style-2"
         logo="/logo-majid-white.svg"
-        logoAltText="Logo"
+        logoAlt="Logo"
         title="Majid Al Futtaim Advanced Analytics"
-        background="https://source.unsplash.com/random"
-        backgroundAltText="Background Image"
+        image="https://source.unsplash.com/random"
+        imageAlt="Background Image"
+        rellaxCentering="0.67"
       />
       <BasicContent style="style-1">
         <div className="col content">
