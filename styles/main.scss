@@ -431,14 +431,38 @@ footer {
   p {
     margin-bottom: 20px;
   }
+
+  &.style-1 {
+    .row {
+      align-items: center;
+      gap: 40px;
+    }
+    .col {
+      width: 100%;
+      max-width: 700px;
+    }
+    .list {
+      .title {
+        font-size: 1.5em;
+      }
+      li {
+        color: #a9aaae;
+      }
+    }
+  }
 }
 
 .block.hero {
   position: relative;
   margin-bottom: 60px;
+
   .row {
     display: flex;
     padding: 200px 0 150px 0;
+  }
+
+  .logo {
+    margin-bottom: 20px;
   }
 
   .content {

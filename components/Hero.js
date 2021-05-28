@@ -10,7 +10,7 @@ export default function Hero(props) {
       <div className="component-wrapper">
         <div className="row">
           <div className="col content">
-            <img src={props.logo} alt={props.logoAltText} />
+            <img className="logo" src={props.logo} alt={props.logoAltText} />
             <h1 className="title">{props.title}</h1>
           </div>
           <div className="col image rellax">

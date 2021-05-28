@@ -22,19 +22,35 @@ export default function caseStudy() {
           backgroundAltText="Background Image"
         />
 
-        <ContentF
-          headline="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do."
-          content="<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-      enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat.</p>
-
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-      eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-      enim ad minim veniam, quis nostrud exercitation ullamco laboris
-      nisi ut aliquip ex ea commodo consequat.</p>"
-          listItems={["item 1", "item 2"]}
-        />
+        <BasicContent style="style-1">
+          <div className="col content">
+            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae impedit provident consequatur, nobis nihil voluptatum
+              porro eum officiis? Maxime, laboriosam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+          </div>
+          <div className="col list">
+            <h2 className="title">Project services</h2>
+            <ul>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+              <li>Lorem, ipsum dolor.</li>
+            </ul>
+          </div>
+        </BasicContent>
 
         <CardBox image="notes-grid.svg" />
 
