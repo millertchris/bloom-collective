@@ -5,6 +5,25 @@
   object-position: center;
 }
 
+@mixin aspect-ratio($ratio) {
+  position: relative;
+  overflow: hidden;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($ratio) * 100%;
+  }
+  img {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    @include img-fit();
+  }
+}
+
 body {
   .main-wrapper {
     opacity: 1;
@@ -514,21 +533,47 @@ footer {
   }
 
   .image {
-    position: relative;
-    overflow: hidden;
-    &:before {
-      display: block;
-      content: "";
+    @include aspect-ratio(9 / 16);
+  }
+}
+
+.block.portfolio {
+  padding-top: 160px;
+
+  .intro {
+    .title {
+      margin-bottom: 40px;
+    }
+  }
+
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 40px;
+  }
+
+  .col {
+    width: 47%;
+    margin-bottom: 60px;
+    @media screen and (max-width: 768px) {
       width: 100%;
-      padding-top: (9 / 16) * 100%;
     }
-    img {
-      position: absolute;
-      top: 0;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      @include img-fit();
+    &:nth-child(even) {
+      position: relative;
+      top: 120px;
+      @media screen and (max-width: 768px) {
+        top: auto;
+      }
     }
+
+    .title {
+      font-size: 2em;
+    }
+  }
+
+  .image {
+    @include aspect-ratio(9 / 16);
+    margin-bottom: 20px;
   }
 }
