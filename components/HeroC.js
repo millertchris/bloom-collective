@@ -4,14 +4,14 @@ import _subheadline from "./layout/_subheadline";
 import _pageTitle from "./layout/_pageTitle";
 import _paragraph from "./layout/_paragraph";
 import Rellax from "rellax";
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 export default function HeroC(props) {
   useEffect(() => {
-    const rellax = new Rellax('.rellax', {
-      center:true,
-    }); 
-   });
+    const rellax = new Rellax(".rellax", {
+      center: true,
+    });
+  });
   return (
     <section className="block hero-c">
       <_wrapper>
@@ -26,11 +26,6 @@ export default function HeroC(props) {
               src={props.image}
               className="w-full h-full object-center object-cover rellax overflow-hidden"
             />
-          </div>
-        </div>
-        <div className="row">
-          <div className="col text-center pt-10 pb-5">
-            <_subheadline>{props.subheader}</_subheadline>
           </div>
         </div>
       </_wrapper>

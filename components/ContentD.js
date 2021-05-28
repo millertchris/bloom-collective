@@ -6,21 +6,23 @@ import _paragraph from "./layout/_paragraph";
 
 export default function ContentD(props) {
   return (
-    <section className="block content-d">
+    <section className={"block content-d content-" + props.positionContent}>
       <_wrapper>
-        <div className="row flex flex-col-reverse md:grid md:grid-cols-2 py-2">
-          <div className="col content self-center">
+        <div className="row">
+          <div className="col content">
             <h4 className="font-bold text-xl">{props.title}</h4>
             <_paragraph>{props.paragraphOne}</_paragraph>
             <_paragraph>{props.paragraphTwo}</_paragraph>
-            <ul className="list-disc list-inside">
-              <li>{props.listItemOne}</li>
-              <li>{props.listItemTwo}</li>
-              <li>{props.listItemThree}</li>
-              <li>{props.listItemFour}</li>
-            </ul>
+
+            {props.listItems && (
+              <ul className="list-disc list-inside">
+                {props.listItems.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            )}
           </div>
-          <div className="col image h-500  mb-16 md:ml-16">
+          <div className="col image">
             <img
               src={props.photo}
               className="w-full h-full object-center object-cover"

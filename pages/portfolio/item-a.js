@@ -1,11 +1,11 @@
-import HeroD from "../components/HeroD";
-import ContentF from "../components/ContentF";
-import CardBox from "../components/CardBox";
-import ContentG from "../components/ContentG";
-import ImageGrid from "../components/ImageGrid";
-import FeaturedImage from "../components/FeaturedImage";
-import Layout from "../components/layout/Layout";
-import Header from "../components/Header";
+import HeroD from "../../components/HeroD";
+import ContentF from "../../components/ContentF";
+import CardBox from "../../components/CardBox";
+import ContentG from "../../components/ContentG";
+import ImageGrid from "../../components/ImageGrid";
+import FeaturedImage from "../../components/FeaturedImage";
+import Layout from "../../components/layout/Layout";
+import Header from "../../components/Header";
 
 export default function caseStudy() {
   return (
@@ -27,6 +27,7 @@ export default function caseStudy() {
       enim ad minim veniam, quis nostrud exercitation ullamco."
           paragraphThree="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
       eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          listItems={["item 1", "item 2"]}
         />
 
         <CardBox image="notes-grid.svg" />

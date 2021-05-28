@@ -6,24 +6,26 @@ import _paragraph from "./layout/_paragraph";
 
 export default function ContentF(props) {
   return (
-    <section className="block content-f" data-aos="fade-up" data-aos-delay="500">
+    <section
+      className="block content-f"
+      data-aos="fade-up"
+      data-aos-delay="500"
+    >
       <_wrapper>
         <div className="row py-5 grid md:grid-cols-7">
           <div className="col md:col-span-4 mb-16 md:mb-0 md:mr-20">
             <_headline>{props.headline}</_headline>
-            <_paragraph>{props.paragraphOne}</_paragraph>
-            <_paragraph>{props.paragraphTwo}</_paragraph>
-            <_paragraph>{props.paragraphThree}</_paragraph>
+            <div dangerouslySetInnerHTML={{ __html: props.content }} />
           </div>
           <div className="col self-center md:col-span-3">
             <h4 className="font-bold">Project Services</h4>
-            <ul className="text-gray-400">
-              <li>Five Part Series</li>
-              <li>Average Duration: 02:00</li>
-              <li>Storyboarding Motion</li>
-              <li>Graphics Design Motion </li>
-              <li>Graphics Animation</li>
-            </ul>
+            {props.listItems && (
+              <ul className="list-disc list-inside">
+                {props.listItems.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            )}
           </div>
         </div>
       </_wrapper>

@@ -10,7 +10,7 @@ export default function Awards(props) {
             <_subheadline>{props.headline}</_subheadline>
           </div>
         </div>
-        <div className="row max-w-6xl mx-auto">{props.children}</div>
+        <div className="row">{props.children}</div>
       </_wrapper>
     </section>
   );

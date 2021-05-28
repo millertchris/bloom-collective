@@ -18,6 +18,7 @@ export default function services() {
         <Intro title="What we do" />
 
         <ContentD
+          positionContent="right"
           title="Lorem ipsum dolor"
           paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -27,30 +28,17 @@ export default function services() {
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
         enim ad minim veniam, quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex ea commodo consequat."
-          listItemOne="Lorem ipsum"
-          listItemTwo="dolor sit"
-          listItemThree="amet consectetur"
-          listItemFour="adipiscing"
+          listItems={[
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+          ]}
+          photo="https://source.unsplash.com/random"
+        />
 
-          photo="https://source.unsplash.com/random"
-        />
-        <ContentE
-          title="Lorem ipsum dolor"
-          paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          paragraphTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          listItemOne="Lorem ipsum"
-          listItemTwo="dolor sit"
-          listItemThree="amet consectetur"
-          listItemFour="adipiscing"
-          photo="https://source.unsplash.com/random"
-        />
         <ContentD
+          positionContent="left"
           title="Lorem ipsum dolor"
           paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
@@ -60,10 +48,12 @@ export default function services() {
         eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
         enim ad minim veniam, quis nostrud exercitation ullamco laboris
         nisi ut aliquip ex ea commodo consequat."
-          listItemOne="Lorem ipsum"
-          listItemTwo="dolor sit"
-          listItemThree="amet consectetur"
-          listItemFour="adipiscing"
+          listItems={[
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+            "Lorem ipsum",
+          ]}
           photo="https://source.unsplash.com/random"
         />
       </Layout>

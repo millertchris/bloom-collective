@@ -345,7 +345,45 @@ footer {
 }
 
 .block.hero-c {
-  margin-bottom: 100px;
+  margin-bottom: 50px;
+}
+
+.block.content-d {
+  &.content-right {
+    .row {
+      flex-direction: row-reverse;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+  }
+  &.content-left {
+    .row {
+      flex-direction: row;
+      @media screen and (max-width: 768px) {
+        flex-direction: column;
+      }
+    }
+  }
+  .row {
+    display: flex;
+  }
+  .col {
+    width: 50%;
+    padding: 40px;
+    @media screen and (max-width: 768px) {
+      width: 100%;
+      padding: 20px;
+    }
+  }
+  .image {
+    height: 500px;
+    img {
+      width: 100%;
+      object-fit: cover;
+      object-position: center;
+    }
+  }
 }
 
 .block.intro {
@@ -353,5 +391,44 @@ footer {
   text-align: center;
   .title {
     font-size: 2.5em;
+  }
+}
+
+.block.awards {
+  .col {
+    width: 33%;
+    text-align: center;
+    @media screen and (max-width: 960px) {
+      width: 100%;
+    }
+  }
+}
+
+.block.basic-content {
+  margin-bottom: 100px;
+  .row {
+    display: flex;
+    justify-content: space-between;
+    @media screen and (max-width: 960px) {
+      flex-direction: column;
+    }
+  }
+
+  .headline {
+    margin-right: 60px;
+  }
+
+  .title {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+  }
+
+  .content {
+    width: 100%;
+    max-width: 700px;
+  }
+
+  p {
+    margin-bottom: 20px;
   }
 }

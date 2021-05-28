@@ -45,7 +45,7 @@ export default function index() {
           headline="Content During Crisis"
           text="Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia. Find out how Bloom Collective mobilised to help them communicate during a time of crisis"
           buttonText="Learn more"
-          buttonLink="/case-study"
+          buttonLink="/case-study/item-a"
           positionContent="left"
           theme="yellow"
         />
@@ -56,7 +56,7 @@ export default function index() {
           headline="The Science of Social"
           text="The Breakthrough Prizes are awarded each year to groundbreaking ideas in the areas of Physics, Mathematics and Life Sciences. See how Bloom Collective designed a custom content workflow to achieve their communications goals."
           buttonText="Learn more"
-          buttonLink="/case-study"
+          buttonLink="/case-study/item-a"
           positionContent="right"
           theme="purple"
         />
