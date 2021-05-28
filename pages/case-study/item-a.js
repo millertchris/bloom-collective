@@ -1,6 +1,6 @@
 import Hero from "../../components/Hero";
 import ContentG from "../../components/ContentG";
-import ImageGrid from "../../components/ImageGrid";
+import Gallery from "../../components/Gallery";
 import FeaturedImage from "../../components/FeaturedImage";
 import Layout from "../../components/layout/Layout";
 import Header from "../../components/Header";
@@ -19,7 +19,6 @@ export default function caseStudy() {
           background="https://source.unsplash.com/random"
           backgroundAltText="Background Image"
         />
-
         <BasicContent style="style-1">
           <div className="col content">
             <h2 class="title">Lorem, ipsum dolor.</h2>
@@ -49,9 +48,39 @@ export default function caseStudy() {
             </ul>
           </div>
         </BasicContent>
-
         <FeaturedImage image="/notes-grid.svg" />
-
+        <BasicContent style="style-2">
+          <div className="col headline">
+            <h2 class="title">Lorem, ipsum dolor.</h2>
+          </div>
+          <div className="col content">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae impedit provident consequatur, nobis nihil voluptatum
+              porro eum officiis? Maxime, laboriosam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+          </div>
+        </BasicContent>
         <BasicContent style="style-2">
           <div className="col headline">
             <h2 class="title">Lorem, ipsum dolor.</h2>
@@ -85,45 +114,32 @@ export default function caseStudy() {
           </div>
         </BasicContent>
 
-        <BasicContent style="style-2">
-          <div className="col headline">
-            <h2 class="title">Lorem, ipsum dolor.</h2>
+        <Gallery>
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Place holder image"
+            />
           </div>
-          <div className="col content">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae impedit provident consequatur, nobis nihil voluptatum
-              porro eum officiis? Maxime, laboriosam?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
-            </p>
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Place holder image"
+            />
           </div>
-        </BasicContent>
-
-        <ImageGrid
-          imageOne="https://source.unsplash.com/random"
-          imageTwo="https://source.unsplash.com/random"
-          imageThree="https://source.unsplash.com/random"
-          imageFour="https://source.unsplash.com/random"
-        />
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Place holder image"
+            />
+          </div>
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Place holder image"
+            />
+          </div>
+        </Gallery>
 
         <BasicContent style="style-2">
           <div className="col headline">

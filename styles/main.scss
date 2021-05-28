@@ -502,3 +502,33 @@ footer {
     width: 100%;
   }
 }
+
+.block.gallery {
+  .row {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 40px;
+    @media screen and (max-width: 720px) {
+      grid-template-columns: repeat(1, 1fr);
+    }
+  }
+
+  .image {
+    position: relative;
+    overflow: hidden;
+    &:before {
+      display: block;
+      content: "";
+      width: 100%;
+      padding-top: (9 / 16) * 100%;
+    }
+    img {
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      @include img-fit();
+    }
+  }
+}
