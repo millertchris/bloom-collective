@@ -1,6 +1,4 @@
 import Hero from "../../components/Hero";
-import ContentF from "../../components/ContentF";
-import CardBox from "../../components/CardBox";
 import ContentG from "../../components/ContentG";
 import ImageGrid from "../../components/ImageGrid";
 import FeaturedImage from "../../components/FeaturedImage";
@@ -52,9 +50,9 @@ export default function caseStudy() {
           </div>
         </BasicContent>
 
-        <CardBox image="notes-grid.svg" />
+        <FeaturedImage image="/notes-grid.svg" />
 
-        <BasicContent>
+        <BasicContent style="style-2">
           <div className="col headline">
             <h2 class="title">Lorem, ipsum dolor.</h2>
           </div>
@@ -87,7 +85,7 @@ export default function caseStudy() {
           </div>
         </BasicContent>
 
-        <BasicContent>
+        <BasicContent style="style-2">
           <div className="col headline">
             <h2 class="title">Lorem, ipsum dolor.</h2>
           </div>
@@ -127,7 +125,7 @@ export default function caseStudy() {
           imageFour="https://source.unsplash.com/random"
         />
 
-        <BasicContent>
+        <BasicContent style="style-2">
           <div className="col headline">
             <h2 class="title">Lorem, ipsum dolor.</h2>
           </div>
