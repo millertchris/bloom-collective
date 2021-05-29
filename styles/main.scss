@@ -415,9 +415,6 @@ footer {
 .block.awards {
   .col {
     text-align: center;
-    @media screen and (max-width: 960px) {
-      width: 100%;
-    }
   }
 
   .title {
@@ -428,6 +425,9 @@ footer {
   .carousel {
     .col {
       width: 33%;
+      @media screen and (max-width: 960px) {
+        width: 100%;
+      }
     }
     img {
       margin: auto;
