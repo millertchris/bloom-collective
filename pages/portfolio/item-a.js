@@ -18,6 +18,21 @@ export default function caseStudy() {
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
+
+      <BasicContent style="style-1">
+        <div className="col">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/tteERV_NLSI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </BasicContent>
+
       <BasicContent style="style-1">
         <div className="col content">
           <h2 class="title">Lorem, ipsum dolor.</h2>
