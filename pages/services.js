@@ -11,98 +11,100 @@ export default function services() {
     <>
       <Header theme="black" logo="/bloom_logo_black.svg" />
 
-      <Hero
-        style="style-3"
-        title="Our Services"
-        image="https://source.unsplash.com/random"
-        imageAlt="Background Image"
-      />
+      <main className="main-wrapper">
+        <Hero
+          style="style-3"
+          title="Our Services"
+          image="https://source.unsplash.com/random"
+          imageAlt="Background Image"
+        />
 
-      <Intro title="What we do" />
+        <Intro title="What we do" />
 
-      <BasicContent style="style-3" positionContent="right">
-        <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-          </ul>
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Placeholder text"
-          />
-        </div>
-      </BasicContent>
+        <BasicContent style="style-3" positionContent="right">
+          <div className="col content">
+            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae impedit provident consequatur, nobis nihil voluptatum
+              porro eum officiis? Maxime, laboriosam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <ul>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ul>
+          </div>
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Placeholder text"
+            />
+          </div>
+        </BasicContent>
 
-      <BasicContent style="style-3" positionContent="left">
-        <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-          </ul>
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Placeholder text"
-          />
-        </div>
-      </BasicContent>
+        <BasicContent style="style-3" positionContent="left">
+          <div className="col content">
+            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae impedit provident consequatur, nobis nihil voluptatum
+              porro eum officiis? Maxime, laboriosam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <ul>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ul>
+          </div>
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Placeholder text"
+            />
+          </div>
+        </BasicContent>
 
-      <BasicContent style="style-3" positionContent="right">
-        <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <ul>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-            <li>Lorem ipsum</li>
-          </ul>
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Placeholder text"
-          />
-        </div>
-      </BasicContent>
+        <BasicContent style="style-3" positionContent="right">
+          <div className="col content">
+            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Recusandae impedit provident consequatur, nobis nihil voluptatum
+              porro eum officiis? Maxime, laboriosam?
+            </p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
+            </p>
+            <ul>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+              <li>Lorem ipsum</li>
+            </ul>
+          </div>
+          <div className="col image">
+            <img
+              src="https://source.unsplash.com/random"
+              alt="Placeholder text"
+            />
+          </div>
+        </BasicContent>
+      </main>
       <Footer />
     </>
   );
