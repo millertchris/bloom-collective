@@ -1,17 +1,17 @@
 import _wrapper from "./layout/_wrapper";
 import _subheadline from "./layout/_subheadline";
 
-export default function Awards(props) {
+export default function Awards({ title, children }) {
   return (
-    <section className="block awards py-16">
-      <_wrapper>
-        <div className="row text-center py-10 w-full">
-          <div className="col w-full mx-auto">
-            <_subheadline>{props.headline}</_subheadline>
+    <section className="block awards">
+      <div className="component-wrapper">
+        <div className="row">
+          <div className="col">
+            <h3 className="title">{title}</h3>
           </div>
         </div>
-        <div className="row max-w-6xl mx-auto">{props.children}</div>
-      </_wrapper>
+        <div className="row">{children}</div>
+      </div>
     </section>
   );
 }

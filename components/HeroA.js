@@ -31,11 +31,12 @@ export default function HeroA(props) {
             </div>
             <p className="py-5">{props.text}</p>
             <div
-              className="flex flex-col gap-5
+              className="flex flex-col
               sm:flex-row"
             >
               <button
                 className="px-5 py-3 w-full max-w-xxs
+                mb-5 sm:mr-5 sm:mb-0
               bg-yellow-300
               text-black
               border-2 border-yellow-300
@@ -60,12 +61,12 @@ export default function HeroA(props) {
           </div>
           <div className="col video-wrap">
             <video className="" muted autoPlay loop playsInline>
-              <source src="../vid-2.mp4" type="video/mp4" />
+              <source src={props.mainVideo} type="video/mp4" />
             </video>
           </div>
           <FsLightbox
             toggler={toggler}
-            sources={["https://www.youtube.com/watch?v=fJ9rUzIMcZQ"]}
+            sources={ ["../bloom-collective-studio.mp4"] }
           />
         </div>
       </_wrapper>

@@ -8,8 +8,8 @@ export default function ContentE(props) {
   return (
     <section className="block content-e">
       <_wrapper>
-        <div className="row gap-16 grid md:grid-cols-2 py-10">
-          <div className="col image h-500">
+        <div className="row grid md:grid-cols-2 py-10">
+          <div className="col image h-500 mb-16 md:mr-16">
             <img
               src={props.photo}
               className="w-full h-full object-center object-cover"

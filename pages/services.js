@@ -1,71 +1,109 @@
-import HeroC from "../components/HeroC";
+import FeaturedImage from "../components/FeaturedImage";
 import ContentD from "../components/ContentD";
-import ContentE from "../components/ContentE";
-import Layout from "../components/layout/Layout";
+import BasicContent from "../components/BasicContent";
+import Hero from "../components/Hero";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Intro from "../components/Intro";
 
 export default function services() {
   return (
     <>
       <Header theme="black" logo="/bloom_logo_black.svg" />
-      <Layout>
-        <HeroC
-          headline="Our Services"
-          image="https://source.unsplash.com/random"
-        />
 
-        <Intro title="What we do" />
+      <Hero
+        style="style-3"
+        title="Our Services"
+        image="https://source.unsplash.com/random"
+        imageAlt="Background Image"
+      />
 
-        <ContentD
-          title="Lorem ipsum dolor"
-          paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          paragraphTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          listItemOne="Lorem ipsum"
-          listItemTwo="dolor sit"
-          listItemThree="amet consectetur"
-          listItemFour="adipiscing"
-          photo="https://source.unsplash.com/random"
-        />
-        <ContentE
-          title="Lorem ipsum dolor"
-          paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          paragraphTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          listItemOne="Lorem ipsum"
-          listItemTwo="dolor sit"
-          listItemThree="amet consectetur"
-          listItemFour="adipiscing"
-          photo="https://source.unsplash.com/random"
-        />
-        <ContentD
-          title="Lorem ipsum dolor"
-          paragraphOne="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          paragraphTwo="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
-          listItemOne="Lorem ipsum"
-          listItemTwo="dolor sit"
-          listItemThree="amet consectetur"
-          listItemFour="adipiscing"
-          photo="https://source.unsplash.com/random"
-        />
-      </Layout>
+      <Intro title="What we do" />
+
+      <BasicContent style="style-3" positionContent="right">
+        <div className="col content">
+          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            impedit provident consequatur, nobis nihil voluptatum porro eum
+            officiis? Maxime, laboriosam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            facilis architecto nemo laboriosam libero laudantium officiis ipsum
+            doloribus, natus repudiandae?
+          </p>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="col image">
+          <img
+            src="https://source.unsplash.com/random"
+            alt="Placeholder text"
+          />
+        </div>
+      </BasicContent>
+
+      <BasicContent style="style-3" positionContent="left">
+        <div className="col content">
+          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            impedit provident consequatur, nobis nihil voluptatum porro eum
+            officiis? Maxime, laboriosam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            facilis architecto nemo laboriosam libero laudantium officiis ipsum
+            doloribus, natus repudiandae?
+          </p>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="col image">
+          <img
+            src="https://source.unsplash.com/random"
+            alt="Placeholder text"
+          />
+        </div>
+      </BasicContent>
+
+      <BasicContent style="style-3" positionContent="right">
+        <div className="col content">
+          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
+            impedit provident consequatur, nobis nihil voluptatum porro eum
+            officiis? Maxime, laboriosam?
+          </p>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+            facilis architecto nemo laboriosam libero laudantium officiis ipsum
+            doloribus, natus repudiandae?
+          </p>
+          <ul>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+            <li>Lorem ipsum</li>
+          </ul>
+        </div>
+        <div className="col image">
+          <img
+            src="https://source.unsplash.com/random"
+            alt="Placeholder text"
+          />
+        </div>
+      </BasicContent>
+      <Footer />
     </>
   );
 }

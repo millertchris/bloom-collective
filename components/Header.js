@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect } from "react";
+import React, { useEffect } from "react";
 import Link from "next/link";
 import Image from "next/image";
 
@@ -49,17 +49,11 @@ export default function Header(props) {
           <div className="col">
             <Link href="/">
               <a>
-                <Image
-                  width="120px"
-                  height="100%"
-                  src={props.logo}
-                  alt="Bloom Co"
-                  className="logo cursor-pointer"
-                />
+                <img className="logo" src={props.logo} alt="Bloom Collective" />
               </a>
             </Link>
           </div>
-          <div className="col">
+          <div className={props.menuButtonColor}>
             <button
               className="hamburger hamburger--squeeze"
               onClick={clickHandler}

@@ -3,9 +3,8 @@ import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
 import Layout from "../components/layout/Layout";
 import Location from "../components/Location";
-import { Carousel } from "react-responsive-carousel";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AwardItem from "../components/AwardItem";
+import Footer from "../components/Footer";
 
 import Header from "../components/Header";
 
@@ -51,7 +50,7 @@ export default function about() {
           personAvatar="https://source.unsplash.com/random"
         />
 
-        <Awards headline="We are an award-winning agency.">
+        <Awards title="We are an award-winning agency.">
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -63,26 +62,32 @@ export default function about() {
             <AwardItem
               awardLogo="logo-marcom.svg"
               awardName="2020 MarCom Award"
-            />
-            <AwardItem
-              awardLogo="logo-marcom.svg"
-              awardName="2020 MarCom Award"
+              awardText="Social Media Content"
             />
             <AwardItem
               awardLogo="logo-summit.svg"
               awardName="2020 Summit Creative Award"
+              awardText="Covid-19 Content"
+            />
+            <AwardItem
+              awardLogo="logo-marcom.svg"
+              awardName="2020 MarCom Award"
+              awardText="Social Media Campaign"
             />
             <AwardItem
               awardLogo="logo-summit.svg"
               awardName="2020 Summit Creative Award"
+              awardText="Video Campaign"
             />
             <AwardItem
               awardLogo="logo-marcom.svg"
               awardName="2020 MarCom Award"
+              awardText="Covid-19 Crisis Communications"
             />
             <AwardItem
-              awardLogo="logo-marcom.svg"
-              awardName="2020 MarCom Award"
+              awardLogo="logo-summit.svg"
+              awardName="2020 Summit Creative Award"
+              awardText="Social Media Content"
             />
           </Flickity>
         </Awards>
@@ -96,6 +101,7 @@ export default function about() {
           photo="jakarta.png"
         />
       </Layout>
+      <Footer />
     </>
   );
 }
