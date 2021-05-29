@@ -1,6 +1,6 @@
 /* this is here to inject Google Analytics into the site in accordance with https://mariestarck.com/add-google-analytics-to-your-next-js-application-in-5-easy-steps/ */
 
-import Document, { Html, Head, Main, NextScript } from 'next/document'
+import Document, { Html, Head, Main, NextScript } from "next/document";
 
 export default class MyDocument extends Document {
   render() {
@@ -30,6 +30,6 @@ export default class MyDocument extends Document {
           <NextScript />
         </body>
       </Html>
-    )
+    );
   }
 }
