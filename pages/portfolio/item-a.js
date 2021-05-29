@@ -113,11 +113,16 @@ export default function caseStudy() {
       </BasicContent>
 
       <Gallery>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/tteERV_NLSI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
         </div>
         <div className="col image">
           <img
