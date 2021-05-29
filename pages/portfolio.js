@@ -18,56 +18,56 @@ export default function portfolio() {
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
             <PortfolioItem
               image="https://source.unsplash.com/random"
               imageAlt="Place holder image"
               title="Lorem ipsum dolor"
               description="This is a description of the post that is featured in this post item here."
-              link="/case-study"
+              link="/portfolio/item-a"
             />
           </div>
         </div>
