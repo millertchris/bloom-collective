@@ -1,12 +1,9 @@
 import Footer from "../components/Footer";
 import HeroA from "../components/HeroA";
 import Clients from "../components/Clients";
-import ContentA from "../components/ContentA";
 import HeroN from "../components/HeroN";
-import ContentB from "../components/ContentB";
 import Testimonials from "../components/Testimonials";
 import Form from "../components/Form";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import TestimonialItem from "../components/TestimonialItem";
 import Header from "../components/Header";
 

@@ -356,13 +356,6 @@ footer {
   }
 }
 
-.block.awards {
-  margin-bottom: 40px;
-  .py-10 {
-    padding: 0;
-  }
-}
-
 .block.hero-c {
   margin-bottom: 50px;
 }
@@ -419,10 +412,31 @@ footer {
 
 .block.awards {
   .col {
-    width: 33%;
     text-align: center;
     @media screen and (max-width: 960px) {
       width: 100%;
+    }
+  }
+
+  .title {
+    font-size: 2em;
+    margin-bottom: 40px;
+  }
+
+  .carousel {
+    .col {
+      width: 33%;
+    }
+    img {
+      margin: auto;
+    }
+    .title {
+      font-size: 1.25em;
+      margin-bottom: 20px;
+    }
+    .subtitle {
+      font-size: 1em;
+      font-style: italic;
     }
   }
 }

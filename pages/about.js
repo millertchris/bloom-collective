@@ -3,7 +3,6 @@ import ContentC from "../components/ContentC";
 import Awards from "../components/Awards";
 import Layout from "../components/layout/Layout";
 import Location from "../components/Location";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AwardItem from "../components/AwardItem";
 import Footer from "../components/Footer";
 
@@ -51,7 +50,7 @@ export default function about() {
           personAvatar="https://source.unsplash.com/random"
         />
 
-        <Awards headline="We are an award-winning agency.">
+        <Awards title="We are an award-winning agency.">
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
