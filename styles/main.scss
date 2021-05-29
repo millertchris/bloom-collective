@@ -271,6 +271,7 @@ header {
   }
   .title {
     margin-top: 0;
+    margin-bottom: 0;
     @media screen and (max-width: 840px) {
       margin-bottom: 20px;
     }
@@ -505,6 +506,11 @@ footer {
     width: 100%;
     max-width: 700px;
     margin: auto;
+  }
+
+  ul {
+    list-style: disc;
+    padding-left: 20px;
   }
 
   p {
