@@ -11,6 +11,7 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
+        style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
         title="Majid Al Futtaim Advanced Analytics"
