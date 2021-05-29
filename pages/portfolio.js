@@ -1,5 +1,6 @@
 import PortfolioItem from "../components/PortfolioItem";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function portfolio() {
   return (
@@ -71,6 +72,7 @@ export default function portfolio() {
           </div>
         </div>
       </section>
+      <Footer />
     </>
   );
 }

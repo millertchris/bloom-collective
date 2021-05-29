@@ -3,6 +3,7 @@ import Gallery from "../../components/Gallery";
 import FeaturedImage from "../../components/FeaturedImage";
 import Layout from "../../components/layout/Layout";
 import Header from "../../components/Header";
+import Footer from "../components/Footer";
 import BasicContent from "../../components/BasicContent";
 
 export default function caseStudy() {
@@ -173,6 +174,7 @@ export default function caseStudy() {
           </p>
         </div>
       </BasicContent>
+      <Footer />
     </>
   );
 }

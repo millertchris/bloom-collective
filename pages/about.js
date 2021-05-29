@@ -5,6 +5,7 @@ import Layout from "../components/layout/Layout";
 import Location from "../components/Location";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import AwardItem from "../components/AwardItem";
+import Footer from "../components/Footer";
 
 import Header from "../components/Header";
 
@@ -101,6 +102,7 @@ export default function about() {
           photo="jakarta.png"
         />
       </Layout>
+      <Footer />
     </>
   );
 }

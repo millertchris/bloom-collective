@@ -3,6 +3,7 @@ import ContentD from "../components/ContentD";
 import BasicContent from "../components/BasicContent";
 import Hero from "../components/Hero";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 import Intro from "../components/Intro";
 
 export default function services() {
@@ -102,6 +103,7 @@ export default function services() {
           />
         </div>
       </BasicContent>
+      <Footer />
     </>
   );
 }

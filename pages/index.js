@@ -1,3 +1,4 @@
+import Footer from "../components/Footer";
 import HeroA from "../components/HeroA";
 import Clients from "../components/Clients";
 import ContentA from "../components/ContentA";
@@ -89,6 +90,7 @@ export default function index() {
           text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you."
         />
       </Layout>
+      <Footer />
     </>
   );
 }
