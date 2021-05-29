@@ -27,7 +27,7 @@ export default function index() {
         Collective show you how to do it right."
           buttonOneText="Learn more"
           buttonOneLink="/services"
-          buttonTwoText="Watch video"
+          // buttonTwoText="Watch video"
           mainVideo="../bloom-collective-studio.mp4"
         />
         <Clients
@@ -61,19 +61,13 @@ export default function index() {
 
         <Testimonials headline="Some of our partners and clients.">
           <TestimonialItem
-            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            text="“When we started working with Bloom Collective it was like the lights turned on from a content creation standpoint. We worked closely together with them to set up what has now become a full-fledged internal communications content workflow. I couldn’t be more pleased with what we have accomplished together.”"
             personPhoto="https://source.unsplash.com/random"
             personName="Chris Young"
             personTitle="Creative Director at YouTube"
           />
           <TestimonialItem
-            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
-            personPhoto="https://source.unsplash.com/random"
-            personName="Chris Young"
-            personTitle="Creative Director at YouTube"
-          />
-          <TestimonialItem
-            text="“We've been working with Bloom for more than a year now. Our previous experience with outsource teams was not always positive. In the case of Bloom, everything is perfect: adequate estimation and work on time...”"
+            text="“When we started working with Bloom Collective it was like the lights turned on from a content creation standpoint. We worked closely together with them to set up what has now become a full-fledged internal communications content workflow. I couldn’t be more pleased with what we have accomplished together.”"
             personPhoto="https://source.unsplash.com/random"
             personName="Chris Young"
             personTitle="Creative Director at YouTube"

@@ -47,7 +47,7 @@ export default function HeroA(props) {
                   <a>{props.buttonOneText}</a>
                 </Link>
               </button>
-              <button
+              {/* <button
                 className="px-5 py-3 w-full max-w-xxs
                 text-yellow-300
                 border-2 border-yellow-300
@@ -56,7 +56,7 @@ export default function HeroA(props) {
                 onClick={() => setToggler(!toggler)}
               >
                 {props.buttonTwoText}
-              </button>
+              </button> */}
             </div>
           </div>
           <div className="col video-wrap">
@@ -66,7 +66,7 @@ export default function HeroA(props) {
           </div>
           <FsLightbox
             toggler={toggler}
-            sources={ ["../bloom-collective-studio.mp4"] }
+            sources={["../bloom-collective-studio.mp4"]}
           />
         </div>
       </_wrapper>

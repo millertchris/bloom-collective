@@ -23,22 +23,27 @@ export default function services() {
 
         <BasicContent style="style-3" positionContent="right">
           <div className="col content">
-            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <h2 class="title">Content Strategy and Workflow Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae impedit provident consequatur, nobis nihil voluptatum
-              porro eum officiis? Maxime, laboriosam?
+              Your comms channels are only as good as the content you post. But
+              sometimes it isn't so easy to know what constitutes 'good
+              content.' And the answer to that question might look a lot
+              different, depending on the channel, target audience or
+              communications goals.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
+              At Bloom Collective we spend a lot of time thinking about the
+              'good content' question. In fact, we created our entire agency
+              aroud our scalable, bespoke content process, which centers around
+              identifying the right content – and then implementing it across
+              your channels. Let us put together a custom content plan, tailored
+              to your marketing commmucation goals, budget and frequency.
             </p>
             <ul>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
+              <li>Content planning and strategy</li>
+              <li>Creative consulting</li>
+              <li>Content ideation</li>
+              <li>Episodic and serial content</li>
             </ul>
           </div>
           <div className="col image">
@@ -51,22 +56,24 @@ export default function services() {
 
         <BasicContent style="style-3" positionContent="left">
           <div className="col content">
-            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <h2 class="title">Content Design</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae impedit provident consequatur, nobis nihil voluptatum
-              porro eum officiis? Maxime, laboriosam?
+              Have a cool idea for a new YouTube serial, but don't known where
+              to start? Whether it's an in-studio shoot, or a fully illustrated
+              video short, Bloom Collective can take you from idea to finished
+              product, in record time.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
+              Our team of in-house creators and producers have experience
+              designing just about everything. From motion graphics and
+              animation to video editing and even sound design – we can handle
+              it.
             </p>
             <ul>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
+              <li>Content design</li>
+              <li>Motion graphics design</li>
+              <li>Presentation and annual report design</li>
+              <li>Print and collateral design</li>
             </ul>
           </div>
           <div className="col image">
