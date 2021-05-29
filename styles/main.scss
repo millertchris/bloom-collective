@@ -436,6 +436,24 @@ footer {
     }
   }
 
+  &.content-right {
+    .row {
+      flex-direction: row-reverse;
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+      }
+    }
+  }
+
+  &.content-left {
+    .row {
+      flex-direction: row;
+      @media screen and (max-width: 1000px) {
+        flex-direction: column;
+      }
+    }
+  }
+
   .title {
     font-size: 2.5em;
     margin-bottom: 20px;
@@ -477,6 +495,32 @@ footer {
       }
     }
   }
+  &.style-3 {
+    .row {
+      gap: 60px;
+    }
+
+    .title {
+      font-size: 1.25em;
+    }
+
+    .content {
+      max-width: none;
+    }
+
+    .col {
+      width: 50%;
+      @media screen and (max-width: 1000px) {
+        width: 100%;
+        max-width: 700px;
+      }
+    }
+
+    .image {
+      @include aspect-ratio(1 / 1);
+      margin: auto;
+    }
+  }
 }
 
 .block.hero {
@@ -492,12 +536,8 @@ footer {
     z-index: 2;
   }
 
-  &.style-1 {
+  &.style-3 {
     padding-top: 150px;
-
-    @media screen and (max-width: 680px) {
-      height: 100vh;
-    }
 
     .image {
       position: relative;
