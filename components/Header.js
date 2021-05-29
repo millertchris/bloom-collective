@@ -49,13 +49,7 @@ export default function Header(props) {
           <div className="col">
             <Link href="/">
               <a>
-                <Image
-                  width="120px"
-                  height="100%"
-                  src={props.logo}
-                  alt="Bloom Co"
-                  className="logo cursor-pointer"
-                />
+                <img className="logo" src={props.logo} alt="Bloom Collective" />
               </a>
             </Link>
           </div>
