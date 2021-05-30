@@ -27,17 +27,17 @@ export default function Footer() {
             <p className="subtitle">Business-driven content workflows</p>
             <ul className="social">
               <li>
-                <a href="/">
+                <a href="https://www.facebook.com/bloomcollectivegroup">
                   <FontAwesomeIcon icon={faFacebook} />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="https://www.instagram.com/bloomcollective/">
                   <FontAwesomeIcon icon={faInstagram} />
                 </a>
               </li>
               <li>
-                <a href="/">
+                <a href="https://www.linkedin.com/company/bloom-collective-studio/">
                   <FontAwesomeIcon icon={faLinkedin} />
                 </a>
               </li>

@@ -18,9 +18,8 @@ export default function caseStudy() {
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
-
       <BasicContent style="style-1">
-        <div className="col">
+        <div className="col content">
           <div className="videoWrapper">
             <iframe
               src="https://www.youtube.com/embed/tteERV_NLSI"
@@ -32,6 +31,7 @@ export default function caseStudy() {
           </div>
         </div>
       </BasicContent>
+      <div></div>
 
       <BasicContent style="style-1">
         <div className="col content">
