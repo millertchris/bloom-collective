@@ -47,6 +47,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
+      {/* 
       <FeaturedImage image="/notes-grid.svg" />
       <BasicContent style="style-2">
         <div className="col headline">
@@ -80,6 +81,7 @@ export default function caseStudy() {
           </p>
         </div>
       </BasicContent>
+      
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">Lorem, ipsum dolor.</h2>
@@ -112,7 +114,7 @@ export default function caseStudy() {
           </p>
         </div>
       </BasicContent>
-
+ */}
       <Gallery>
         <div className="col video">
           <div className="videoWrapper">
@@ -121,8 +123,7 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
@@ -133,8 +134,7 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
@@ -145,8 +145,7 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
@@ -157,8 +156,7 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
@@ -169,8 +167,7 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
@@ -181,8 +178,7 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
@@ -193,13 +189,12 @@ export default function caseStudy() {
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
       </Gallery>
-
+      {/* 
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">Lorem, ipsum dolor.</h2>
@@ -231,7 +226,7 @@ export default function caseStudy() {
             doloribus, natus repudiandae?
           </p>
         </div>
-      </BasicContent>
+      </BasicContent> */}
       <Footer />
     </>
   );
