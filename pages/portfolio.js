@@ -17,16 +17,16 @@ export default function portfolio() {
               <PortfolioItem
                 image="https://source.unsplash.com/random"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="SAS Partner 3D Animations"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/sas-partner-3d-animations"
               />
               <PortfolioItem
                 image="https://source.unsplash.com/random"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="2021 Breakthrough Prize Laureate Announcer Videos"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/2021-breakthrough-prize-laureate-announcer-videos"
               />
               <PortfolioItem
                 image="https://source.unsplash.com/random"
