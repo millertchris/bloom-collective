@@ -44,7 +44,7 @@ export default function Footer() {
             </ul>
           </div>
           <div className="col max-w-32">
-            <h4 className="text-bold text-2xl my-2">Office</h4>
+            <h4 className="text-bold text-2xl my-2">Jakarta Office</h4>
             <ul>
               <li className="font-bold">Bloom Collective Studio </li>
               <li>Sahid Office Boutique Unit A, </li>

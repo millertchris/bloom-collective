@@ -41,7 +41,7 @@ export default function index() {
           image="phone.svg"
           logo="logo-majid.svg"
           headline="Content During Crisis"
-          text="Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia. Find out how Bloom Collective mobilised to help them communicate during a time of crisis"
+          text="Majid Al Futtaim is the leading shopping mall, communities, retail and leisure pioneer across the Middle East, Africa and Asia. Find out how Bloom Collective pivoted to help them communicate during the COVID-19 pandemic."
           buttonText="Learn more"
           buttonLink="/case-study/item-a"
           positionContent="left"
@@ -62,15 +62,15 @@ export default function index() {
         <Testimonials headline="Some of our partners and clients.">
           <TestimonialItem
             text="“When we started working with Bloom Collective it was like the lights turned on from a content creation standpoint. We worked closely together with them to set up what has now become a full-fledged internal communications content workflow. I couldn’t be more pleased with what we have accomplished together.”"
-            personPhoto="https://source.unsplash.com/random"
-            personName="Chris Young"
-            personTitle="Creative Director at YouTube"
+            personPhoto="sam-savory-sm.jpg"
+            personName="Sam Savory"
+            personTitle="Director, Internal Communications at Majid Al Futtaim"
           />
           <TestimonialItem
-            text="“When we started working with Bloom Collective it was like the lights turned on from a content creation standpoint. We worked closely together with them to set up what has now become a full-fledged internal communications content workflow. I couldn’t be more pleased with what we have accomplished together.”"
-            personPhoto="https://source.unsplash.com/random"
-            personName="Chris Young"
-            personTitle="Creative Director at YouTube"
+            text="“Bloom Collective handles all of our monthly content from ideation to moderation and their process just works. Our content is always on time, and with minimal feedback from our side. They have taken the time to understand what our content needs to be, and they continually deliver to a high standard.”"
+            personPhoto="leonid-solovyev-sm.jpg"
+            personName="Leonid Solovyev"
+            personTitle="Director of Operations, Breakthrough Prize Foundation"
           />
         </Testimonials>
 

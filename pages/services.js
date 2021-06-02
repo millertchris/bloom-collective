@@ -15,7 +15,7 @@ export default function services() {
         <Hero
           style="style-3"
           title="Our Services"
-          image="https://source.unsplash.com/random"
+          image="bloom-logo-blur.jpg"
           imageAlt="Background Image"
         />
 
@@ -36,8 +36,9 @@ export default function services() {
               'good content' question. In fact, we created our entire agency
               aroud our scalable, bespoke content process, which centers around
               identifying the right content – and then implementing it across
-              your channels. Let us put together a custom content plan, tailored
-              to your marketing commmucation goals, budget and frequency.
+              your organisation. Let us put together a custom content plan,
+              tailored to your marketing commmucation goals, budget and
+              frequency.
             </p>
             <ul>
               <li>Content planning and strategy</li>
@@ -48,8 +49,8 @@ export default function services() {
           </div>
           <div className="col image">
             <img
-              src="https://source.unsplash.com/random"
-              alt="Placeholder text"
+              src="logo-3-people-blur.jpg"
+              alt="Bloom Collective three people collaboration"
             />
           </div>
         </BasicContent>
@@ -64,10 +65,9 @@ export default function services() {
               product, in record time.
             </p>
             <p>
-              Our team of in-house creators and producers have experience
-              designing just about everything. From motion graphics and
-              animation to video editing and even sound design – we can handle
-              it.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
             </p>
             <ul>
               <li>Content design</li>
@@ -88,14 +88,16 @@ export default function services() {
           <div className="col content">
             <h2 class="title">Lorem, ipsum dolor.</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Recusandae impedit provident consequatur, nobis nihil voluptatum
-              porro eum officiis? Maxime, laboriosam?
+              Have a cool idea for a new YouTube serial, but don't know where to
+              start? Whether it's an in-studio shoot, or a fully illustrated
+              animation, Bloom Collective can take you from concept to finished
+              product––and in record time.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
+              Our team of in-house creators and producers have experience
+              designing just about everything. From motion graphics and
+              animation to video editing and even sound design – we can handle
+              it.
             </p>
             <ul>
               <li>Lorem ipsum</li>

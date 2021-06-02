@@ -28,7 +28,7 @@ export default function about() {
         specializing in content strategy, design and production. We have
         experience working across Asia Pacic, North America and the Middle
         East."
-          photo="whiteboard2.jpg"
+          photo="bloom-logo-blur.jpg"
         />
         <ContentC
           headlineUnderline="Empowering"
