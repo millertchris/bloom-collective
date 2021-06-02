@@ -31,7 +31,7 @@ export default function index() {
           mainVideo="../bloom-collective-studio.mp4"
         />
         <Clients
-          headline="Clients who trust us."
+          headline="Clients who trust us:"
           logoOne="logo-breakthrough.svg"
           logoTwo="logo-dbs.svg"
           logoThree="logo-majid.svg"
@@ -59,7 +59,7 @@ export default function index() {
           theme="purple"
         />
 
-        <Testimonials headline="Some of our partners and clients.">
+        <Testimonials headline="What our clients are saying:">
           <TestimonialItem
             text="“When we started working with Bloom Collective it was like the lights turned on from a content creation standpoint. We worked closely together with them to set up what has now become a full-fledged internal communications content workflow. I couldn’t be more pleased with what we have accomplished together.”"
             personPhoto="sam-savory-sm.jpg"

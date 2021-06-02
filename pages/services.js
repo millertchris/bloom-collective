@@ -49,8 +49,8 @@ export default function services() {
           </div>
           <div className="col image">
             <img
-              src="logo-3-people-blur.jpg"
-              alt="Bloom Collective three people collaboration"
+              src="whiteboard-ux-design.jpg"
+              alt="Bloom Collective content strategy"
             />
           </div>
         </BasicContent>
@@ -78,8 +78,8 @@ export default function services() {
           </div>
           <div className="col image">
             <img
-              src="https://source.unsplash.com/random"
-              alt="Placeholder text"
+              src="bloom-logo-night-work.jpg"
+              alt="Bloom Collective graphic design"
             />
           </div>
         </BasicContent>
@@ -108,8 +108,8 @@ export default function services() {
           </div>
           <div className="col image">
             <img
-              src="https://source.unsplash.com/random"
-              alt="Placeholder text"
+              src="bloom-collective-content-production.jpg"
+              alt="Bloom Collective content production"
             />
           </div>
         </BasicContent>

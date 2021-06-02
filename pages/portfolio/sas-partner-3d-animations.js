@@ -18,7 +18,7 @@ export default function caseStudy() {
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
-      <BasicContent style="style-1">
+      {/* <BasicContent style="style-1">
         <div className="col content">
           <div className="videoWrapper">
             <iframe
@@ -30,8 +30,7 @@ export default function caseStudy() {
             ></iframe>
           </div>
         </div>
-      </BasicContent>
-      <div></div>
+      </BasicContent> */}
 
       <BasicContent style="style-1">
         <div className="col content">
@@ -62,7 +61,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <FeaturedImage image="/notes-grid.svg" />
+      {/* <FeaturedImage image="/notes-grid.svg" />
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">Lorem, ipsum dolor.</h2>
@@ -126,41 +125,52 @@ export default function caseStudy() {
             doloribus, natus repudiandae?
           </p>
         </div>
-      </BasicContent>
+      </BasicContent> */}
 
       <Gallery>
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/tteERV_NLSI"
+              src="https://www.youtube.com/embed/KzDECDADNLk"
               title="YouTube video player"
               frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
             ></iframe>
           </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/DuYjzOHRzSE"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/7Gd-ZgqB4RM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/qRx6Dd43UQI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
       </Gallery>
 
-      <BasicContent style="style-2">
+      {/* <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">Lorem, ipsum dolor.</h2>
         </div>
@@ -191,7 +201,7 @@ export default function caseStudy() {
             doloribus, natus repudiandae?
           </p>
         </div>
-      </BasicContent>
+      </BasicContent> */}
       <Footer />
     </>
   );
