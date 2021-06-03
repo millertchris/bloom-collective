@@ -17,7 +17,7 @@ export default function portfolio() {
               <PortfolioItem
                 image="placeholder-image-16-9.jpg"
                 imageAlt="Place holder image"
-                title="SAS Partner 3D Animations"
+                title="SAS Partnership Origami 3D Animations"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/sas-partner-3d-animations"
               />
