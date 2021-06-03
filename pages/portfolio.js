@@ -16,22 +16,22 @@ export default function portfolio() {
             <div className="row items">
               <PortfolioItem
                 image="placeholder-image-16-9.jpg"
-                imageAlt="Place holder image"
+                imageAlt="SAS Partnership Origami 3D Animations"
                 title="SAS Partnership Origami 3D Animations"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/sas-partner-3d-animations"
               />
               <PortfolioItem
-                image="placeholder-image-16-9.jpg"
-                imageAlt="Place holder image"
+                image="thumbnail-breakthrough-prize.jpg"
+                imageAlt="Breakthrough Prize Laureate Announcer Videos"
                 title="2021 Breakthrough Prize Laureate Announcer Videos"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/2021-breakthrough-prize-laureate-announcer-videos"
               />
               <PortfolioItem
-                image="placeholder-image-16-9.jpg"
-                imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                image="thumbnail-breakthrough-prize-social-content.jpg"
+                imageAlt="Breakthrough Prize Social Media Content"
+                title="Breakthrough Prize Social Media Content"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
