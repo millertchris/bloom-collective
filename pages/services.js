@@ -36,7 +36,7 @@ export default function services() {
               'good content' question. In fact, we created our entire agency
               aroud our scalable, bespoke content process, which centers around
               identifying the right content – and then implementing it across
-              your organisation. Let us put together a custom content plan,
+              your organisation. Let us put together a custom content workflow,
               tailored to your marketing commmucation goals, budget and
               frequency.
             </p>
@@ -59,10 +59,8 @@ export default function services() {
           <div className="col content">
             <h2 class="title">Content Design</h2>
             <p>
-              Have a cool idea for a new YouTube serial, but don't known where
-              to start? Whether it's an in-studio shoot, or a fully illustrated
-              video short, Bloom Collective can take you from idea to finished
-              product, in record time.
+              Videos. Apps. Advertisements. Some of them suck. Others win
+              awards. An a few actually move people.{" "}
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid

@@ -14,7 +14,7 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="SAS Partner 3D Animations"
+        title="SAS Partnership 3D Animations"
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
@@ -131,26 +131,6 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/KzDECDADNLk"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/DuYjzOHRzSE"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
               src="https://www.youtube.com/embed/7Gd-ZgqB4RM"
               title="YouTube video player"
               frameborder="0"
@@ -162,6 +142,26 @@ export default function caseStudy() {
           <div className="videoWrapper">
             <iframe
               src="https://www.youtube.com/embed/qRx6Dd43UQI"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/KzDECDADNLk"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/DuYjzOHRzSE"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"

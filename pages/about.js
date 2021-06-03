@@ -94,10 +94,7 @@ export default function about() {
         <Location
           headlineNoUnderline="We are located in"
           headlineUnderline="Jakarta, Indonesia."
-          text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-        enim ad minim veniam, quis nostrud exercitation ullamco laboris
-        nisi ut aliquip ex ea commodo consequat."
+          text="Jakarta. Djakarta. Batavia. The Big Durian. Whatver you want to call it, most of us have a love/hate relationship with this jungle-come-megacity. But one thing is certain – you gotta be tough to live in Jakarta. We Bloomies pride ourselves on our Jakarta heriatge. It makes us who we are – tough, resilient and ready to weather the storm."
           photo="jakarta.png"
         />
       </Layout>
