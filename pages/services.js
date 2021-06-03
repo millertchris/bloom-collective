@@ -57,11 +57,11 @@ export default function services() {
 
         <BasicContent style="style-3" positionContent="left">
           <div className="col content">
-            <h2 class="title">Content Design</h2>
+            <h2 class="title">Content Design and Creative</h2>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
+              Design is ipsum dolor sit amet consectetur adipisicing elit.
+              Aliquid facilis architecto nemo laboriosam libero laudantium
+              officiis ipsum doloribus, natus repudiandae?
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
@@ -69,10 +69,13 @@ export default function services() {
               ipsum doloribus, natus repudiandae?
             </p>
             <ul>
-              <li>Content design</li>
+              <li>Graphics design</li>
               <li>Motion graphics design</li>
+              <li>UX/UI design</li>
               <li>Presentation and annual report design</li>
               <li>Print and collateral design</li>
+              <li>Creative concepting</li>
+              <li>Copywriting</li>
             </ul>
           </div>
           <div className="col image">
@@ -85,12 +88,12 @@ export default function services() {
 
         <BasicContent style="style-3" positionContent="right">
           <div className="col content">
-            <h2 class="title">Lorem, ipsum dolor.</h2>
+            <h2 class="title">Content Production</h2>
             <p>
-              Have a cool idea for a new YouTube serial, but don't know where to
-              start? Whether it's an in-studio shoot, or a fully illustrated
-              animation, Bloom Collective can take you from concept to finished
-              product––and in record time.
+              Content is XxXX have a cool idea for a new YouTube serial, but
+              don't know where to start? Whether it's an in-studio shoot, or a
+              fully illustrated animation, Bloom Collective can take you from
+              concept to finished product––and in record time.
             </p>
             <p>
               Our team of in-house creators and producers have experience
@@ -99,9 +102,9 @@ export default function services() {
               it.
             </p>
             <ul>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
-              <li>Lorem ipsum</li>
+              <li>Motion graphics animation</li>
+              <li>Video editing</li>
+              <li>Website production</li>
               <li>Lorem ipsum</li>
             </ul>
           </div>
