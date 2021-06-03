@@ -59,8 +59,9 @@ export default function services() {
           <div className="col content">
             <h2 class="title">Content Design</h2>
             <p>
-              Videos. Apps. Advertisements. Some of them suck. Others win
-              awards. An a few actually move people.{" "}
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
+              facilis architecto nemo laboriosam libero laudantium officiis
+              ipsum doloribus, natus repudiandae?
             </p>
             <p>
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
