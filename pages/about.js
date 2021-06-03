@@ -60,32 +60,32 @@ export default function about() {
             static={true} // default false
           >
             <AwardItem
-              awardLogo="logo-marcom.png"
+              awardLogo="logo-marcom-awards.svg"
               awardName="2020 MarCom Award"
               awardText="Social Media Content"
             />
             <AwardItem
-              awardLogo="logo-summit.png"
+              awardLogo="logo-summit-awards.svg"
               awardName="2020 Summit Creative Award"
               awardText="Covid-19 Content"
             />
             <AwardItem
-              awardLogo="logo-marcom.png"
+              awardLogo="logo-marcom-awards.svg"
               awardName="2020 MarCom Award"
               awardText="Social Media Campaign"
             />
             <AwardItem
-              awardLogo="logo-summit.png"
+              awardLogo="logo-summit-awards.svg"
               awardName="2020 Summit Creative Award"
               awardText="Video Campaign"
             />
             <AwardItem
-              awardLogo="logo-marcom.png"
+              awardLogo="logo-marcom-awards.svg"
               awardName="2020 MarCom Award"
               awardText="Covid-19 Crisis Communications"
             />
             <AwardItem
-              awardLogo="logo-summit.png"
+              awardLogo="logo-summit-awards.svg"
               awardName="2020 Summit Creative Award"
               awardText="Social Media Content"
             />
