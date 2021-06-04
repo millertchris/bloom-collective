@@ -14,7 +14,7 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="SAS Partnership 3D Animations"
+        title="SAS Partnership Origami 3D Animations"
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />

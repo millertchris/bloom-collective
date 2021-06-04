@@ -15,7 +15,7 @@ export default function portfolio() {
             </div>
             <div className="row items">
               <PortfolioItem
-                image="placeholder-image-16-9.jpg"
+                image="thumbnail-sas-videos.jpg"
                 imageAlt="SAS Partnership Origami 3D Animations"
                 title="SAS Partnership Origami 3D Animations"
                 description="This is a description of the post that is featured in this post item here."

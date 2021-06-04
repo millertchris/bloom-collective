@@ -23,7 +23,7 @@ export default function services() {
 
         <BasicContent style="style-3" positionContent="right">
           <div className="col content">
-            <h2 class="title">Content Strategy and Workflow Design</h2>
+            <h2 class="title">Content Strategy and Workflow Consulting</h2>
             <p>
               Your comms channels are only as good as the content you post. But
               sometimes it isn't so easy to know what constitutes 'good
@@ -69,7 +69,7 @@ export default function services() {
               ipsum doloribus, natus repudiandae?
             </p>
             <ul>
-              <li>Graphics design</li>
+              <li>Graphic design</li>
               <li>Motion graphics design</li>
               <li>UX/UI design</li>
               <li>Presentation and annual report design</li>
