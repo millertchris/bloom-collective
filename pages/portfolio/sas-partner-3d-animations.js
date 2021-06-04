@@ -168,6 +168,16 @@ export default function caseStudy() {
             ></iframe>
           </div>
         </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/O73yqgzGLpg"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
       </Gallery>
 
       {/* <BasicContent style="style-2">
