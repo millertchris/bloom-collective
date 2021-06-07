@@ -21,7 +21,7 @@ export default function HeroN(props) {
             data-aos-offset="600"
             data-aos-delay="200"
           >
-            <img src="../phone.svg" alt="Place Holder" />
+            <img src={props.image} alt="Place Holder" />
           </div>
           <div className="col" data-aos="fade-up" data-aos-offset="200">
             <img src={props.logo} className="logo" />
