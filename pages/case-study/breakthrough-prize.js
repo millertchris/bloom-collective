@@ -14,8 +14,8 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="Majid Al Futtaim Advanced Analytics"
-        image="https://source.unsplash.com/random"
+        title="Breakthrough Prize Social Content Case Study"
+        image="/breakthrough-prize-hangar-one.jpg"
         imageAlt="Background Image"
         rellaxCentering="0.67"
       />

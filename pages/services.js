@@ -29,7 +29,7 @@ export default function services() {
               sometimes it isn't so easy to know what constitutes 'good
               content.' And the answer to that question might look a lot
               different, depending on the channel, target audience or
-              communications goals.
+              communication goals.
             </p>
             <p>
               At Bloom Collective we spend a lot of time thinking about the
@@ -59,14 +59,15 @@ export default function services() {
           <div className="col content">
             <h2 class="title">Content Design and Creative</h2>
             <p>
-              Design is ipsum dolor sit amet consectetur adipisicing elit.
-              Aliquid facilis architecto nemo laboriosam libero laudantium
-              officiis ipsum doloribus, natus repudiandae?
+              Brand designers. Web desingers. Print designers. What do they all
+              have in common? A lot less than you might think. When it comes do
+              design, not everyone is a Swiss army knife. But one thing usually
+              sets designers apart – experience.
             </p>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-              facilis architecto nemo laboriosam libero laudantium officiis
-              ipsum doloribus, natus repudiandae?
+              Our team of in-house creators and producers have experience
+              working with just about everything. We can handle just about
+              anything, from motion graphics, to print, to annual reports.
             </p>
             <ul>
               <li>Graphic design</li>
@@ -90,22 +91,17 @@ export default function services() {
           <div className="col content">
             <h2 class="title">Content Production</h2>
             <p>
-              Content is XxXX have a cool idea for a new YouTube serial, but
-              don't know where to start? Whether it's an in-studio shoot, or a
-              fully illustrated animation, Bloom Collective can take you from
-              concept to finished product––and in record time.
-            </p>
-            <p>
-              Our team of in-house creators and producers have experience
-              designing just about everything. From motion graphics and
-              animation to video editing and even sound design – we can handle
-              it.
+              Have a cool idea for a new YouTube serial, but don't know where to
+              start? Whether it's an in-studio shoot, or a fully illustrated
+              animation, Bloom Collective can take you from concept to finished
+              product–and in record time.
             </p>
             <ul>
               <li>Motion graphics animation</li>
               <li>Video editing</li>
               <li>Website production</li>
-              <li>Lorem ipsum</li>
+              <li>In-studio shoots</li>
+              <li>On-location shoots</li>
             </ul>
           </div>
           <div className="col image">

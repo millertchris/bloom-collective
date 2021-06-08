@@ -15,106 +15,35 @@ export default function caseStudy() {
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
         title="2021 Breakthrough Prize Laureate Announcer Videos"
-        image="https://source.unsplash.com/random"
+        image="/breakthrough-prize-hangar-one.jpg"
         imageAlt="Background Image"
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Press Release Companions</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            At the onset of Covid-19, the Breakthrough Prize Foundation made the
+            difficult decision to postopone their annual red carpet gala in
+            Silicon Valley. The 2021 Breakthrough Prize Laureates were, however,
+            still announced through a series of press releases and online via
+            social media.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Bloom Collective created these videos, which were released alongside
+            the press annoucnement as companion media to support the press
+            releases.
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Concepting</li>
+            <li>Storyboards</li>
+            <li>Design</li>
+            <li>Motion graphics</li>
           </ul>
         </div>
       </BasicContent>
-      {/* 
-      <FeaturedImage image="/notes-grid.svg" />
-      <BasicContent style="style-2">
-        <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-        </div>
-        <div className="col content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-        </div>
-      </BasicContent>
-      
-      <BasicContent style="style-2">
-        <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-        </div>
-        <div className="col content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-        </div>
-      </BasicContent>
- */}
       <Gallery>
         <div className="col video">
           <div className="videoWrapper">
@@ -194,39 +123,6 @@ export default function caseStudy() {
           </div>
         </div>
       </Gallery>
-      {/* 
-      <BasicContent style="style-2">
-        <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-        </div>
-        <div className="col content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-        </div>
-      </BasicContent> */}
       <Footer />
     </>
   );
