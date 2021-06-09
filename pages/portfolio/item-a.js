@@ -24,9 +24,8 @@ export default function caseStudy() {
             <iframe
               src="https://www.youtube.com/embed/tteERV_NLSI"
               title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              frameBorder="0"
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
           </div>
         </div>
@@ -35,7 +34,7 @@ export default function caseStudy() {
 
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 className="title">Lorem, ipsum dolor.</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             impedit provident consequatur, nobis nihil voluptatum porro eum
@@ -65,7 +64,7 @@ export default function caseStudy() {
       <FeaturedImage image="/notes-grid.svg" />
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 className="title">Lorem, ipsum dolor.</h2>
         </div>
         <div className="col content">
           <p>
@@ -97,7 +96,7 @@ export default function caseStudy() {
       </BasicContent>
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 className="title">Lorem, ipsum dolor.</h2>
         </div>
         <div className="col content">
           <p>
@@ -134,9 +133,8 @@ export default function caseStudy() {
             <iframe
               src="https://www.youtube.com/embed/tteERV_NLSI"
               title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
+              frameBorder="0"
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
             ></iframe>
           </div>
         </div>
@@ -201,7 +199,7 @@ export default function caseStudy() {
 
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 className="title">Lorem, ipsum dolor.</h2>
         </div>
         <div className="col content">
           <p>
