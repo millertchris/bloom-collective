@@ -191,6 +191,11 @@ header {
 
 .block.hero-n {
   margin-bottom: 0;
+
+  .image {
+    padding: 40px;
+  }
+
   &.style-1 {
     @media screen and (max-width: 860px) {
       height: 100vh;
