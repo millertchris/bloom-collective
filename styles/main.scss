@@ -638,17 +638,34 @@ footer {
 }
 
 .block.gallery {
-  .row {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    gap: 40px;
-    @media screen and (max-width: 720px) {
-      grid-template-columns: repeat(1, 1fr);
+  &.two-column {
+    .row {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 40px;
+      @media screen and (max-width: 720px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .image {
+      @include aspect-ratio(9 / 16);
     }
   }
 
-  .image {
-    @include aspect-ratio(9 / 16);
+  &.three-column {
+    .row {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 40px;
+      @media screen and (max-width: 720px) {
+        grid-template-columns: repeat(1, 1fr);
+      }
+    }
+
+    .image {
+      @include aspect-ratio(1 / 1);
+    }
   }
 }
 
