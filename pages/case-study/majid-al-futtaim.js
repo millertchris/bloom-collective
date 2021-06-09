@@ -38,7 +38,7 @@ export default function caseStudy() {
           <p>
             As the situation progressed and the world began to close its doors
             and borders, we knew we had to act fast to help Majid Al Futtaim
-            commnicate with their nearly 45,000 employees.
+            communicate with their nearly 45,000 employees.
           </p>
           <p>This is how we did it.</p>
         </div>
@@ -47,6 +47,7 @@ export default function caseStudy() {
           <ul>
             <li>Custom content workflow design</li>
             <li>Content planning and strategy</li>
+            <li>Always-on content newsroom</li>
             <li>Daily content updates</li>
             <li>Content calendar management</li>
             <li>Channel management</li>
@@ -89,8 +90,8 @@ export default function caseStudy() {
             world had changed and it was palpable. Enitre nations were
             grappeling with how to cope. There was certainly no blueprint for
             how to run a multinational admidst a global virus outbreak. But as
-            an organization, Majid Al Futtaim quickly sprung in to leadership
-            mode.
+            an organization, Majid Al Futtaim quickly sprung in to crisis
+            leadership mode.
           </p>
           <p>
             At the end of February, governments across the Middle East and North

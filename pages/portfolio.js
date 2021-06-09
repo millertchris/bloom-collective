@@ -33,49 +33,49 @@ export default function portfolio() {
                 imageAlt="Breakthrough Prize Social Media Content"
                 title="Breakthrough Prize Social Media Content"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/breakthrough-prize-social-media-content"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-asean.jpg"
                 imageAlt="Place holder image"
                 title="ASEAN Development Goals Explainer Videos"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/asean-development-goals-explainer-videos"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-lenovo.jpg"
                 imageAlt="Place holder image"
                 title="Lenovo Product Launch Animation"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/lenovo-product-launch-animation"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-maf-social-content.jpg"
                 imageAlt="Place holder image"
                 title="Majid Al Futtaim Social Content"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/majid-al-futtaim-social-content"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-ifes.jpg"
                 imageAlt="Place holder image"
                 title="IFES Women Voters PSA"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/ifes-women-voters-psa"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-dbs-digibank.jpg"
                 imageAlt="Place holder image"
-                title="DBS Digibank Website"
+                title="DBS Digibank Website Design"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/dbs-digibank-website-design"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-breakthrough-venus.jpg"
                 imageAlt="Place holder image"
-                title="Breakthrough Venus Animation"
+                title="Breakthrough Initiatives Venus Animation"
                 description="This is a description of the post that is featured in this post item here."
-                link="/portfolio/item-a"
+                link="/portfolio/breakthrough-venus-animation"
               />
             </div>
           </div>
