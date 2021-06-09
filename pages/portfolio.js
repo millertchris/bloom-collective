@@ -57,14 +57,21 @@ export default function portfolio() {
                 link="/portfolio/item-a"
               />
               <PortfolioItem
-                image="placeholder-image-16-9.jpg"
+                image="portfolio-thumbnails-ifes.jpg"
                 imageAlt="Place holder image"
                 title="Lorem ipsum dolor"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
               <PortfolioItem
-                image="placeholder-image-16-9.jpg"
+                image="portfolio-thumbnails-dbs-digibank.jpg"
+                imageAlt="Place holder image"
+                title="Lorem ipsum dolor"
+                description="This is a description of the post that is featured in this post item here."
+                link="/portfolio/item-a"
+              />
+              <PortfolioItem
+                image="portfolio-thumbnails-breakthrough-venus.jpg"
                 imageAlt="Place holder image"
                 title="Lorem ipsum dolor"
                 description="This is a description of the post that is featured in this post item here."
