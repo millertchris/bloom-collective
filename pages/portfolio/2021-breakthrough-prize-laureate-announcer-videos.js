@@ -30,8 +30,7 @@ export default function caseStudy() {
           </p>
           <p>
             Bloom Collective created these videos, which were released alongside
-            the press annoucnement as companion media to support the press
-            releases.
+            the press annoucnement as supporting companion media.
           </p>
         </div>
         <div className="col list">
