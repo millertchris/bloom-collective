@@ -45,35 +45,35 @@ export default function portfolio() {
               <PortfolioItem
                 image="portfolio-thumbnails-lenovo.jpg"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="Lenovo Product Launch Animation"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-maf-social-content.jpg"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="Majid Al Futtaim Social Content"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-ifes.jpg"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="IFES Women Voters PSA"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-dbs-digibank.jpg"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="DBS Digibank Website"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
               <PortfolioItem
                 image="portfolio-thumbnails-breakthrough-venus.jpg"
                 imageAlt="Place holder image"
-                title="Lorem ipsum dolor"
+                title="Breakthrough Venus Animation"
                 description="This is a description of the post that is featured in this post item here."
                 link="/portfolio/item-a"
               />
