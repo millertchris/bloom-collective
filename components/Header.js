@@ -7,13 +7,9 @@ export default function Header(props) {
     function headerBackground() {
       const header = document.querySelector("header");
       window.onscroll = function (e) {
-        console.log(window.scrollY); // Value of scroll Y in px
-
         if (window.scrollY >= 100) {
-          console.log("yes");
           header.classList.add("header-fixed");
         } else {
-          console.log("no");
           header.classList.remove("header-fixed");
         }
       };
