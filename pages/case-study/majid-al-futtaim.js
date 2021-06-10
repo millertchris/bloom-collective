@@ -106,7 +106,6 @@ export default function caseStudy() {
             co-ordinate the organization's group-wide internal response. We
             worked closely with their internal leadership team to do just that.
           </p>
-          <p>As with anyl</p>
         </div>
       </BasicContent>
 

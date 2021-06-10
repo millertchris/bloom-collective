@@ -47,32 +47,18 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+      <BasicContent style="style-1">
+        <div className="col content">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/I3wHXQhMxlM"
+              title="IFES Women Voters PSA Video"
+              frameBorder="0"
+              allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            ></iframe>
+          </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
-      </Gallery>
+      </BasicContent>
       <Footer />
     </>
   );

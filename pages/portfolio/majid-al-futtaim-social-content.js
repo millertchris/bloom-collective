@@ -47,7 +47,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery>
+      <Gallery columns="two-column">
         <div className="col image">
           <img
             src="https://source.unsplash.com/random"
