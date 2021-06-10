@@ -14,7 +14,7 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="Breakthrough Prize Social Media Poster Content"
+        title="Breakthrough Prize Social Media Content"
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
@@ -47,6 +47,52 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
+      <Gallery columns="two-column">
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/wrHEK0VtHWQ"
+              title="Breakthrough Prize 2019 Im Memoriam Video"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/HVU2huYtVeg"
+              title="Jocelyn Bell Burnell Special Breakthrough Prize Video"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/HLJva6ss2Bc"
+              title="Breakthrough Initiatives MeerKAT Video"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/zlzs6AoIOJ0"
+              title="Event Horizon (EHT) Telescope Collaboration Video"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+      </Gallery>
       <Gallery columns="three-column">
         <div className="col image">
           <img

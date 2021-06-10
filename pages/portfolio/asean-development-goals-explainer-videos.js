@@ -47,30 +47,50 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+      <Gallery columns="two-column">
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/lB30tpLvRHg"
+              title="YouTube video player"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/J0Rffy2gbRo"
+              title="YouTube video player"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/g_fxkyC9L5E"
+              title="YouTube video player"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/6OJeD16ZQms"
+              title="YouTube video player"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
         </div>
       </Gallery>
       <Footer />

@@ -30,7 +30,6 @@ export default function caseStudy() {
           </div>
         </div>
       </BasicContent>
-      <div></div>
 
       <BasicContent style="style-1">
         <div className="col content">
