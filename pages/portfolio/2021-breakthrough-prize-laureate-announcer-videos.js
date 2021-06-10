@@ -43,7 +43,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery>
+      <Gallery columns="two-column">
         <div className="col video">
           <div className="videoWrapper">
             <iframe

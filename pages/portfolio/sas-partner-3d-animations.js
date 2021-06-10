@@ -9,7 +9,6 @@ export default function caseStudy() {
   return (
     <>
       <Header theme="white" logo="/bloom_logo_white.svg" />
-
       <Hero
         style="style-2"
         logo="/logo-majid-white.svg"
@@ -18,20 +17,6 @@ export default function caseStudy() {
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
-      {/* <BasicContent style="style-1">
-        <div className="col content">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/tteERV_NLSI"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen
-            ></iframe>
-          </div>
-        </div>
-      </BasicContent> */}
-
       <BasicContent style="style-1">
         <div className="col content">
           <h2 class="title">Lorem, ipsum dolor.</h2>
@@ -61,73 +46,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      {/* <FeaturedImage image="/notes-grid.svg" />
-      <BasicContent style="style-2">
-        <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-        </div>
-        <div className="col content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-        </div>
-      </BasicContent>
-      <BasicContent style="style-2">
-        <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-        </div>
-        <div className="col content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-        </div>
-      </BasicContent> */}
-
-      <Gallery>
+      <Gallery columns="two-column">
         <div className="col video">
           <div className="videoWrapper">
             <iframe
@@ -179,39 +98,6 @@ export default function caseStudy() {
           </div>
         </div>
       </Gallery>
-
-      {/* <BasicContent style="style-2">
-        <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-        </div>
-        <div className="col content">
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-        </div>
-      </BasicContent> */}
       <Footer />
     </>
   );
