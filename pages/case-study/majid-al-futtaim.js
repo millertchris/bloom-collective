@@ -55,7 +55,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery>
+      <Gallery columns="two-column">
         <div className="col video">
           <div className="videoWrapper">
             <iframe
@@ -110,7 +110,7 @@ export default function caseStudy() {
         </div>
       </BasicContent>
 
-      <Gallery>
+      <Gallery columns="three-column">
         <div className="col image">
           <img
             src="https://source.unsplash.com/random"
