@@ -158,13 +158,13 @@ export default function caseStudy() {
         </div>
         <div className="col image">
           <img
-            src="/women-in-stem/5-women-in-stem-shannon-lucid.jpg"
+            src="/women-in-stem/5-women-in-stem-hattie-elizabeth-alexander.jpg"
             alt="Place holder image"
           />
         </div>
         <div className="col image">
           <img
-            src="/women-in-stem/6-women-in-stem-eileen-collins.jpg"
+            src="/women-in-stem/6-women-in-stem-marie-maynard-daily.jpg"
             alt="Place holder image"
           />
         </div>
