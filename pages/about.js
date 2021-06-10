@@ -50,7 +50,7 @@ export default function about() {
           personAvatar="matt-ooley-sm.jpg"
         />
 
-        <Awards title="We are an award-winning agency.">
+        <Awards title="We are an award-winning agency:">
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
