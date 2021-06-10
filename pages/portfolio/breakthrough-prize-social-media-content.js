@@ -14,7 +14,7 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="Breakthrough Prize Social Media Content"
+        title="Breakthrough Prize Social Media Poster Content"
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
@@ -47,28 +47,154 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery columns="two-column">
+      <Gallery columns="three-column">
         <div className="col image">
           <img
-            src="https://source.unsplash.com/random"
+            src="/breakthrough-prize-laureates/1-breakthrough-prize-laureate-stephen-hawking.jpg"
             alt="Place holder image"
           />
         </div>
         <div className="col image">
           <img
-            src="https://source.unsplash.com/random"
+            src="/breakthrough-prize-laureates/2-breakthrough-prize-laureate-james-allison.jpg"
             alt="Place holder image"
           />
         </div>
         <div className="col image">
           <img
-            src="https://source.unsplash.com/random"
+            src="/breakthrough-prize-laureates/3-breakthrough-prize-laureate-cumrun-vafa.jpg"
             alt="Place holder image"
           />
         </div>
         <div className="col image">
           <img
-            src="https://source.unsplash.com/random"
+            src="/breakthrough-prize-laureates/4-breakthrough-prize-laureate-emmanuelle-charpenteir.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/breakthrough-prize-laureates/5-breakthrough-prize-laureate-stephen-elledge.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/breakthrough-prize-laureates/6-breakthrough-prize-laureate-robert-langer.jpg"
+            alt="Place holder image"
+          />
+        </div>
+      </Gallery>
+      <Gallery columns="three-column">
+        <div className="col image">
+          <img
+            src="/women-in-stem/1-women-in-stem-katherine-johnson.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/women-in-stem/2-women-in-stem-maryam-mirzakani.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/women-in-stem/3-women-in-stem-valentina-tereshkova.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/women-in-stem/4-women-in-stem-florence-bascom.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/women-in-stem/5-women-in-stem-shannon-lucid.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/women-in-stem/6-women-in-stem-eileen-collins.jpg"
+            alt="Place holder image"
+          />
+        </div>
+      </Gallery>
+      <Gallery columns="three-column">
+        <div className="col image">
+          <img
+            src="/on-this-day/1-on-this-day-in-science.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/on-this-day/2-on-this-day-in-science.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/on-this-day/3-on-this-day-in-science.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/on-this-day/4-on-this-day-in-science.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/on-this-day/5-on-this-day-in-science.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/on-this-day/6-on-this-day-in-science.jpg"
+            alt="Place holder image"
+          />
+        </div>
+      </Gallery>
+      <Gallery columns="three-column">
+        <div className="col image">
+          <img
+            src="/scientist-birthdays/1-scientist-birthday-nikola-tesla.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/scientist-birthdays/2-scientist-birthday-steven-weinberg.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/scientist-birthdays/3-scientist-birthday-albert-einstein.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/scientist-birthdays/4-scientist-birthday-irene-fischer.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/scientist-birthdays/5-scientist-birthday-heinrich-lenz.jpg"
+            alt="Place holder image"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/scientist-birthdays/6-scientist-birthday-srinivasa-ramanujan.jpg"
             alt="Place holder image"
           />
         </div>
