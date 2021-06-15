@@ -78,18 +78,40 @@ export default function caseStudy() {
             ></iframe>
           </div>
         </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/z2CDQcvyJQM"
+              title="Preventative measures to avoid Coronavirus"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/jVIMltXMsHc"
+              title="When to wash your hands"
+              modestbranding="1"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
       </Gallery>
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">New world, new ways.</h2>
+          <h2 class="title">New world, new ways</h2>
         </div>
         <div className="col content">
           <p>
             At the onset of the pandemic the only certainty was uncertainty. The
             world had changed and it was palpable. Enitre nations were
-            grappeling with how to cope. There was certainly no blueprint for
-            how to run a multinational admidst a global virus outbreak. But as
-            an organization, Majid Al Futtaim quickly sprung in to crisis
+            grappeling with how to cope. There was no precedent for how to run a
+            multinational admidst a global virus outbreak, but as an
+            organization, Majid Al Futtaim quickly sprung in to crisis
             leadership mode.
           </p>
           <p>
@@ -131,7 +153,7 @@ export default function caseStudy() {
 
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">First things first.</h2>
+          <h2 class="title">First things first</h2>
         </div>
         <div className="col content">
           <p>
@@ -145,14 +167,14 @@ export default function caseStudy() {
           </p>
           <p>
             Bloom Collective adjusted our team's work-from-home hours and
-            introduced a 24/7 newsroom-style workflow. Together with the client,
-            this enabled us to ensure we stayed on top of the fast-pace of
-            global information and quickly evolving local government
+            introduced a 24/7 newsroom-style content workflow. Together with the
+            client, this enabled us to ensure we stayed on top of the fast-pace
+            of global information and quickly evolving local government
             recommendations.
           </p>
           <p>
-            It also allowed us to address concerns being raised through teh
-            feedback mechanisms intoruced as part of Majid Al Futtaim's wider
+            It also allowed us to address concerns being raised through the
+            feedback mechanisms introduced as part of Majid Al Futtaim's wider
             internal communications crisis strategy. This gave us the
             flexibility to provide an always-on drumbeat of relevant and timely
             content for an increasingly anxious audience.
@@ -162,21 +184,20 @@ export default function caseStudy() {
 
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">Plan in motion.</h2>
+          <h2 class="title">Plan in motion</h2>
         </div>
         <div className="col content">
           <p>
-            Around the end of February and once we had a clear plan agreed, we
-            put our contnet workflow in motion. In a period of just over four
-            months we created over 150 custom animations, GIFs and social poster
-            content for MAF's internal communications channels.
+            In a period of just over four months we created over 150 custom
+            animations, GIFs and social poster content for MAF's internal
+            communications channels.
           </p>
           <p>
             Our content covered four main categories - covid safety content,
             covid news content, corporate updates and entertainment content.
             This allowed us to have a breadth of incoming information to produce
             on a daily basis. Content was also replicated and cascased through
-            offline and exteranl channels.
+            offline and external channels.
           </p>
         </div>
       </BasicContent>

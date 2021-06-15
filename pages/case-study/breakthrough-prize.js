@@ -23,19 +23,20 @@ export default function caseStudy() {
         <div className="col content">
           <h2 class="title">Lorem, ipsum dolor.</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            Nanoscale particles and folding proteins. Creating detailed maps of
+            the early universe. Taking a picture of a black hole. These are just
+            a few of the hundreds of complex topics that Bloom Collective must
+            grasp in order to create content for the Breakthrough Prize
+            Foundation. And while we can't claim to be scientists just yet... we
+            are certainly working on it!
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            The Breakthrough Prizes are awarded at a red carpet gala in November
+            each year. The Breakthrough Prize Ceremony is attended by a who's
+            who of Hollywood, Silicon Valley and, of course – Science. While the
+            ceremony is the obvious focal point for much of the year, The
+            Breakthrough Prize Foundation needs to upkeep their social media
+            year-round. That's where Bloom Collective comes in.
           </p>
         </div>
         <div className="col list">
