@@ -36,7 +36,7 @@ export default function caseStudy() {
             content agency.
           </p>
           <p>
-            As the situation progressed and the world began to close its doors
+            As the pandemic progressed and the world began to close its doors
             and borders, we knew we had to act fast to help Majid Al Futtaim
             communicate with their nearly 45,000 employees.
           </p>
@@ -84,7 +84,6 @@ export default function caseStudy() {
           <h2 class="title">New world, new ways.</h2>
         </div>
         <div className="col content">
-          <p></p>
           <p>
             At the onset of the pandemic the only certainty was uncertainty. The
             world had changed and it was palpable. Enitre nations were
@@ -128,43 +127,56 @@ export default function caseStudy() {
             alt="Place holder image"
           />
         </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
       </Gallery>
 
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">First things first.</h2>
         </div>
         <div className="col content">
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            As the organization began to implement measures in line with
+            government mandated safety protocols, the workforce became almost
+            entirely relient on internal digital channels for business updates,
+            Covid news and need-to-know information. With a clear mandate that
+            employee safety and wellness was the top priorty, our first step was
+            to devise Covid-specific content categories to drive effective
+            engagement around the crisis strategy.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Bloom Collective adjusted our team's work-from-home hours and
+            introduced a 24/7 newsroom-style workflow. Together with the client,
+            this enabled us to ensure we stayed on top of the fast-pace of
+            global information and quickly evolving local government
+            recommendations.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            It also allowed us to address concerns being raised through teh
+            feedback mechanisms intoruced as part of Majid Al Futtaim's wider
+            internal communications crisis strategy. This gave us the
+            flexibility to provide an always-on drumbeat of relevant and timely
+            content for an increasingly anxious audience.
+          </p>
+        </div>
+      </BasicContent>
+
+      <BasicContent style="style-2">
+        <div className="col headline">
+          <h2 class="title">Plan in motion.</h2>
+        </div>
+        <div className="col content">
+          <p>
+            Around the end of February and once we had a clear plan agreed, we
+            put our contnet workflow in motion. In a period of just over four
+            months we created over 150 custom animations, GIFs and social poster
+            content for MAF's internal communications channels.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Our content covered four main categories - covid safety content,
+            covid news content, corporate updates and entertainment content.
+            This allowed us to have a breadth of incoming information to produce
+            on a daily basis. Content was also replicated and cascased through
+            offline and exteranl channels.
           </p>
         </div>
       </BasicContent>
