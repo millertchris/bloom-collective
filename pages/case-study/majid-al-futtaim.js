@@ -22,7 +22,7 @@ export default function caseStudy() {
       <BasicContent style="style-1">
         <div className="col content">
           <h2 class="title">
-            How we designed a crisis content workflow during the onset of
+            How Bloom Collective designed a crisis content workflow during
             Covid-19
           </h2>
           <p>
@@ -75,7 +75,7 @@ export default function caseStudy() {
       <FeaturedImage image="/content-categories.jpg" />
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">New world, new ways</h2>
+          <h2 class="title">New world means new ways of working</h2>
         </div>
         <div className="col content">
           <p>
@@ -132,18 +132,18 @@ export default function caseStudy() {
 
       <BasicContent style="style-2">
         <div className="col headline">
-          <h2 class="title">First things first</h2>
+          <h2 class="title">Crisis content pipeline</h2>
         </div>
         <div className="col content">
           <p>
             Once our workflow was fully up and running, we effectively doubled
             the amount of content flowing through MAF's online channels. In a
-            period of just over four months we created over 150 custom
+            period of just over four months we created over 200 custom
             animations, GIFs, Newsers and social poster content for MAF's
             digital internal social networks. Much of this content was also
             replicated and cascaded through local offline and other external
             channels owned by MAF – such as inside of Carrefour grocery stores
-            and other MAF properties.
+            and other MAF properties across the Middle East.
           </p>
           <p>
             Thrice weekly check-in surveys measured overall sentiment throughout
