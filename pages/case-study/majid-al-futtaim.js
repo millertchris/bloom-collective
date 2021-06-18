@@ -22,7 +22,7 @@ export default function caseStudy() {
       <BasicContent style="style-1">
         <div className="col content">
           <h2 class="title">
-            How we created a crisis content workflow during the onset of
+            How we designed a crisis content workflow during the onset of
             Covid-19
           </h2>
           <p>
@@ -72,52 +72,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery columns="two-column">
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/z2CDQcvyJQM"
-              title="Preventative measures to avoid Coronavirus"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/jVIMltXMsHc"
-              title="When to wash your hands"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/z2CDQcvyJQM"
-              title="Preventative measures to avoid Coronavirus"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/jVIMltXMsHc"
-              title="When to wash your hands"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-      </Gallery>
+      <FeaturedImage image="/content-categories.jpg" />
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">New world, new ways</h2>
