@@ -40,10 +40,8 @@ export default function caseStudy() {
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Project facilitation</li>
+            <li>3D Animation Sourcing</li>
           </ul>
         </div>
       </BasicContent>

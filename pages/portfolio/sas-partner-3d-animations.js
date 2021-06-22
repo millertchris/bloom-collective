@@ -19,17 +19,8 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
+          <h2 class="title">3D on a 2D budget</h2>
+          <p>When SAS wanted to announce</p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
             facilis architecto nemo laboriosam libero laudantium officiis ipsum
@@ -39,10 +30,8 @@ export default function caseStudy() {
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Project facilitation</li>
+            <li>3D animation sourcing</li>
           </ul>
         </div>
       </BasicContent>
