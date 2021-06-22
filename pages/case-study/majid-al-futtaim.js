@@ -31,10 +31,9 @@ export default function caseStudy() {
               pandemic is not something we would want to experience again – we
               are grateful to Majid Al Futtaim for the opportunity to help them
               communicate during this difficult time. They provided us with the
-              information we needed, the patience required, and the crucial
-              timely feedback necessary to do this work. Without their
-              cooperation, we couldn't have done it. So, hats off to amazing
-              clients everywhere!
+              resources we needed, the patience required, and the crucial timely
+              feedback necessary to do this work. Without their cooperation, we
+              couldn't have done it. So, hats off to amazing clients everywhere!
             </em>
           </p>
           <p>
@@ -60,7 +59,7 @@ export default function caseStudy() {
           </p>
         </div>
         <div className="col list">
-          <h2 className="title">Project services</h2>
+          <h2 className="title">Cleint services</h2>
           <ul>
             <li>Custom content workflow design</li>
             <li>Content planning and strategy</li>
@@ -82,8 +81,8 @@ export default function caseStudy() {
             As Majid Al Futtaim's internal comms partner, Bloom Collective was
             in a unique position to co-create, coordinate and put in motion
             their groupwide internal response; We worked closely with their
-            internal leadership through the uncertainty of the pandemic to do
-            just that.
+            internal leadership through the chaos of the pandemic to do just
+            that.
           </p>
           <p>
             Since there was no blueprint for how to run a multinational crisis
