@@ -19,30 +19,25 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Origami Concept to Completion</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            When SAS wanted to announce data analytics partnerships with
+            Deloitte, Accenture, Capgemeni, KPMG and Ernst & Young, they needed
+            a creative helping hand to take them from concept to creation. They
+            had an idea for 3D animations to create origami videos for each
+            client.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Bloom Collective was able to source the right team for the job and
+            manage the project to completion as we created these five
+            partnership announcement videos.
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Project facilitation</li>
+            <li>3D animation sourcing</li>
           </ul>
         </div>
       </BasicContent>

@@ -14,7 +14,7 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="DBS Digibank Website Design"
+        title="DBS Digibank Website and Content Design"
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
@@ -47,7 +47,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery>
+      <Gallery columns="two-column">
         <div className="col image">
           <img
             src="https://source.unsplash.com/random"

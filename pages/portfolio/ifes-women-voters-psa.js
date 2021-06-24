@@ -20,30 +20,31 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Ecouraging women voters</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            When the International Foundation for Electoral Systems (IFES)
+            needed to produce a PSA informing women about their voting rights in
+            Indonesia, they came to Bloom Collective.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Alongside IFES, we concepted, wrote, storyboarded, casted, shot and
+            produced this spot.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Bloom Collective supports IFES' vision of helping to develop and
+            providing assistance and support for elections in new and emerging
+            democracies.
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Creative concepting</li>
+            <li>Writing</li>
+            <li>Casting</li>
+            <li>Storyboarding</li>
+            <li>In-studio production</li>
+            <li>Post-production</li>
           </ul>
         </div>
       </BasicContent>

@@ -24,9 +24,10 @@ export default function ContactUs() {
           <div className="col h-500 w-full md:max-w-xl md:mr-6">
             <Lottie options={defaultOptions} className="w-full h-full" />
           </div>
+          3
           <div className="col">
             <Form
-              headlineNoUnderline="Drop a line"
+              headlineNoUnderline="Drop us a line"
               text="Please share your thoughts in the form below and we’ll be in touch. We’d love to hear from you."
             />
           </div>
