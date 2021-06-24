@@ -48,10 +48,7 @@ export default function services() {
             </ul>
           </div>
           <div className="col image">
-            <img
-              src="whiteboard-ux-design.jpg"
-              alt="Bloom Collective content strategy"
-            />
+            <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_hqq7s21h.json" background="transparent" speed="1" loop autoplay></lottie-player>
           </div>
         </BasicContent>
 
@@ -80,11 +77,7 @@ export default function services() {
             </ul>
           </div>
           <div className="col image">
-            <img
-              src="bloom-logo-night-work.jpg"
-              alt="Bloom Collective graphic design"
-            />
-          </div>
+          <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_widr83xa.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
         </BasicContent>
 
         <BasicContent style="style-3" positionContent="right">
@@ -105,11 +98,7 @@ export default function services() {
             </ul>
           </div>
           <div className="col image">
-            <img
-              src="bloom-collective-content-production.jpg"
-              alt="Bloom Collective content production"
-            />
-          </div>
+          <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_hjgoiuoq.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
         </BasicContent>
       </main>
       <Footer />
