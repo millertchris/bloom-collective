@@ -19,12 +19,18 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">3D on a 2D budget</h2>
-          <p>When SAS wanted to announce</p>
+          <h2 class="title">Origami Concept to Completion</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            When SAS wanted to announce data analytics partnerships with
+            Deloitte, Accenture, Capgemeni, KPMG and Ernst & Young, they needed
+            a creative helping hand to take them from concept to creation. They
+            had an idea for 3D animations to create origami videos for each
+            client.
+          </p>
+          <p>
+            Bloom Collective was able to source the right team for the job and
+            manage the project to completion as we created these five
+            partnership announcement videos.
           </p>
         </div>
         <div className="col list">

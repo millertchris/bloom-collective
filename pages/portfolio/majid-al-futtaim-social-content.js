@@ -14,36 +14,38 @@ export default function caseStudy() {
         style="style-2"
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
-        title="Majid Al Futtaim Social Content"
+        title="Majid Al Futtaim Internal Comms Social Content"
         image="https://source.unsplash.com/random"
         imageAlt="Background Image"
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">24/7/365 Social Newsroom</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            With nearly 45,000 employees spread across 16 countries in the
+            Middle East, Africa, and Asia – Majid Al Futtaim is an organization
+            teeming with diversity. And it goes with out saying that they have a
+            lot to talk about.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            As MAF's internal comms creative agency, Bloom Collective has had
+            the honor of creating a lot of content on their behalf. Below is a
+            sampling of some of the content we've created for MAF.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            For a deeper take, look at our client
+            <a href="/case-study/majid-al-futtaim"> case study</a>, which
+            details our crisis content strategy for MAF during Covid-19.
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Crisis content strategy</li>
+            <li>Creative ideation</li>
+            <li>Content design</li>
+            <li>Content calendar management</li>
+            <li>Channel management</li>
           </ul>
         </div>
       </BasicContent>

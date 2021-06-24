@@ -20,30 +20,24 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Tiny can be powerful</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            If you build something that's sleek and tiny yet powerful, you
+            should also have a slick launch video that showcases the product,
+            the features and the .
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            We worked with Lenovo's agency in the US on this job to help create
+            the video for their product launch in North America. We think it
+            turned out looking great!
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Project facilitaiton</li>
+            <li>Motion graphics animation</li>
+            <li>Audio editing</li>
           </ul>
         </div>
       </BasicContent>

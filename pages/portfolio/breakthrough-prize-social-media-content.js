@@ -20,28 +20,27 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Good content shouldn't be rocket science</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            Below is a sampling of the hundreds of pieces of content we've done
+            for the Breakthrough Prize Foundation. From video editing to motion
+            graphics to designed and even hand-drawn content – we've done it
+            all.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            For a deeper take, look at our client
+            <a href="/case-study/breakthrough-prize"> case study</a>, which
+            explains our monthly content creation process for Breakthrough.
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Project facilitation</li>
-            <li>3D Animation Sourcing</li>
+            <li>Content ideation</li>
+            <li>Content research</li>
+            <li>Content design</li>
+            <li>Content calendar management</li>
+            <li>Channel management</li>
           </ul>
         </div>
       </BasicContent>
@@ -94,13 +93,13 @@ export default function caseStudy() {
       <Gallery columns="three-column">
         <div className="col image">
           <img
-            src="/breakthrough-prize-laureates/1-breakthrough-prize-laureate-stephen-hawking.jpg"
+            src="/breakthrough-prize-laureates/2-breakthrough-prize-laureate-james-allison.jpg"
             alt="Place holder image"
           />
         </div>
         <div className="col image">
           <img
-            src="/breakthrough-prize-laureates/2-breakthrough-prize-laureate-james-allison.jpg"
+            src="/breakthrough-prize-laureates/1-breakthrough-prize-laureate-stephen-hawking.jpg"
             alt="Place holder image"
           />
         </div>

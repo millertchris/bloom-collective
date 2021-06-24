@@ -20,30 +20,30 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Serial content for complex ideas</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
+            The Association of Southeast Asian Nations (ASEAN) is comprized of
+            10 Southeast Asian nations. Their goals include promoting
+            intergovernmental cooperation and facilitating economic, political,
+            security, military, educational and socioculutural integration
+            between its members and other countries in Asia. So it should go
+            without saying – they have some pretty epic aspirations.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            And what better way to explain something that's nuanced and complex
+            than with a suite of animated videos? That's just what they did
+            here, explaining ASEAN Connectivity –  ASEAN's plan to "create a
+            network of people and infrastructure to improve the way we live,
+            work and travel."
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Creative ideation</li>
+            <li>Project pitching</li>
+            <li>Project facilitation</li>
+            <li>Creative direction</li>
           </ul>
         </div>
       </BasicContent>
