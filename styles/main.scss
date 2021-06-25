@@ -12,7 +12,7 @@
     display: block;
     content: "";
     width: 100%;
-    // padding-top: ($ratio) * 100%;
+    padding-top: ($ratio) * 100%;
   }
   img {
     position: absolute;
@@ -569,6 +569,11 @@ footer {
     .image {
       @include aspect-ratio(1 / 1);
       margin: auto;
+    }
+
+    .lottie {
+      margin: auto;
+      padding-top: 0;
     }
   }
 }

@@ -47,7 +47,7 @@ export default function services() {
               <li>Episodic and serial content</li>
             </ul>
           </div>
-          <div className="col image">
+          <div className="col lottie">
             <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_hqq7s21h.json" background="transparent" speed="1" loop autoplay></lottie-player>
           </div>
         </BasicContent>
@@ -76,7 +76,7 @@ export default function services() {
               <li>Copywriting</li>
             </ul>
           </div>
-          <div className="col image">
+          <div className="col lottie">
           <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_widr83xa.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
         </BasicContent>
 
@@ -97,7 +97,7 @@ export default function services() {
               <li>On-location shoots</li>
             </ul>
           </div>
-          <div className="col image">
+          <div className="col lottie">
           <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_hjgoiuoq.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
         </BasicContent>
       </main>
