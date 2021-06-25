@@ -20,7 +20,7 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Lorem, ipsum dolor.</h2>
+          <h2 class="title">Animating the big questions</h2>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
             impedit provident consequatur, nobis nihil voluptatum porro eum

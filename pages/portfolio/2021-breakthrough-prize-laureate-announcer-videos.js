@@ -20,7 +20,7 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Video Content Supporting Press Release</h2>
+          <h2 class="title">Press release media support</h2>
           <p>
             At the onset of Covid-19, the Breakthrough Prize Foundation made the
             difficult decision to postopone their annual red carpet gala in

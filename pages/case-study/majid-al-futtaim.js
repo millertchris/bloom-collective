@@ -71,7 +71,7 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <FeaturedImage image="/content-categories.jpg" />
+      <FeaturedImage image="/maf-content-categories.png" />
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">New world means new ways of working</h2>
