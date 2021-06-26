@@ -71,7 +71,68 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <FeaturedImage image="/maf-content-categories.png" />
+      <Gallery columns="three-column">
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/CctOyGsFFTM"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/V-ssrNQV1dY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/I8_pbj8x9iY"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/UY8xFKjsLHs"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/EYgeoWqVc1E"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+        <div className="col video">
+          <div className="videoWrapper">
+            <iframe
+              src="https://www.youtube.com/embed/W2gKhN2Z54E"
+              title="YouTube video player"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+            ></iframe>
+          </div>
+        </div>
+      </Gallery>
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">New world means new ways of working</h2>
@@ -107,28 +168,7 @@ export default function caseStudy() {
           </p>
         </div>
       </BasicContent>
-
-      <Gallery columns="three-column">
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="https://source.unsplash.com/random"
-            alt="Place holder image"
-          />
-        </div>
-      </Gallery>
-
+      <FeaturedImage image="/maf-content-categories.png" />
       <BasicContent style="style-2">
         <div className="col headline">
           <h2 class="title">Crisis content pipeline</h2>
@@ -158,7 +198,6 @@ export default function caseStudy() {
           </p>
         </div>
       </BasicContent>
-
       <Footer />
     </>
   );

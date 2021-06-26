@@ -22,10 +22,16 @@ export default function caseStudy() {
         <div className="col content">
           <h2 class="title">Good content shouldn't be rocket science</h2>
           <p>
-            Below is a sampling of the hundreds of pieces of content we've done
-            for the Breakthrough Prize Foundation. From video editing to motion
-            graphics to designed and even hand-drawn content – we've done it
-            all.
+            Each month we work closely with the Breakthrough Prize Foundation to
+            cureate, create, design and manage their social content. Our goal
+            for Breakthrough (and all of our clients) is to make the content
+            process as simple as possible.
+          </p>
+          <p>
+            Below is a small sample of the hundreds of pieces of content we've
+            done for the Breakthrough Prize Foundation over the years. From
+            video editing to 3D and 2D graphics to designed and even hand-drawn
+            content – we've done just about everything.
           </p>
           <p>
             For a deeper take, look at our client

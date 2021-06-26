@@ -22,24 +22,24 @@ export default function caseStudy() {
         <div className="col content">
           <h2 class="title">Animating the big questions</h2>
           <p>
-            Are we alone in this universe? Is there life on Mars? What about
+            Are we alone in this universe? Is there life on Mars? What about on
             Venus? It's big questions like these that Breakthrough Initiatives
             aims to answer through their research. And it's Bloom Collective's
             job to put these ideas in motion.
           </p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            For this video, we helped put together an explainer video, alongside
+            Breakthrough Parnters. The video was used as part of Breakthrough's
+            launch of their research study to investigate the possibility of
+            primitive life in Venus. Pretty epic stuff.
           </p>
         </div>
         <div className="col list">
           <h2 className="title">Project services</h2>
           <ul>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
-            <li>Lorem, ipsum dolor.</li>
+            <li>Creative direction</li>
+            <li>Project facilitation</li>
+            <li>2D animation sourcing</li>
           </ul>
         </div>
       </BasicContent>

@@ -30,11 +30,11 @@ export default function caseStudy() {
             without saying – they have some pretty epic aspirations.
           </p>
           <p>
-            And what better way to explain something that's nuanced and complex
-            than with a suite of animated videos? That's just what they did
-            here, explaining ASEAN Connectivity –  ASEAN's plan to "create a
-            network of people and infrastructure to improve the way we live,
-            work and travel."
+            And what better way to explain nuanced and complex ideas than with a
+            suite of visual animations? That's just what they did with this
+            suite of eleven videos, explaining ASEAN Connectivity –  ASEAN's
+            plan to "create a network of people and infrastructure to improve
+            the way we live, work and travel."
           </p>
         </div>
         <div className="col list">

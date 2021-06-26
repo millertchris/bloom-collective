@@ -23,10 +23,10 @@ export default function caseStudy() {
           <h2 class="title">Press release media support</h2>
           <p>
             At the onset of Covid-19, the Breakthrough Prize Foundation made the
-            difficult decision to postopone their annual red carpet gala in
-            Silicon Valley. The 2021 Breakthrough Prize Laureates were, however,
-            still announced through a series of press releases and online via
-            social media.
+            decision to postopone their annual red carpet gala in Silicon Valley
+            due to safety reasons. The 2021 Breakthrough Prize Laureates were,
+            however, still announced through a series of press releases and
+            online via social media.
           </p>
           <p>
             Bloom Collective created these videos, which were released alongside

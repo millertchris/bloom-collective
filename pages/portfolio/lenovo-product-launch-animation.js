@@ -20,16 +20,16 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">Tiny can be powerful</h2>
+          <h2 class="title">Tiny, but powerful</h2>
           <p>
-            If you build something that's sleek and tiny yet powerful, you
-            should also have a slick launch video that showcases the product,
-            the features and the .
+            If you build something that's sleek and tiny, yet powerful – you
+            should also have an über slick launch video that showcases the
+            product and its features, shouldn't you? Of course you should.
           </p>
           <p>
-            We worked with Lenovo's agency in the US on this job to help create
-            the video for their product launch in North America. We think it
-            turned out looking great!
+            That's why we worked with Lenovo's agency in the US on this job to
+            help create this (über slick) video for their product launch in
+            North America. We think it turned out looking great!
           </p>
         </div>
         <div className="col list">
