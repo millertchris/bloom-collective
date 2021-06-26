@@ -22,14 +22,10 @@ export default function caseStudy() {
         <div className="col content">
           <h2 class="title">Animating the big questions</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae
-            impedit provident consequatur, nobis nihil voluptatum porro eum
-            officiis? Maxime, laboriosam?
-          </p>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid
-            facilis architecto nemo laboriosam libero laudantium officiis ipsum
-            doloribus, natus repudiandae?
+            Are we alone in this universe? Is there life on Mars? What about
+            Venus? It's big questions like these that Breakthrough Initiatives
+            aims to answer through their research. And it's Bloom Collective's
+            job to put these ideas in motion.
           </p>
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid

@@ -39,7 +39,7 @@ export default function portfolio() {
                 image="portfolio-thumbnails-asean.jpg"
                 imageAlt="Place holder image"
                 title="ASEAN Development Goals Explainer Videos"
-                description="Eleven part animated video series."
+                description="Eleven part animated video series content."
                 link="/portfolio/asean-development-goals-explainer-videos"
               />
               <PortfolioItem
