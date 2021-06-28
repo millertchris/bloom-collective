@@ -26,7 +26,7 @@ export default function about() {
           headlineNoUnderline="or Go Home."
           text="Bloom Collective is a full-service digital consulting agency
         specializing in content strategy, design and production. We have
-        experience working across Asia Pacic, North America and the Middle
+        experience working across Asia Pacific, North America and the Middle
         East."
           photo="bloom-project-brief.jpg"
         />
