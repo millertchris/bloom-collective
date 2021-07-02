@@ -33,8 +33,7 @@ export default function caseStudy() {
             Below is a sampling of some of the content we've created for MAF.
           </p>
           <p>
-            For a deeper take, look at our client
-            <a href="/case-study/majid-al-futtaim"> case study</a>, which
+            For a deeper take, look at our client <a href="/case-study/majid-al-futtaim">case study</a>, which
             details our crisis content strategy approach for MAF during
             Covid-19.
           </p>
@@ -117,7 +116,7 @@ export default function caseStudy() {
       </Gallery>
       <Gallery columns="three-column">
         <div className="col video">
-          <div className="videoWrapper">
+          <div className="videoWrapper square">
             <iframe
               src="https://www.youtube.com/embed/IvOLXw6GkVY"
               title="YouTube video player"
@@ -127,7 +126,7 @@ export default function caseStudy() {
           </div>
         </div>
         <div className="col video">
-          <div className="videoWrapper">
+          <div className="videoWrapper square">
             <iframe
               src="https://www.youtube.com/embed/Z4w6nsqzwsE"
               title="YouTube video player"
@@ -137,7 +136,7 @@ export default function caseStudy() {
           </div>
         </div>
         <div className="col video">
-          <div className="videoWrapper">
+          <div className="videoWrapper square">
             <iframe
               src="https://www.youtube.com/embed/4UvWtEsB8Pc"
               title="YouTube video player"
@@ -147,7 +146,7 @@ export default function caseStudy() {
           </div>
         </div>
         <div className="col video">
-          <div className="videoWrapper">
+          <div className="videoWrapper square">
             <iframe
               src="https://www.youtube.com/embed/IoF6MZaRlhc"
               title="YouTube video player"
@@ -157,7 +156,7 @@ export default function caseStudy() {
           </div>
         </div>
         <div className="col video">
-          <div className="videoWrapper">
+          <div className="videoWrapper square">
             <iframe
               src="https://www.youtube.com/embed/XNuSgPsUwe4"
               title="YouTube video player"
@@ -167,7 +166,7 @@ export default function caseStudy() {
           </div>
         </div>
         <div className="col video">
-          <div className="videoWrapper">
+          <div className="videoWrapper square">
             <iframe
               src="https://www.youtube.com/embed/LgtFp8Jd38U"
               title="YouTube video player"
