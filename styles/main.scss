@@ -36,6 +36,11 @@
   width: 100%;
   height: 100%;
 }
+.videoWrapper.square {
+  position: relative;
+  padding-bottom: 100%;
+  height: 0;
+}
 
 body {
   .main-wrapper {
@@ -268,6 +273,12 @@ header {
   .col {
     &:nth-child(2) {
       display: flex;
+      flex: 1;
+      max-width: 550px;
+      justify-content: space-between;
+      @media screen and (max-width: 900px) {
+          padding-left: 0;
+      }
       @media screen and (max-width: 640px) {
         flex-direction: column;
         align-items: center;
@@ -281,6 +292,7 @@ header {
       margin-bottom: 20px;
     }
     @media screen and (max-width: 640px) {
+      margin-bottom: 30px;
       text-align: center;
     }
   }
@@ -290,7 +302,10 @@ header {
     margin-right: 20px;
     @media screen and (max-width: 640px) {
       margin-right: 0;
-      margin-bottom: 20px;
+      margin-bottom: 35px;
+      &:last-child {
+        margin-bottom: 0;
+      }
     }
   }
 }
@@ -469,6 +484,51 @@ footer {
   }
 }
 
+.block.carousel-block {
+  margin-bottom: 100px;
+  .col {
+    text-align: center;
+  }
+
+  .title {
+    font-size: 1.5em;
+    margin-bottom: 5px;
+  }
+
+  .description {
+    font-size: 1em;
+    margin-bottom: 20px;
+  }
+
+  .carousel {
+    .col.image {
+      width: 30%;
+      margin-right: 5%;
+      @media screen and (max-width: 960px) {
+        width: 100%;
+      }
+    }
+    .col.video {
+      width: 45%;
+      margin-right: 5%;
+      @media screen and (max-width: 960px) {
+        width: 100%;
+      }
+    }
+    img {
+      margin: auto;
+    }
+    .title {
+      font-size: 1.25em;
+      margin-bottom: 20px;
+    }
+    .subtitle {
+      font-size: 1em;
+      font-style: italic;
+    }
+  }
+}
+
 .block.basic-content {
   .row {
     display: flex;
@@ -513,6 +573,10 @@ footer {
     width: 100%;
     max-width: 700px;
     margin: auto;
+
+    a {
+      color: rgb(252, 211, 77);
+    }
   }
 
   ul {
