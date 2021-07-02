@@ -11,8 +11,8 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2"
-        logo="/logo-majid-white.svg"
+        style="style-2 style-5"
+        logo="/logo-asean.svg"
         logoAlt="Logo"
         title="ASEAN Development Goals Explainer Videos"
         image="https://source.unsplash.com/random"
