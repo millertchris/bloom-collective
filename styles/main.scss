@@ -722,6 +722,12 @@ footer {
       color: #000;
     }
   }
+
+  &.style-4 {
+    .logo {
+      width: 200px;
+    }
+  }
 }
 
 .block.featured-image {

@@ -19,8 +19,8 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2"
-        logo="/logo-majid-white.svg"
+        style="style-2 style-4"
+        logo="/logo-breakthrough-white.svg"
         logoAlt="Logo"
         title="Breakthrough Prize Social Media Content"
         image="https://source.unsplash.com/random"
