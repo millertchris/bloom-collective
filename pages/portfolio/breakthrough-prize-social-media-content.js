@@ -23,8 +23,8 @@ export default function caseStudy() {
         logo="/logo-breakthrough-white.svg"
         logoAlt="Logo"
         title="Breakthrough Prize Social Media Content"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">

@@ -14,8 +14,8 @@ export default function caseStudy() {
         logo="/logo-sas-white.svg"
         logoAlt="Logo"
         title="SAS Partnership Origami 3D Animations"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">

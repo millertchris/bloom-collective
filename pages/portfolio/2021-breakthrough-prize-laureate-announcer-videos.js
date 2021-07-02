@@ -15,8 +15,8 @@ export default function caseStudy() {
         logo="/logo-breakthrough-white.svg"
         logoAlt="Logo"
         title="2021 Breakthrough Prize Laureate Announcer Videos"
-        image="/portfolio-banners/greyscale-shot-old-building-with-wide-windows.jpg"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">

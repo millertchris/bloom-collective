@@ -15,8 +15,8 @@ export default function caseStudy() {
         logo="/logo-asean.svg"
         logoAlt="Logo"
         title="ASEAN Development Goals Explainer Videos"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">

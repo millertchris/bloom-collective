@@ -15,8 +15,8 @@ export default function caseStudy() {
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
         title="IFES Women Voters PSA"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">
