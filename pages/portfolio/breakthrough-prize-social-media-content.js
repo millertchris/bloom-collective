@@ -60,6 +60,8 @@ export default function caseStudy() {
       </BasicContent>
       <section className="block carousel-block">
         <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -117,6 +119,8 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -166,6 +170,8 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -215,6 +221,8 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -264,6 +272,8 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
