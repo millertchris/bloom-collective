@@ -5,6 +5,14 @@ import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 import BasicContent from "../../components/BasicContent";
 
+import Flickity from "react-flickity-component";
+
+const flickityOptions = {
+  wrapAround: true,
+  initialIndex: 0,
+  contain: true,
+};
+
 export default function caseStudy() {
   return (
     <>
@@ -48,52 +56,76 @@ export default function caseStudy() {
           </ul>
         </div>
       </BasicContent>
-      <Gallery columns="two-column">
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/zUmCTtmIVBY"
-              title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Coaching Skills"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
+      <section className="block carousel-block">
+        <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
+          <Flickity
+            className={"carousel"} // default ''
+            elementType={"div"} // default 'div'
+            options={{ ...flickityOptions, initialIndex: 0 }} // takes flickity options {}
+            disableImagesLoaded={true} // default false
+            reloadOnUpdate={true} // default false
+            static={true} // default false
+          >
+            <div className="col video">
+              <div className="videoWrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/zUmCTtmIVBY"
+                  title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Coaching Skills"
+                  modestbranding="1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/vKig9JtN4So"
+                  title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Team Dialogue"
+                  modestbranding="1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/4v2pSGIWdR8"
+                  title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Building Sincere Relationships"
+                  modestbranding="1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/oRGBATvPwJk"
+                  title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Trustworthiness"
+                  modestbranding="1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper">
+                <iframe
+                  src="https://www.youtube.com/embed/HP61Mdtx3lU"
+                  title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Mindset Change"
+                  modestbranding="1"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+          </Flickity>
         </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/vKig9JtN4So"
-              title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Team Dialogue"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/4v2pSGIWdR8"
-              title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Building Sincere Relationships"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper">
-            <iframe
-              src="https://www.youtube.com/embed/oRGBATvPwJk"
-              title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Trustworthiness"
-              modestbranding="1"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-      </Gallery>
+      </section>
       <Gallery columns="three-column">
         <div className="col image">
           <img
