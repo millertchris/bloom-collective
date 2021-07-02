@@ -49,7 +49,7 @@ export default function caseStudy() {
         </div>
       </BasicContent>
       <BasicContent style="style-1">
-        <div className="col content">
+        <div className="col content width-100">
           <div className="videoWrapper">
             <iframe
               src="https://www.youtube.com/embed/I3wHXQhMxlM"

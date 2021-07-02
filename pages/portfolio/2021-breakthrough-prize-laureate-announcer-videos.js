@@ -15,7 +15,7 @@ export default function caseStudy() {
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
         title="2021 Breakthrough Prize Laureate Announcer Videos"
-        image="/banner-temp/greyscale-shot-old-building-with-wide-windows.jpg"
+        image="/portfolio-banners/greyscale-shot-old-building-with-wide-windows.jpg"
         imageAlt="Background Image"
       />
       <BasicContent style="style-1">
