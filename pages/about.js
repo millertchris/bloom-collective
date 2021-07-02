@@ -95,7 +95,7 @@ export default function about() {
           headlineNoUnderline="We are located in"
           headlineUnderline="Jakarta, Indonesia."
           text="Jakarta. Djakarta. Batavia. The Big Durian. Whatver you want to call it, most of us have a love/hate relationship with this jungle-come-megacity. But one thing is certain – you gotta be tough to live in Jakarta. We Bloomies pride ourselves on our Jakarta heriatge. It makes us who we are – tough, resilient and ready to weather the flood (sometimes literally)."
-          photo="jakarta.png"
+          photo="jakarta-sunset.jpg"
         />
       </Layout>
       <Footer />
