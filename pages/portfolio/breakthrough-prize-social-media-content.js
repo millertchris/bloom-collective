@@ -9,7 +9,7 @@ import Flickity from "react-flickity-component";
 
 const flickityOptions = {
   wrapAround: true,
-  initialIndex: 0,
+  initialIndex: 1,
   contain: true,
 };
 
@@ -121,7 +121,7 @@ export default function caseStudy() {
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
             options={flickityOptions} // takes flickity options {}
-            disableImagesLoaded={true} // default false
+            disableImagesLoaded={false} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
           >
@@ -170,7 +170,7 @@ export default function caseStudy() {
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
             options={flickityOptions} // takes flickity options {}
-            disableImagesLoaded={true} // default false
+            disableImagesLoaded={false} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
           >
@@ -219,7 +219,7 @@ export default function caseStudy() {
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
             options={flickityOptions} // takes flickity options {}
-            disableImagesLoaded={true} // default false
+            disableImagesLoaded={false} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
           >
@@ -268,7 +268,7 @@ export default function caseStudy() {
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
             options={flickityOptions} // takes flickity options {}
-            disableImagesLoaded={true} // default false
+            disableImagesLoaded={false} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
           >
