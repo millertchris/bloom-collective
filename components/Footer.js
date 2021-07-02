@@ -6,6 +6,7 @@ import {
   faFacebook,
   faInstagram,
   faLinkedin,
+  faYoutube,
 } from "@fortawesome/free-brands-svg-icons";
 
 export default function Footer() {
@@ -27,18 +28,23 @@ export default function Footer() {
             <p className="subtitle">Business-driven content workflows</p>
             <ul className="social">
               <li>
-                <a href="https://www.instagram.com/bloomcollective/">
-                  <FontAwesomeIcon icon={faInstagram} />
+                <a href="https://www.instagram.com/bloomcollective/" target="_blank">
+                  <FontAwesomeIcon className="icon" icon={faInstagram} />
                 </a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/company/bloom-collective-studio/">
-                  <FontAwesomeIcon icon={faLinkedin} />
+                <a href="https://www.linkedin.com/company/bloom-collective-studio/" target="_blank">
+                  <FontAwesomeIcon className="icon" icon={faLinkedin} />
                 </a>
               </li>
               <li>
-                <a href="https://www.facebook.com/bloomcollectivegroup">
-                  <FontAwesomeIcon icon={faFacebook} />
+                <a href="https://www.facebook.com/bloomcollectivegroup" target="_blank">
+                  <FontAwesomeIcon className="icon" icon={faFacebook} />
+                </a>
+              </li>
+              <li>
+                <a href="https://www.youtube.com/channel/UCMFFTxxWpX2YRRS8nVsPJrA/featured" target="_blank">
+                  <FontAwesomeIcon className="icon" icon={faYoutube} />
                 </a>
               </li>
             </ul>

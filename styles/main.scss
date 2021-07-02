@@ -387,6 +387,20 @@ footer {
       display: block;
       width: 25px;
       margin-right: 20px;
+
+      .icon {
+        width: 60%;
+      }
+    }
+
+    li {
+      &:last-child {
+        a {
+          .icon {
+            width: 70%;
+          }
+        }
+      }
     }
   }
 }
