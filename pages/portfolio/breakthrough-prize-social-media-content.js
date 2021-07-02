@@ -65,7 +65,7 @@ export default function caseStudy() {
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
-            options={flickityOptions} // takes flickity options {}
+            options={{ ...flickityOptions, initialIndex: 0 }} // takes flickity options {}
             disableImagesLoaded={true} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
@@ -277,7 +277,7 @@ export default function caseStudy() {
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
-            options={flickityOptions} // takes flickity options {}
+            options={{ ...flickityOptions, initialIndex: 2 }} // takes flickity options {}
             disableImagesLoaded={false} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
