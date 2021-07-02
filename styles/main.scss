@@ -274,8 +274,8 @@ header {
     &:nth-child(2) {
       display: flex;
       flex: 1;
-      padding-left: 100px;
-      justify-content: space-around;
+      max-width: 550px;
+      justify-content: space-between;
       @media screen and (max-width: 900px) {
           padding-left: 0;
       }
