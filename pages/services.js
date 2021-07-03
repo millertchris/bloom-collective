@@ -48,7 +48,13 @@ export default function services() {
             </ul>
           </div>
           <div className="col lottie">
-            <lottie-player src="https://assets1.lottiefiles.com/private_files/lf30_hqq7s21h.json" background="transparent" speed="1" loop autoplay></lottie-player>
+            <lottie-player
+              src="https://assets1.lottiefiles.com/private_files/lf30_hqq7s21h.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>
           </div>
         </BasicContent>
 
@@ -58,13 +64,13 @@ export default function services() {
             <p>
               Brand designers. Web desingers. Print designers. What do they all
               have in common? A lot less than you might think. When it comes do
-              design, not everyone is a Swiss army knife. But one thing usually
+              design, not everyone is a Swiss Army knife. But one thing usually
               sets designers apart – experience.
             </p>
             <p>
               Our team of in-house creators and producers have experience
-              working with just about everything. We can handle just about
-              anything, from motion graphics, to print, to annual reports.
+              working with just about everything, and we can handle just about
+              anything.
             </p>
             <ul>
               <li>Graphic design</li>
@@ -77,7 +83,14 @@ export default function services() {
             </ul>
           </div>
           <div className="col lottie">
-          <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_znx6jwam.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
+            <lottie-player
+              src="https://assets9.lottiefiles.com/private_files/lf30_znx6jwam.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>{" "}
+          </div>
         </BasicContent>
 
         <BasicContent style="style-3" positionContent="right">
@@ -98,7 +111,14 @@ export default function services() {
             </ul>
           </div>
           <div className="col lottie">
-          <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_hjgoiuoq.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
+            <lottie-player
+              src="https://assets9.lottiefiles.com/private_files/lf30_hjgoiuoq.json"
+              background="transparent"
+              speed="1"
+              loop
+              autoplay
+            ></lottie-player>{" "}
+          </div>
         </BasicContent>
       </main>
       <Footer />
