@@ -11,12 +11,12 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2"
-        logo="/logo-majid-white.svg"
+        style="style-2 style-4"
+        logo="/logo-breakthrough-white.svg"
         logoAlt="Logo"
         title="Breakthrough Initiatives Venus Animation"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">
@@ -47,7 +47,7 @@ export default function caseStudy() {
         <div className="col content width-100">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/P1Qhedlm380"
+              src="https://www.youtube.com/embed/P1Qhedlm380?modestbranding=1&rel=0"
               title="Breakthrough Initiatives Venus Animation"
               frameBorder="0"
               allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

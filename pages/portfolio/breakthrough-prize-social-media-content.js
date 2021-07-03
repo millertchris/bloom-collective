@@ -19,12 +19,12 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2"
-        logo="/logo-majid-white.svg"
+        style="style-2 style-4"
+        logo="/logo-breakthrough-white.svg"
         logoAlt="Logo"
         title="Breakthrough Prize Social Media Content"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">
@@ -73,7 +73,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/wrHEK0VtHWQ"
+                  src="https://www.youtube.com/embed/wrHEK0VtHWQ?modestbranding=1&rel=0"
                   title="Breakthrough Prize 2019 Im Memoriam Video"
                   modestbranding="1"
                   frameborder="0"
@@ -84,7 +84,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/HVU2huYtVeg"
+                  src="https://www.youtube.com/embed/HVU2huYtVeg?modestbranding=1&rel=0"
                   title="Jocelyn Bell Burnell Special Breakthrough Prize Video"
                   modestbranding="1"
                   frameborder="0"
@@ -95,7 +95,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/HLJva6ss2Bc"
+                  src="https://www.youtube.com/embed/HLJva6ss2Bc?modestbranding=1&rel=0"
                   title="Breakthrough Initiatives MeerKAT Video"
                   modestbranding="1"
                   frameborder="0"
@@ -106,7 +106,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/zlzs6AoIOJ0"
+                  src="https://www.youtube.com/embed/zlzs6AoIOJ0?modestbranding=1&rel=0"
                   title="Event Horizon (EHT) Telescope Collaboration Video"
                   modestbranding="1"
                   frameborder="0"

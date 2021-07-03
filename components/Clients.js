@@ -18,9 +18,9 @@ export default function Clients(props) {
           </div>
 
           <div className="col">
-            <img src={props.logoOne} />
-            <img src={props.logoTwo} />
-            <img src={props.logoThree} />
+            <img className="logo-1" src={props.logoOne} />
+            <img className="logo-2" src={props.logoTwo} />
+            <img className="logo-3" src={props.logoThree} />
           </div>
         </div>
       </div>

@@ -23,8 +23,8 @@ export default function caseStudy() {
         logo="/logo-majid-white.svg"
         logoAlt="Logo"
         title="Majid Al Futtaim Internal Comms Social Content"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">
@@ -71,7 +71,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/zUmCTtmIVBY"
+                  src="https://www.youtube.com/embed/zUmCTtmIVBY?modestbranding=1&rel=0"
                   title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Coaching Skills"
                   modestbranding="1"
                   frameborder="0"
@@ -82,7 +82,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/vKig9JtN4So"
+                  src="https://www.youtube.com/embed/vKig9JtN4So?modestbranding=1&rel=0"
                   title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Team Dialogue"
                   modestbranding="1"
                   frameborder="0"
@@ -93,7 +93,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/4v2pSGIWdR8"
+                  src="https://www.youtube.com/embed/4v2pSGIWdR8?modestbranding=1&rel=0"
                   title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Building Sincere Relationships"
                   modestbranding="1"
                   frameborder="0"
@@ -104,7 +104,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/oRGBATvPwJk"
+                  src="https://www.youtube.com/embed/oRGBATvPwJk?modestbranding=1&rel=0"
                   title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Trustworthiness"
                   modestbranding="1"
                   frameborder="0"
@@ -115,7 +115,7 @@ export default function caseStudy() {
             <div className="col video">
               <div className="videoWrapper">
                 <iframe
-                  src="https://www.youtube.com/embed/HP61Mdtx3lU"
+                  src="https://www.youtube.com/embed/HP61Mdtx3lU?modestbranding=1&rel=0"
                   title="Majid Al Futtaim Virtual Leadership Workshop Promo Video – Mindset Change"
                   modestbranding="1"
                   frameborder="0"
@@ -150,7 +150,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/IvOLXw6GkVY"
+              src="https://www.youtube.com/embed/IvOLXw6GkVY?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -160,7 +160,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/Z4w6nsqzwsE"
+              src="https://www.youtube.com/embed/Z4w6nsqzwsE?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -170,7 +170,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/4UvWtEsB8Pc"
+              src="https://www.youtube.com/embed/4UvWtEsB8Pc?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -180,7 +180,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/IoF6MZaRlhc"
+              src="https://www.youtube.com/embed/IoF6MZaRlhc?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -190,7 +190,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/XNuSgPsUwe4"
+              src="https://www.youtube.com/embed/XNuSgPsUwe4?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -200,7 +200,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/LgtFp8Jd38U"
+              src="https://www.youtube.com/embed/LgtFp8Jd38U?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"

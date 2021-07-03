@@ -11,12 +11,12 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2"
-        logo="/logo-majid-white.svg"
+        style="style-2 style-5"
+        logo="/logo-asean.svg"
         logoAlt="Logo"
         title="ASEAN Development Goals Explainer Videos"
-        image="https://source.unsplash.com/random"
         imageAlt="Background Image"
+        randomizeImage={true}
       />
       <BasicContent style="style-1">
         <div className="col content">
@@ -51,7 +51,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/Vf813HMbKZc"
+              src="https://www.youtube.com/embed/Vf813HMbKZc?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -62,7 +62,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/8tHRCSrjMoo"
+              src="https://www.youtube.com/embed/8tHRCSrjMoo?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -73,7 +73,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/KQjwULihhdQ"
+              src="https://www.youtube.com/embed/KQjwULihhdQ?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -84,7 +84,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/iIS9QhNLLas"
+              src="https://www.youtube.com/embed/iIS9QhNLLas?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -95,7 +95,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/5mfhPochAKA"
+              src="https://www.youtube.com/embed/5mfhPochAKA?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -106,7 +106,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/R9gaLHZ0gu0"
+              src="https://www.youtube.com/embed/R9gaLHZ0gu0?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -117,7 +117,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/8gQk8qKmNy0"
+              src="https://www.youtube.com/embed/8gQk8qKmNy0?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -128,7 +128,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/iTu1KIENdls"
+              src="https://www.youtube.com/embed/iTu1KIENdls?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -139,7 +139,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/EnOYTKDp3OA"
+              src="https://www.youtube.com/embed/EnOYTKDp3OA?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -150,7 +150,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/GpVQnPuyut4"
+              src="https://www.youtube.com/embed/GpVQnPuyut4?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"
@@ -161,7 +161,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/reFn2WH-Ez8"
+              src="https://www.youtube.com/embed/reFn2WH-Ez8?modestbranding=1&rel=0"
               title="YouTube video player"
               modestbranding="1"
               frameborder="0"

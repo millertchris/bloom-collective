@@ -298,7 +298,6 @@ header {
   }
   img {
     width: 100%;
-    max-width: 120px;
     margin-right: 20px;
     @media screen and (max-width: 640px) {
       margin-right: 0;
@@ -306,6 +305,17 @@ header {
       &:last-child {
         margin-bottom: 0;
       }
+    }
+  }
+  .logo {
+    &-1{
+      width: 110px;
+    }
+    &-2{
+      width: 90px;
+    }
+    &-3{
+      width: 160px;
     }
   }
 }
@@ -720,6 +730,18 @@ footer {
     .title {
       margin-bottom: 40px;
       color: #000;
+    }
+  }
+
+  &.style-4 {
+    .logo {
+      width: 200px;
+    }
+  }
+
+  &.style-5 {
+    .logo {
+      width: 100px;
     }
   }
 }
