@@ -77,7 +77,7 @@ export default function services() {
             </ul>
           </div>
           <div className="col lottie">
-          <lottie-player src="https://assets3.lottiefiles.com/private_files/lf30_widr83xa.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
+          <lottie-player src="https://assets9.lottiefiles.com/private_files/lf30_znx6jwam.json" background="transparent" speed="1" loop autoplay></lottie-player>          </div>
         </BasicContent>
 
         <BasicContent style="style-3" positionContent="right">

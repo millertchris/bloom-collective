@@ -47,7 +47,7 @@ export default function caseStudy() {
         <div className="col content width-100">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/P1Qhedlm380"
+              src="https://www.youtube.com/embed/P1Qhedlm380?modestbranding=1&rel=0"
               title="Breakthrough Initiatives Venus Animation"
               frameBorder="0"
               allow="fullscreen; accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

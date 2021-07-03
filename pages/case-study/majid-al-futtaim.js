@@ -75,7 +75,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/CctOyGsFFTM"
+              src="https://www.youtube.com/embed/CctOyGsFFTM?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -85,7 +85,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/V-ssrNQV1dY"
+              src="https://www.youtube.com/embed/V-ssrNQV1dY?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -95,7 +95,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/I8_pbj8x9iY"
+              src="https://www.youtube.com/embed/I8_pbj8x9iY?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -105,7 +105,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/UY8xFKjsLHs"
+              src="https://www.youtube.com/embed/UY8xFKjsLHs?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -115,7 +115,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/EYgeoWqVc1E"
+              src="https://www.youtube.com/embed/EYgeoWqVc1E?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -125,7 +125,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper square">
             <iframe
-              src="https://www.youtube.com/embed/W2gKhN2Z54E"
+              src="https://www.youtube.com/embed/W2gKhN2Z54E?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"

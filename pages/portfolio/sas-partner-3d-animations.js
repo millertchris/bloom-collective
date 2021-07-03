@@ -45,7 +45,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/7Gd-ZgqB4RM"
+              src="https://www.youtube.com/embed/7Gd-ZgqB4RM?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -55,7 +55,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/qRx6Dd43UQI"
+              src="https://www.youtube.com/embed/qRx6Dd43UQI?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -65,7 +65,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/KzDECDADNLk"
+              src="https://www.youtube.com/embed/KzDECDADNLk?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -75,7 +75,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/DuYjzOHRzSE"
+              src="https://www.youtube.com/embed/DuYjzOHRzSE?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
@@ -85,7 +85,7 @@ export default function caseStudy() {
         <div className="col video">
           <div className="videoWrapper">
             <iframe
-              src="https://www.youtube.com/embed/O73yqgzGLpg"
+              src="https://www.youtube.com/embed/O73yqgzGLpg?modestbranding=1&rel=0"
               title="YouTube video player"
               frameborder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
