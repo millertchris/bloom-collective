@@ -60,8 +60,8 @@ export default function caseStudy() {
       </BasicContent>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">Breakthrough Presser Videos</h3>
+          <p className="description">Press release companion videos.</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -119,8 +119,10 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">Breakthrough Prize Laureate Posters</h3>
+          <p className="description">
+            Hand-drawn social posters with custom typography.
+          </p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -170,8 +172,10 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">Women in STEM Social Posters</h3>
+          <p className="description">
+            Social poster series celebrating women scientists.
+          </p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -221,8 +225,12 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">
+            "On This Day in Science" Social Poster Series
+          </h3>
+          <p className="description">
+            Social poster series celebrating past scientific achievement.
+          </p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -272,8 +280,11 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">Scientist Birthday Social Posters</h3>
+          <p className="description">
+            Social poster series celebrating the achievements of renowned
+            scientists on their birthdays.
+          </p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
