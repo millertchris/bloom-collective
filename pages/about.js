@@ -34,7 +34,7 @@ export default function about() {
           headlineUnderline="Empowering"
           headlineNoUnderline="businesses with content workflows."
           paragraphOne="In the last ten years the content paradigm has changed drastically. With an ever-growing number of relevant platforms, every business now needs to make choices about where, what and how often they will communicate–and the process can be daunting."
-          paragraphTwo="Whether it's telling your brand story to an external audience, communicating internally to your staff, Bloom Collective can help you along your content journey. Our goal is to plug in where you need us, and make the process as seamless as possible."
+          paragraphTwo="Whether it's telling your brand story to an external audience or communicating internally to your staff, Bloom Collective can help you along your content journey. Our goal is to plug in where you need us, and make the process as seamless as possible."
           paragraphThree="Take a look around our site, check out our portfolio, and see what our clients are saying. Free to contact us if you have any questions, or if you would like to hear more about how we work."
           personName="Matthew Ooley"
           personTitle="Founder at Bloom Collective"
