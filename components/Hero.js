@@ -1,5 +1,5 @@
 import Rellax from "rellax";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 
 export default function Hero({
   style,
@@ -11,6 +11,7 @@ export default function Hero({
   rellaxCentering,
   randomizeImage = false
 }) {
+  const [randomIndex, setRandomIndex] = useState(-1);
   const bannerURLs = [
     "banner-1.jpg",
     "banner-2.jpg",
@@ -21,15 +22,16 @@ export default function Hero({
     "banner-7.jpg",
     "banner-8.jpg",
   ];
-  const getRandomBanner = () => {
-    const randomIndex = Math.floor(Math.random() * bannerURLs.length);
-    return bannerURLs[randomIndex];
+  const renderBanner = () => {
+    return randomIndex > -1 && `/portfolio-banners/${bannerURLs[randomIndex]}`;
   };
   useEffect(() => {
+    const random = Math.floor(Math.random() * bannerURLs.length);
+    setRandomIndex(random);
     var rellax = new Rellax(".rellax", {
       // center: true,
     });
-  });
+  }, []);
   return (
     <section className={"block hero " + style}>
       <div className="component-wrapper">
@@ -41,7 +43,7 @@ export default function Hero({
           <div className="col image">
             <img
               className="rellax"
-              src={randomizeImage ? `/portfolio-banners/${getRandomBanner()}` : image}
+              src={randomizeImage ? renderBanner() : image}
               alt={imageAlt}
               data-rellax-percentage={rellaxCentering}
             />
