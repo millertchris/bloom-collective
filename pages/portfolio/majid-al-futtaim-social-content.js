@@ -126,106 +126,132 @@ export default function caseStudy() {
           </Flickity>
         </div>
       </section>
-      <Gallery columns="three-column">
-        <div className="col image">
-          <img
-            src="/maf-holiday-posters/earth-day.jpg"
-            alt="Majid Al Futtaim Holiday Posters – Earth Day"
-          />
+      <section className="block carousel-block">
+        <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
+          <Flickity
+            className={"carousel"} // default ''
+            elementType={"div"} // default 'div'
+            options={{ ...flickityOptions, initialIndex: 0 }} // takes flickity options {}
+            disableImagesLoaded={true} // default false
+            reloadOnUpdate={true} // default false
+            static={true} // default false
+          >
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/earth-day.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Earth Day"
+              />
+            </div>
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/jordan-independence-day.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Jordan Independence Day"
+              />
+            </div>
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/labor-day.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Labor Day"
+              />
+            </div>
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/ascension-of-prophet-muhammad.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Labor Day"
+              />
+            </div>
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/international-day-of-happiness.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Labor Day"
+              />
+            </div>
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/mothers-day.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Labor Day"
+              />
+            </div>
+          </Flickity>
         </div>
-        <div className="col image">
-          <img
-            src="/maf-holiday-posters/jordan-independence-day.jpg"
-            alt="Majid Al Futtaim Holiday Posters – Jordan Independence Day"
-          />
+      </section>
+      <section className="block carousel-block">
+        <div className="component-wrapper">
+          <h3 className="title">Category title here</h3>
+          <p className="description">Category description here</p>
+          <Flickity
+            className={"carousel"} // default ''
+            elementType={"div"} // default 'div'
+            options={{ ...flickityOptions, initialIndex: 0 }} // takes flickity options {}
+            disableImagesLoaded={true} // default false
+            reloadOnUpdate={true} // default false
+            static={true} // default false
+          >
+            <div className="col video">
+              <div className="videoWrapper square">
+                <iframe
+                  src="https://www.youtube.com/embed/IvOLXw6GkVY?modestbranding=1&rel=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper square">
+                <iframe
+                  src="https://www.youtube.com/embed/Z4w6nsqzwsE?modestbranding=1&rel=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper square">
+                <iframe
+                  src="https://www.youtube.com/embed/4UvWtEsB8Pc?modestbranding=1&rel=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper square">
+                <iframe
+                  src="https://www.youtube.com/embed/IoF6MZaRlhc?modestbranding=1&rel=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper square">
+                <iframe
+                  src="https://www.youtube.com/embed/XNuSgPsUwe4?modestbranding=1&rel=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+            <div className="col video">
+              <div className="videoWrapper square">
+                <iframe
+                  src="https://www.youtube.com/embed/LgtFp8Jd38U?modestbranding=1&rel=0"
+                  title="YouTube video player"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+                ></iframe>
+              </div>
+            </div>
+          </Flickity>
         </div>
-        <div className="col image">
-          <img
-            src="/maf-holiday-posters/labor-day.jpg"
-            alt="Majid Al Futtaim Holiday Posters – Labor Day"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="/maf-holiday-posters/ascension-of-prophet-muhammad.jpg"
-            alt="Majid Al Futtaim Holiday Posters – Labor Day"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="/maf-holiday-posters/international-day-of-happiness.jpg"
-            alt="Majid Al Futtaim Holiday Posters – Labor Day"
-          />
-        </div>
-        <div className="col image">
-          <img
-            src="/maf-holiday-posters/mothers-day.jpg"
-            alt="Majid Al Futtaim Holiday Posters – Labor Day"
-          />
-        </div>
-      </Gallery>
-      <Gallery columns="three-column">
-        <div className="col video">
-          <div className="videoWrapper square">
-            <iframe
-              src="https://www.youtube.com/embed/IvOLXw6GkVY?modestbranding=1&rel=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper square">
-            <iframe
-              src="https://www.youtube.com/embed/Z4w6nsqzwsE?modestbranding=1&rel=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper square">
-            <iframe
-              src="https://www.youtube.com/embed/4UvWtEsB8Pc?modestbranding=1&rel=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper square">
-            <iframe
-              src="https://www.youtube.com/embed/IoF6MZaRlhc?modestbranding=1&rel=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper square">
-            <iframe
-              src="https://www.youtube.com/embed/XNuSgPsUwe4?modestbranding=1&rel=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-        <div className="col video">
-          <div className="videoWrapper square">
-            <iframe
-              src="https://www.youtube.com/embed/LgtFp8Jd38U?modestbranding=1&rel=0"
-              title="YouTube video player"
-              frameborder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-            ></iframe>
-          </div>
-        </div>
-      </Gallery>
+      </section>
       <Footer />
     </>
   );
