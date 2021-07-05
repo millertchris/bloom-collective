@@ -12,15 +12,14 @@ export default function Hero({
   randomizeImage = false
 }) {
   const bannerURLs = [
-    "/portfolio-banners/gray-concrete-wall.jpg",
-    "/portfolio-banners/greyscale-shot-facade-modern-building-with-dark-grey-walls.jpg",
-    "/portfolio-banners/greyscale-shot-man-waiting-train-station-blurred-train-motion.jpg",
-    "/portfolio-banners/greyscale-shot-old-building-with-wide-windows.jpg",
-    "/portfolio-banners/greyscale-shot-unique-piece-architecture-perfect-creative-background.jpg",
-    "/portfolio-banners/hirshhorn.jpg",
-    "/portfolio-banners/looking-up.jpg",
-    "/portfolio-banners/low-angle-shot-creative-modern-building-with-outstanding-architectural-twists.jpg",
-    "/portfolio-banners/residential-building-facades-rotterdam-netherlands.jpg"
+    "banner-1.jpg",
+    "banner-2.jpg",
+    "banner-3.jpg",
+    "banner-4.jpg",
+    "banner-5.jpg",
+    "banner-6.jpg",
+    "banner-7.jpg",
+    "banner-8.jpg",
   ];
   const getRandomBanner = () => {
     const randomIndex = Math.floor(Math.random() * bannerURLs.length);
@@ -42,7 +41,7 @@ export default function Hero({
           <div className="col image">
             <img
               className="rellax"
-              src={randomizeImage ? getRandomBanner() : image}
+              src={randomizeImage ? `/portfolio-banners/${getRandomBanner()}` : image}
               alt={imageAlt}
               data-rellax-percentage={rellaxCentering}
             />
