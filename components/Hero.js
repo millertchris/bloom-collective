@@ -22,9 +22,19 @@ export default function Hero({
     "banner-7.jpg",
     "banner-8.jpg",
   ];
-  const renderBanner = () => {
+  const renderRandomBanner = () => {
     return randomIndex > -1 && `/portfolio-banners/${bannerURLs[randomIndex]}`;
   };
+  const renderBanner = () => {
+    return (!randomizeImage || randomIndex > -1) && (
+      <img
+        className="rellax"
+        src={randomizeImage ? renderRandomBanner() : image}
+        alt={imageAlt}
+        data-rellax-percentage={rellaxCentering}
+      />
+    );
+  }
   useEffect(() => {
     const random = Math.floor(Math.random() * bannerURLs.length);
     setRandomIndex(random);
@@ -41,12 +51,7 @@ export default function Hero({
             <h1 className="title">{title}</h1>
           </div>
           <div className="col image">
-            <img
-              className="rellax"
-              src={randomizeImage ? renderBanner() : image}
-              alt={imageAlt}
-              data-rellax-percentage={rellaxCentering}
-            />
+            {renderBanner()}
           </div>
         </div>
       </div>
