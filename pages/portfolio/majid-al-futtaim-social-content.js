@@ -41,9 +41,9 @@ export default function caseStudy() {
             Below is a sampling of some of the content we've created for MAF.
           </p>
           <p>
-            For a deeper take, look at our client <a href="/case-study/majid-al-futtaim">case study</a>, which
-            details our crisis content strategy approach for MAF during
-            Covid-19.
+            For a deeper take, look at our client{" "}
+            <a href="/case-study/majid-al-futtaim">case study</a>, which details
+            our crisis content strategy approach for MAF during Covid-19.
           </p>
         </div>
         <div className="col list">
@@ -142,6 +142,24 @@ export default function caseStudy() {
         <div className="col image">
           <img
             src="/maf-holiday-posters/labor-day.jpg"
+            alt="Majid Al Futtaim Holiday Posters – Labor Day"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/maf-holiday-posters/ascension-of-prophet-muhammad.jpg"
+            alt="Majid Al Futtaim Holiday Posters – Labor Day"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/maf-holiday-posters/international-day-of-happiness.jpg"
+            alt="Majid Al Futtaim Holiday Posters – Labor Day"
+          />
+        </div>
+        <div className="col image">
+          <img
+            src="/maf-holiday-posters/mothers-day.jpg"
             alt="Majid Al Futtaim Holiday Posters – Labor Day"
           />
         </div>
