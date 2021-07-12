@@ -683,6 +683,38 @@ footer {
     margin-bottom: 20px;
   }
 
+  &.logo-w {
+    &-100 {
+      .logo {
+        width: 100px;
+      }
+    }
+
+    &-150 {
+      .logo {
+        width: 150px;
+      }
+    }
+
+    &-170 {
+      .logo {
+        width: 170px;
+      }
+    }
+
+    &-200 {
+      .logo {
+        width: 200px;
+      }
+    }
+
+    &-250 {
+      .logo {
+        width: 250px;
+      }
+    }
+  }
+
   .content {
     position: relative;
     color: #fff;
@@ -734,24 +766,6 @@ footer {
     .title {
       margin-bottom: 40px;
       color: #000;
-    }
-  }
-
-  &.style-4 {
-    .logo {
-      width: 200px;
-    }
-  }
-
-  &.style-5 {
-    .logo {
-      width: 100px;
-    }
-  }
-
-  &.style-6 {
-    .logo {
-      width: 170px;
     }
   }
 }

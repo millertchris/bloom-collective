@@ -11,7 +11,7 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2 style-4"
+        style="style-2 logo-w-250"
         logo="/logo-ifes-white.svg"
         logoAlt="Logo"
         title="IFES Women Voters PSA"
