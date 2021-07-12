@@ -309,10 +309,10 @@ header {
   }
   .logo {
     &-1{
-      width: 110px;
+      width: 100px;
     }
     &-2{
-      width: 90px;
+      width: 100px;
     }
     &-3{
       width: 160px;
@@ -746,6 +746,12 @@ footer {
   &.style-5 {
     .logo {
       width: 100px;
+    }
+  }
+
+  &.style-6 {
+    .logo {
+      width: 170px;
     }
   }
 }
