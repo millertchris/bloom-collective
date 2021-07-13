@@ -13,7 +13,7 @@ export default function Clients(props) {
     >
       <div className="component-wrapper">
         <div className="row">
-          <div className="col">
+          <div className="col title-col">
             <_subheadline>{props.headline}</_subheadline>
           </div>
 
