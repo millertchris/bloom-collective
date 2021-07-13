@@ -14,7 +14,7 @@ export default function services() {
       <main className="main-wrapper">
         <Hero
           style="style-3"
-          title="Our Services"
+          title="Our services"
           image="bloom-logo-blur.jpg"
           imageAlt="Background Image"
         />

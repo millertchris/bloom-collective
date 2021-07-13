@@ -11,7 +11,7 @@ export default function portfolio() {
         <section className="block portfolio">
           <div className="component-wrapper">
             <div className="row intro">
-              <h1 class="title">The work we do.</h1>
+              <h1 class="title">The work we do</h1>
             </div>
             <div className="row items">
               <PortfolioItem
