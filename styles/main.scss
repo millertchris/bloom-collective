@@ -296,6 +296,11 @@ header {
       text-align: center;
     }
   }
+  .title-col {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+  }
   img {
     width: 100%;
     margin-right: 20px;
@@ -310,9 +315,10 @@ header {
   .logo {
     &-1{
       width: 110px;
+      margin-top: 15px;
     }
     &-2{
-      width: 90px;
+      width: 100px;
     }
     &-3{
       width: 160px;
@@ -683,10 +689,52 @@ footer {
     margin-bottom: 20px;
   }
 
+  &.logo-w {
+    &-100 {
+      .logo {
+        width: 100px;
+      }
+    }
+
+    &-120 {
+      .logo {
+        width: 120px;
+      }
+    }
+
+    &-150 {
+      .logo {
+        width: 150px;
+      }
+    }
+
+    &-170 {
+      .logo {
+        width: 170px;
+      }
+    }
+
+    &-200 {
+      .logo {
+        width: 200px;
+      }
+    }
+
+    &-250 {
+      .logo {
+        width: 250px;
+      }
+    }
+  }
+
   .content {
     position: relative;
     color: #fff;
     z-index: 2;
+  }
+
+  .image {
+    background-color: #9c9b9b;
   }
 
   &.style-1 {
@@ -730,18 +778,6 @@ footer {
     .title {
       margin-bottom: 40px;
       color: #000;
-    }
-  }
-
-  &.style-4 {
-    .logo {
-      width: 200px;
-    }
-  }
-
-  &.style-5 {
-    .logo {
-      width: 100px;
     }
   }
 }

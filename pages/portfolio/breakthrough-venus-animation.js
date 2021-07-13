@@ -11,8 +11,8 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2 style-4"
-        logo="/logo-breakthrough-white.svg"
+        style="style-2 logo-w-200"
+        logo="/logo-breakthrough-all-white.svg"
         logoAlt="Logo"
         title="Breakthrough Initiatives Venus Animation"
         imageAlt="Background Image"

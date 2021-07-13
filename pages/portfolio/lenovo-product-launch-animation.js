@@ -11,8 +11,8 @@ export default function caseStudy() {
       <Header theme="white" logo="/bloom_logo_white.svg" />
 
       <Hero
-        style="style-2"
-        logo="/logo-majid-white.svg"
+        style="style-2 logo-w-170"
+        logo="/logo-lenovo-white.svg"
         logoAlt="Logo"
         title="Lenovo Product Launch Animation"
         imageAlt="Background Image"

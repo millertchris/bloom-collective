@@ -10,7 +10,7 @@ export default function caseStudy() {
     <>
       <Header theme="white" logo="/bloom_logo_white.svg" />
       <Hero
-        style="style-2 style-5"
+        style="style-2 logo-w-150"
         logo="/logo-sas-white.svg"
         logoAlt="Logo"
         title="SAS Partnership Origami 3D Animations"

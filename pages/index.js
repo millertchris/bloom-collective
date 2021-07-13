@@ -32,7 +32,7 @@ export default function index() {
         />
         <Clients
           headline="Clients who trust us:"
-          logoOne="logo-breakthrough.svg"
+          logoOne="logo-amazon.svg"
           logoTwo="logo-dbs.svg"
           logoThree="logo-majid.svg"
         />
