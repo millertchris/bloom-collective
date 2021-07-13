@@ -1,14 +1,12 @@
 import _pageTitle from "./layout/_pageTitle";
 import _wrapper from "./layout/_wrapper";
 import Rellax from "rellax";
-import React, { useEffect } from 'react';
+import React, { useEffect } from "react";
 
 export default function HeroD(props) {
   useEffect(() => {
-    const rellax = new Rellax('.rellax', {
-
-    }); 
-   });
+    const rellax = new Rellax(".rellax", {});
+  });
   return (
     <section className="block hero relative">
       <_wrapper>
