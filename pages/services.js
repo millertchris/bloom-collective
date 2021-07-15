@@ -63,8 +63,8 @@ export default function services() {
             <h2 class="title">Content Design and Creative</h2>
             <p>
               Brand designers. Web desingers. Print designers. What do they all
-              have in common? A lot less than you might think. When it comes do
-              design, not everyone is a Swiss Army knife. But one thing usually
+              have in common? A lot less than you might think. When it comes to
+              design, not everyone is a Swiss Army knife. But one thing always
               sets designers apart – experience.
             </p>
             <p>

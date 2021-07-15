@@ -33,9 +33,9 @@ export default function caseStudy() {
               Oscars of science," their annual red carpet awards gala draws a
               Who's Who of Hollywood, Silicon Valley and science. The founders
               are among some of the biggest names in tech – Yuri and Julia
-              Milner, Sergey Brin, Mark Zuckerberg and Priscilla Chan, Jack Ma,
-              Ma Huateng and Anne Wojcicki. Bloom Collective is proud to call
-              Breakthrough one of our clients.
+              Milner, Sergey Brin, Mark Zuckerberg and Priscilla Chan, and Anne
+              Wojcicki. Bloom Collective is proud to call Breakthrough one of
+              our clients.
             </em>
           </p>
           <p>
