@@ -26,7 +26,7 @@ export default function caseStudy() {
       />
       <BasicContent style="style-1">
         <div className="col content">
-          <h2 class="title">24/7/365 Social Newsroom</h2>
+          <h2 class="title">24/7/365 Internal Comms Social Newsroom</h2>
           <p>
             With nearly 45,000 employees spread across 16 countries in the
             Middle East, Africa, and Asia – Majid Al Futtaim is an organization
@@ -56,8 +56,8 @@ export default function caseStudy() {
       </BasicContent>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">Virtual Leadership Workshop</h3>
+          <p className="description">Course promotional videos.</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
@@ -126,8 +126,8 @@ export default function caseStudy() {
       </section>
       <section className="block carousel-block">
         <div className="component-wrapper">
-          <h3 className="title">Category title here</h3>
-          <p className="description">Category description here</p>
+          <h3 className="title">Holiday Banners</h3>
+          <p className="description">Social media poster contnet.</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
