@@ -127,7 +127,7 @@ export default function caseStudy() {
       <section className="block carousel-block">
         <div className="component-wrapper">
           <h3 className="title">Holiday Banners</h3>
-          <p className="description">Social media poster contnet.</p>
+          <p className="description">Social media poster content.</p>
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
