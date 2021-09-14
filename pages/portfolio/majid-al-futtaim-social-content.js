@@ -187,7 +187,7 @@ export default function caseStudy() {
             reloadOnUpdate={true} // default false
             static={true} // default false
           >
-            <div className="col video">
+            <div className="col video-small">
               <div className="videoWrapper square">
                 <iframe
                   src="https://www.youtube.com/embed/IvOLXw6GkVY?modestbranding=1&rel=0"
@@ -197,7 +197,7 @@ export default function caseStudy() {
                 ></iframe>
               </div>
             </div>
-            <div className="col video">
+            <div className="col video-small">
               <div className="videoWrapper square">
                 <iframe
                   src="https://www.youtube.com/embed/Z4w6nsqzwsE?modestbranding=1&rel=0"
@@ -207,7 +207,7 @@ export default function caseStudy() {
                 ></iframe>
               </div>
             </div>
-            <div className="col video">
+            <div className="col video-small">
               <div className="videoWrapper square">
                 <iframe
                   src="https://www.youtube.com/embed/4UvWtEsB8Pc?modestbranding=1&rel=0"
@@ -217,7 +217,7 @@ export default function caseStudy() {
                 ></iframe>
               </div>
             </div>
-            <div className="col video">
+            <div className="col video-small">
               <div className="videoWrapper square">
                 <iframe
                   src="https://www.youtube.com/embed/IoF6MZaRlhc?modestbranding=1&rel=0"
@@ -227,7 +227,7 @@ export default function caseStudy() {
                 ></iframe>
               </div>
             </div>
-            <div className="col video">
+            <div className="col video-small">
               <div className="videoWrapper square">
                 <iframe
                   src="https://www.youtube.com/embed/XNuSgPsUwe4?modestbranding=1&rel=0"
@@ -237,7 +237,7 @@ export default function caseStudy() {
                 ></iframe>
               </div>
             </div>
-            <div className="col video">
+            <div className="col video-small">
               <div className="videoWrapper square">
                 <iframe
                   src="https://www.youtube.com/embed/LgtFp8Jd38U?modestbranding=1&rel=0"

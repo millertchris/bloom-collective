@@ -546,6 +546,13 @@ footer {
         width: 100%;
       }
     }
+    .col.video-small {
+      width: 30%;
+      margin-right: 5%;
+      @media screen and (max-width: 960px) {
+        width: 100%;
+      }
+    }
     img {
       margin: auto;
     }
