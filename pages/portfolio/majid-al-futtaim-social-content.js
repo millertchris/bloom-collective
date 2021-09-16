@@ -135,6 +135,7 @@ export default function caseStudy() {
             disableImagesLoaded={true} // default false
             reloadOnUpdate={true} // default false
             static={true} // default false
+            imagesLoaded={true}
           >
             <div className="col image">
               <img
