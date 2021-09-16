@@ -131,12 +131,16 @@ export default function caseStudy() {
           <Flickity
             className={"carousel"} // default ''
             elementType={"div"} // default 'div'
-            options={{ ...flickityOptions, initialIndex: 0 }} // takes flickity options {}
-            disableImagesLoaded={true} // default false
+            options={{ ...flickityOptions, initialIndex: 1 }} // takes flickity options {}
             reloadOnUpdate={true} // default false
             static={true} // default false
-            imagesLoaded={true}
           >
+            <div className="col image">
+              <img
+                src="/maf-holiday-posters/mothers-day.jpg"
+                alt="Majid Al Futtaim Holiday Posters – Labor Day"
+              />
+            </div>
             <div className="col image">
               <img
                 src="/maf-holiday-posters/earth-day.jpg"
@@ -164,12 +168,6 @@ export default function caseStudy() {
             <div className="col image">
               <img
                 src="/maf-holiday-posters/international-day-of-happiness.jpg"
-                alt="Majid Al Futtaim Holiday Posters – Labor Day"
-              />
-            </div>
-            <div className="col image">
-              <img
-                src="/maf-holiday-posters/mothers-day.jpg"
                 alt="Majid Al Futtaim Holiday Posters – Labor Day"
               />
             </div>
